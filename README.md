@@ -44,7 +44,7 @@ El desarrollo realizado en la rama `feature` fue integrado posteriormente a `dev
 
 ### Evidencias
 
-- Repositorio: [enlace del repositorio]
+- Repositorio: https://github.com/DanielValero09/Refuerzo-Corte2-Equipo-Chimchar-DanielValero.git
 - Rama base del Pull Request: `develop`
 - Rama de trabajo: `feature/Valero-modelo-flota`
 
