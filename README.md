@@ -63,12 +63,19 @@ Se implementaron Builder para conservar los datos de la misión, Chain of Respon
 
 Detalles y alcance del MVP: [Reto 3 - Patrones de Diseño](docs/chimchar/reto3-patrones.md).
 
+## Reto 4 - Principios SOLID
+
+Se separaron asignación, almacenamiento, alertas, reportes y rutas (SRP), se hicieron extensibles las rutas mediante `EstrategiaRuta` (OCP) y se usan las abstracciones `RepositorioMision` y `AlertaOperador` (DIP). Los servicios pequeños mejoran ISP; el fragmento original no presenta una violación directa de LSP porque no muestra una jerarquía de herencia.
+
+Detalles del rediseño: [Reto 4 - Principios SOLID](docs/chimchar/reto4-solid.md).
+
 ## Compilación y ejecución
 
-Se requiere un JDK 17 o superior y Maven. La compilación usa Java 17, admite records y mantiene los packages existentes `src.main.java.*`. JUnit 5 está configurado para pruebas posteriores; este bloque no incorpora pruebas del Reto 4.
+Se requiere un JDK 17 o superior y Maven. La compilación usa Java 17, admite records y mantiene los packages existentes `src.main.java.*`. JUnit 5 está configurado para pruebas posteriores.
 
 ```bash
 mvn clean test
 java -cp target/classes src.main.java.reto1.reto1
 java -cp target/classes src.main.java.reto3.Reto3
+java -cp target/classes src.main.java.reto4.Reto4
 ```
