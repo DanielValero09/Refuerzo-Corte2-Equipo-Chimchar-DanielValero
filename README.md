@@ -81,6 +81,20 @@ Detalles del rediseño: [Reto 4 - Principios SOLID](docs/chimchar/reto4-solid.md
 
 [SC-01: Registrar misión de reparto de documento](docs/chimchar/reto7-dosw.md).
 
+## Reto 8 - Manual de Identidad y UX/UI
+
+[Manual de identidad y decisiones UX](docs/chimchar/reto8-ux/manual-identidad.md) · [Panel de flota SVG](docs/chimchar/reto8-ux/panel-flota.svg).
+
+## Reto 9 - Agilismo y Jira
+
+[Épica, feature, historias, subtareas y criterios](docs/chimchar/reto9-jira.md).
+
+Evidencia pendiente: captura real de Jira.
+
+## Reto 10 - Diagramas de Casos de Uso
+
+[Actores, casos de uso e interpretación UML](docs/chimchar/reto10-casos-uso/README.md) · [Diagrama SVG](docs/chimchar/reto10-casos-uso/casos-uso-chimchar.svg).
+
 ## Compilación y ejecución
 
 Se requiere un JDK 17 o superior y Maven. La compilación usa Java 17 y admite records. Los packages corresponden a las carpetas relativas a `src/main/java`: `model`, `reto1`, `reto3` y `reto4`, con sus subpackages. JUnit 5 está configurado para pruebas posteriores.

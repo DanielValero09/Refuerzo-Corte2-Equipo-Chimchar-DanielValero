@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1230" viewBox="0 0 1600 1230" role="img" aria-labelledby="titulo-uml descripcion-uml">
+  <title id="titulo-uml">Casos de uso · SkyCampus Chimchar</title>
+  <desc id="descripcion-uml">Tres actores externos, ocho casos de uso dentro de SkyCampus, siete asociaciones, include obligatorio y extend de cancelación cuando estado = PENDIENTE.</desc>
+  <defs>
+    <marker id="flecha-include" markerWidth="16" markerHeight="16" refX="12" refY="7" orient="auto" markerUnits="userSpaceOnUse" viewBox="0 0 14 14">
+      <path d="M2 2 L12 7 L2 12" fill="none" stroke="#6454A0" stroke-width="2" />
+    </marker>
+    <marker id="flecha-extend" markerWidth="16" markerHeight="16" refX="12" refY="7" orient="auto" markerUnits="userSpaceOnUse" viewBox="0 0 14 14">
+      <path d="M2 2 L12 7 L2 12" fill="none" stroke="#9A5C1B" stroke-width="2" />
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="1600" height="1230" fill="#F4F7FA" />
+  <text x="70" y="70" fill="#142D3A" font-family="Arial, Helvetica, sans-serif" font-size="34" text-anchor="start" font-weight="700">Casos de uso · SkyCampus Chimchar</text>
+  <text x="70" y="108" fill="#526576" font-family="Arial, Helvetica, sans-serif" font-size="20" text-anchor="start" font-weight="400">MVP de reparto interno · registro, asignación manual y consulta</text>
+  <g id="limite" data-kind="sistema" aria-label="SkyCampus">
+    <rect x="360" y="150" width="960" height="1000" fill="#FFFFFF" stroke="#94A3B8" stroke-width="2" />
+    <text x="384" y="195" fill="#0B4F6C" font-family="Arial, Helvetica, sans-serif" font-size="26" text-anchor="start" font-weight="700">SkyCampus</text>
+    <g id="registrar" data-kind="caso-uso" aria-label="Registrar misión">
+      <ellipse cx="610" cy="320" rx="155" ry="50" fill="#E9F2F7" stroke="#0B4F6C" stroke-width="2" />
+      <text x="610" y="327" fill="#142D3A" font-family="Arial, Helvetica, sans-serif" font-size="20" text-anchor="middle" font-weight="400">Registrar misión</text>
+    </g>
+    <g id="validar" data-kind="caso-uso" aria-label="Validar disponibilidad del drone">
+      <ellipse cx="1060" cy="320" rx="180" ry="50" fill="#E9F2F7" stroke="#0B4F6C" stroke-width="2" />
+      <text x="1060" y="313" fill="#142D3A" font-family="Arial, Helvetica, sans-serif" font-size="20" text-anchor="middle" font-weight="400">Validar disponibilidad</text>
+      <text x="1060" y="340" fill="#142D3A" font-family="Arial, Helvetica, sans-serif" font-size="20" text-anchor="middle" font-weight="400">del drone</text>
+    </g>
+    <g id="consultar" data-kind="caso-uso" aria-label="Consultar estado de misión">
+      <ellipse cx="610" cy="560" rx="175" ry="50" fill="#E9F2F7" stroke="#0B4F6C" stroke-width="2" />
+      <text x="610" y="553" fill="#142D3A" font-family="Arial, Helvetica, sans-serif" font-size="20" text-anchor="middle" font-weight="400">Consultar estado</text>
+      <text x="610" y="580" fill="#142D3A" font-family="Arial, Helvetica, sans-serif" font-size="20" text-anchor="middle" font-weight="400">de misión</text>
+    </g>
+    <g id="cancelar" data-kind="caso-uso" aria-label="Cancelar misión pendiente">
+      <ellipse cx="1055" cy="560" rx="185" ry="50" fill="#E9F2F7" stroke="#0B4F6C" stroke-width="2" />
+      <text x="1055" y="553" fill="#142D3A" font-family="Arial, Helvetica, sans-serif" font-size="20" text-anchor="middle" font-weight="400">Cancelar misión</text>
+      <text x="1055" y="580" fill="#142D3A" font-family="Arial, Helvetica, sans-serif" font-size="20" text-anchor="middle" font-weight="400">pendiente</text>
+    </g>
+    <g id="flota" data-kind="caso-uso" aria-label="Ver flota">
+      <ellipse cx="610" cy="790" rx="155" ry="50" fill="#E9F2F7" stroke="#0B4F6C" stroke-width="2" />
+      <text x="610" y="797" fill="#142D3A" font-family="Arial, Helvetica, sans-serif" font-size="20" text-anchor="middle" font-weight="400">Ver flota</text>
+    </g>
+    <g id="asignar" data-kind="caso-uso" aria-label="Asignar drone">
+      <ellipse cx="1055" cy="790" rx="170" ry="50" fill="#E9F2F7" stroke="#0B4F6C" stroke-width="2" />
+      <text x="1055" y="797" fill="#142D3A" font-family="Arial, Helvetica, sans-serif" font-size="20" text-anchor="middle" font-weight="400">Asignar drone</text>
+    </g>
+    <g id="confirmar" data-kind="caso-uso" aria-label="Confirmar entrega">
+      <ellipse cx="610" cy="1010" rx="165" ry="50" fill="#E9F2F7" stroke="#0B4F6C" stroke-width="2" />
+      <text x="610" y="1017" fill="#142D3A" font-family="Arial, Helvetica, sans-serif" font-size="20" text-anchor="middle" font-weight="400">Confirmar entrega</text>
+    </g>
+    <g id="configurar" data-kind="caso-uso" aria-label="Configurar destinos y flota">
+      <ellipse cx="1055" cy="1010" rx="200" ry="55" fill="#E9F2F7" stroke="#0B4F6C" stroke-width="2" />
+      <text x="1055" y="1003" fill="#142D3A" font-family="Arial, Helvetica, sans-serif" font-size="20" text-anchor="middle" font-weight="400">Configurar destinos</text>
+      <text x="1055" y="1030" fill="#142D3A" font-family="Arial, Helvetica, sans-serif" font-size="20" text-anchor="middle" font-weight="400">y flota</text>
+    </g>
+  </g>
+  <g id="solicitante" data-kind="actor" aria-label="Solicitante">
+    <circle cx="140" cy="345" r="17" fill="none" stroke="#0B4F6C" stroke-width="2.5" />
+    <path d="M140 362 V425 M105 380 H175 M140 425 L110 470 M140 425 L170 470" fill="none" stroke="#0B4F6C" stroke-width="2.5" stroke-linecap="round" />
+    <text x="140" y="505" fill="#142D3A" font-family="Arial, Helvetica, sans-serif" font-size="20" text-anchor="middle" font-weight="700">Solicitante</text>
+  </g>
+  <g id="operador" data-kind="actor" aria-label="Operador de drones">
+    <circle cx="140" cy="790" r="17" fill="none" stroke="#0B4F6C" stroke-width="2.5" />
+    <path d="M140 807 V870 M105 825 H175 M140 870 L110 915 M140 870 L170 915" fill="none" stroke="#0B4F6C" stroke-width="2.5" stroke-linecap="round" />
+    <text x="140" y="950" fill="#142D3A" font-family="Arial, Helvetica, sans-serif" font-size="20" text-anchor="middle" font-weight="700">Operador de drones</text>
+  </g>
+  <g id="admin" data-kind="actor" aria-label="Admin">
+    <circle cx="1470" cy="920" r="17" fill="none" stroke="#0B4F6C" stroke-width="2.5" />
+    <path d="M1470 937 V1000 M1435 955 H1505 M1470 1000 L1440 1045 M1470 1000 L1500 1045" fill="none" stroke="#0B4F6C" stroke-width="2.5" stroke-linecap="round" />
+    <text x="1470" y="1080" fill="#142D3A" font-family="Arial, Helvetica, sans-serif" font-size="20" text-anchor="middle" font-weight="700">Admin</text>
+  </g>
+  <g id="asociacion-1" data-type="asociacion" data-source="Solicitante" data-target="Registrar misión">
+    <polyline points="175,380 455,320" fill="none" stroke="#526576" stroke-width="2" />
+  </g>
+  <g id="asociacion-2" data-type="asociacion" data-source="Solicitante" data-target="Consultar estado de misión">
+    <polyline points="175,380 435,560" fill="none" stroke="#526576" stroke-width="2" />
+  </g>
+  <g id="asociacion-3" data-type="asociacion" data-source="Operador de drones" data-target="Ver flota">
+    <polyline points="175,825 455,790" fill="none" stroke="#526576" stroke-width="2" />
+  </g>
+  <g id="asociacion-4" data-type="asociacion" data-source="Operador de drones" data-target="Asignar drone">
+    <polyline points="175,825 280,880 1055,880 1055,840" fill="none" stroke="#526576" stroke-width="2" />
+  </g>
+  <g id="asociacion-5" data-type="asociacion" data-source="Operador de drones" data-target="Cancelar misión pendiente">
+    <polyline points="175,825 260,825 260,660 1055,660 1055,610" fill="none" stroke="#526576" stroke-width="2" />
+  </g>
+  <g id="asociacion-6" data-type="asociacion" data-source="Operador de drones" data-target="Confirmar entrega">
+    <polyline points="175,825 320,930 320,1010 445,1010" fill="none" stroke="#526576" stroke-width="2" />
+  </g>
+  <g id="asociacion-7" data-type="asociacion" data-source="Admin" data-target="Configurar destinos y flota">
+    <polyline points="1435,955 1255,1010" fill="none" stroke="#526576" stroke-width="2" />
+  </g>
+  <g id="include" data-type="include" data-source="Registrar misión" data-target="Validar disponibilidad del drone" aria-label="&lt;&lt;include&gt;&gt;">
+    <polyline points="610,270 610,240 1060,240 1060,270" fill="none" stroke="#6454A0" stroke-width="2" stroke-dasharray="8 6" marker-end="url(#flecha-include)" />
+    <text x="832" y="225" fill="#6454A0" font-family="Arial, Helvetica, sans-serif" font-size="18" text-anchor="middle" font-weight="400">&lt;&lt;include&gt;&gt;</text>
+  </g>
+  <g id="extend" data-type="extend" data-source="Cancelar misión pendiente" data-target="Consultar estado de misión" aria-label="&lt;&lt;extend&gt;&gt; [estado = PENDIENTE]">
+    <polyline points="1055,510 1055,450 610,450 610,510" fill="none" stroke="#9A5C1B" stroke-width="2" stroke-dasharray="8 6" marker-end="url(#flecha-extend)" />
+    <text x="832" y="411" fill="#9A5C1B" font-family="Arial, Helvetica, sans-serif" font-size="18" text-anchor="middle" font-weight="400">&lt;&lt;extend&gt;&gt;</text>
+    <text x="832" y="436" fill="#9A5C1B" font-family="Arial, Helvetica, sans-serif" font-size="18" text-anchor="middle" font-weight="400">[estado = PENDIENTE]</text>
+  </g>
+  <text x="360" y="1200" fill="#526576" font-family="Arial, Helvetica, sans-serif" font-size="17" text-anchor="start" font-weight="400">Línea continua: asociación · Flecha discontinua: dependencia UML</text>
+</svg>
