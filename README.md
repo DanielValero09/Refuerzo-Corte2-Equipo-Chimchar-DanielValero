@@ -71,11 +71,11 @@ Detalles del rediseño: [Reto 4 - Principios SOLID](docs/chimchar/reto4-solid.md
 
 ## Compilación y ejecución
 
-Se requiere un JDK 17 o superior y Maven. La compilación usa Java 17, admite records y mantiene los packages existentes `src.main.java.*`. JUnit 5 está configurado para pruebas posteriores.
+Se requiere un JDK 17 o superior y Maven. La compilación usa Java 17 y admite records. Los packages corresponden a las carpetas relativas a `src/main/java`: `model`, `reto1`, `reto3` y `reto4`, con sus subpackages. JUnit 5 está configurado para pruebas posteriores.
 
 ```bash
 mvn clean test
-java -cp target/classes src.main.java.reto1.reto1
-java -cp target/classes src.main.java.reto3.Reto3
-java -cp target/classes src.main.java.reto4.Reto4
+java -cp target/classes reto1.reto1
+java -cp target/classes reto3.Reto3
+java -cp target/classes reto4.Reto4
 ```

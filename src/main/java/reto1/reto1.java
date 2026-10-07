@@ -1,5 +1,5 @@
-package src.main.java.reto1;
-import src.main.java.model.Drone;
+package reto1;
+import model.Drone;
 
 import java.util.Comparator;
 import java.util.List;

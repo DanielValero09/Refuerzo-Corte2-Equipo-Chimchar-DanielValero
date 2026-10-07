@@ -1,8 +1,8 @@
-package src.main.java.reto4.repository;
+package reto4.repository;
 
 import java.util.List;
 import java.util.Optional;
-import src.main.java.model.Mission;
+import model.Mission;
 
 public interface RepositorioMision {
     void guardar(Mission mission);

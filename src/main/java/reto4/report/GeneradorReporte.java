@@ -1,8 +1,8 @@
-package src.main.java.reto4.report;
+package reto4.report;
 
 import java.util.List;
 import java.util.stream.Collectors;
-import src.main.java.model.Mission;
+import model.Mission;
 
 public class GeneradorReporte {
 

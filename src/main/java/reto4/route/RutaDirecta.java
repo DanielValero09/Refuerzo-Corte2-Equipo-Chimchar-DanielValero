@@ -1,4 +1,4 @@
-package src.main.java.reto4.route;
+package reto4.route;
 
 public class RutaDirecta implements EstrategiaRuta {
 

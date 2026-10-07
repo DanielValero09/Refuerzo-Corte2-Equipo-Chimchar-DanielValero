@@ -1,6 +1,6 @@
-package src.main.java.reto3.chain;
+package reto3.chain;
 
-import src.main.java.model.Mission;
+import model.Mission;
 
 import java.util.List;
 

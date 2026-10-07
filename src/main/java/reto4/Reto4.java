@@ -1,17 +1,17 @@
-package src.main.java.reto4;
+package reto4;
 
-import src.main.java.model.ChargeType;
-import src.main.java.model.Drone;
-import src.main.java.model.Mission;
-import src.main.java.model.MissionState;
-import src.main.java.reto4.alert.AlertaConsola;
-import src.main.java.reto4.alert.AlertaOperador;
-import src.main.java.reto4.report.GeneradorReporte;
-import src.main.java.reto4.repository.RepositorioMision;
-import src.main.java.reto4.repository.RepositorioMisionMemoria;
-import src.main.java.reto4.route.EstrategiaRuta;
-import src.main.java.reto4.route.RutaDirecta;
-import src.main.java.reto4.route.RutaEvitarObstaculos;
+import model.ChargeType;
+import model.Drone;
+import model.Mission;
+import model.MissionState;
+import reto4.alert.AlertaConsola;
+import reto4.alert.AlertaOperador;
+import reto4.report.GeneradorReporte;
+import reto4.repository.RepositorioMision;
+import reto4.repository.RepositorioMisionMemoria;
+import reto4.route.EstrategiaRuta;
+import reto4.route.RutaDirecta;
+import reto4.route.RutaEvitarObstaculos;
 
 public class Reto4 {
 

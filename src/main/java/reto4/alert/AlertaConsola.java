@@ -1,4 +1,4 @@
-package src.main.java.reto4.alert;
+package reto4.alert;
 
 public class AlertaConsola implements AlertaOperador {
 

@@ -51,5 +51,5 @@ La alerta y el reporte son textuales; las rutas representan el recorrido de form
 
 ```bash
 mvn clean test
-java -cp target/classes src.main.java.reto4.Reto4
+java -cp target/classes reto4.Reto4
 ```

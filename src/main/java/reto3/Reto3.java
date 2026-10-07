@@ -1,18 +1,18 @@
-package src.main.java.reto3;
+package reto3;
 
-import src.main.java.model.ChargeType;
-import src.main.java.model.Drone;
-import src.main.java.model.Mission;
+import model.ChargeType;
+import model.Drone;
+import model.Mission;
 
-import src.main.java.reto3.builder.MissionBuilder;
+import reto3.builder.MissionBuilder;
 
-import src.main.java.reto3.chain.Validador;
-import src.main.java.reto3.chain.ValidadorBateria;
-import src.main.java.reto3.chain.ValidadorDestino;
-import src.main.java.reto3.chain.ValidadorCarga;
+import reto3.chain.Validador;
+import reto3.chain.ValidadorBateria;
+import reto3.chain.ValidadorDestino;
+import reto3.chain.ValidadorCarga;
 
-import src.main.java.reto3.strategy.AsignadorDrone;
-import src.main.java.reto3.strategy.AsignacionMayorBateria;
+import reto3.strategy.AsignadorDrone;
+import reto3.strategy.AsignacionMayorBateria;
 
 import java.util.List;
 

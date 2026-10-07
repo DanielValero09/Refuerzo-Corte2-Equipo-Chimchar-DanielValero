@@ -1,8 +1,8 @@
-package src.main.java.reto4;
+package reto4;
 
 import java.util.Objects;
-import src.main.java.model.Drone;
-import src.main.java.model.Mission;
+import model.Drone;
+import model.Mission;
 
 public class AsignadorMision {
 

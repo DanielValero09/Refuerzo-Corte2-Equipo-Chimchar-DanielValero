@@ -1,7 +1,7 @@
-package src.main.java.reto3.chain;
+package reto3.chain;
 
-import src.main.java.model.ChargeType;
-import src.main.java.model.Mission;
+import model.ChargeType;
+import model.Mission;
 
 public class ValidadorCarga extends Validador {
 

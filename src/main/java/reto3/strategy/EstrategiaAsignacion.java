@@ -1,6 +1,6 @@
-package src.main.java.reto3.strategy;
+package reto3.strategy;
 
-import src.main.java.model.Drone;
+import model.Drone;
 
 import java.util.List;
 import java.util.Optional;

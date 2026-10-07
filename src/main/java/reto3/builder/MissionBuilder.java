@@ -1,9 +1,9 @@
-package src.main.java.reto3.builder;
+package reto3.builder;
 
-import src.main.java.model.ChargeType;
-import src.main.java.model.Drone;
-import src.main.java.model.Mission;
-import src.main.java.model.MissionState;
+import model.ChargeType;
+import model.Drone;
+import model.Mission;
+import model.MissionState;
 
 public class MissionBuilder {
 
