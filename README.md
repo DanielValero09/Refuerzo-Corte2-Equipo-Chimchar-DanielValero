@@ -95,9 +95,21 @@ Evidencia pendiente: captura real de Jira.
 
 [Actores, casos de uso e interpretación UML](docs/chimchar/reto10-casos-uso/README.md) · [Diagrama SVG](docs/chimchar/reto10-casos-uso/casos-uso-chimchar.svg).
 
+## Reto 11 - Mocks con IA
+
+Tres estados con la identidad del Reto 8: [Normal](docs/chimchar/reto11-mocks/panel-normal.svg), [FALLO](docs/chimchar/reto11-mocks/panel-fallo.svg) y [Sin drones disponibles](docs/chimchar/reto11-mocks/panel-vacio.svg).
+
+[Prompt utilizado](docs/chimchar/reto11-mocks/prompt-utilizado.md) · [Heurísticas de Nielsen](docs/chimchar/reto11-mocks/heuristicas-nielsen.md) · [Alcance de los mocks](docs/chimchar/reto11-mocks/README.md).
+
+## Reto 12 - TDD
+
+Red → Green → Refactor con JUnit 5, exactamente 9 pruebas y patrón AAA para `ValidadorMision`. Las pruebas y la evidencia RED se guardaron en un commit anterior a la implementación.
+
+[Evidencia real y casos verificados](docs/chimchar/reto12-tdd.md).
+
 ## Compilación y ejecución
 
-Se requiere un JDK 17 o superior y Maven. La compilación usa Java 17 y admite records. Los packages corresponden a las carpetas relativas a `src/main/java`: `model`, `reto1`, `reto3` y `reto4`, con sus subpackages. JUnit 5 está configurado para pruebas posteriores.
+Se requiere un JDK 17 o superior y Maven. La compilación usa Java 17 y admite records. Los packages corresponden a las carpetas relativas a `src/main/java`: `model`, `reto1`, `reto3`, `reto4` y `reto12`, con sus subpackages. JUnit 5 ejecuta las nueve pruebas del Reto 12.
 
 ```bash
 mvn clean test
