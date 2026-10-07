@@ -107,9 +107,21 @@ Red → Green → Refactor con JUnit 5, exactamente 9 pruebas y patrón AAA para
 
 [Evidencia real y casos verificados](docs/chimchar/reto12-tdd.md).
 
+## Reto 13 - JaCoCo
+
+[Configuración, pruebas y métricas reales](docs/chimchar/reto13-jacoco.md) · [Captura real del reporte](docs/chimchar/reto13-jacoco/reporte-jacoco.png).
+
+Cobertura LINE: `ValidadorMision` 100%; global 97,81%. El proyecto ejecuta 34 pruebas, incluidas las nueve originales de `ValidadorMisionTest`, sin exclusiones artificiales.
+
+## Reto 14 - SonarQube
+
+[Intento real, error de autenticación y pasos pendientes](docs/chimchar/reto14-sonarqube/README.md).
+
+Análisis SonarQube pendiente por limitación del entorno. El contenedor existente está activo, pero el scanner recibió HTTP 401 por falta de autenticación válida; no se publican métricas ni capturas inventadas.
+
 ## Compilación y ejecución
 
-Se requiere un JDK 17 o superior y Maven. La compilación usa Java 17 y admite records. Los packages corresponden a las carpetas relativas a `src/main/java`: `model`, `reto1`, `reto3`, `reto4` y `reto12`, con sus subpackages. JUnit 5 ejecuta las nueve pruebas del Reto 12.
+Se requiere un JDK 17 o superior y Maven. La compilación usa Java 17 y admite records. Los packages corresponden a las carpetas relativas a `src/main/java`: `model`, `reto1`, `reto3`, `reto4` y `reto12`, con sus subpackages. JUnit 5 ejecuta 34 pruebas del proyecto, incluidas las nueve del Reto 12.
 
 ```bash
 mvn clean test
@@ -117,3 +129,11 @@ java -cp target/classes reto1.reto1
 java -cp target/classes reto3.Reto3
 java -cp target/classes reto4.Reto4
 ```
+
+Para regenerar el reporte de cobertura: `mvn clean test jacoco:report`.
+
+## Estado de entrega Chimchar
+
+[Auditoría final de los Retos 1–14](docs/chimchar/entrega-final.md).
+
+Evidencia Jira pendiente: captura real. SonarQube pendiente de autenticación válida para completar análisis, correcciones y evidencias.
