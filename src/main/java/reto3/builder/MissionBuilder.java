@@ -65,17 +65,16 @@ public class MissionBuilder {
             );
         }
 
-        System.out.println("Notas: " + notas);
-        System.out.println("Prioridad: " + prioridad);
-        System.out.println("Hora máxima: " + horaMaximaEntrega);
-
         return new Mission(
                 id,
                 drone,
                 origen,
                 destino,
                 tipoCarga,
-                MissionState.PENDIENTE
+                MissionState.PENDIENTE,
+                prioridad,
+                notas,
+                horaMaximaEntrega
         );
     }
 }

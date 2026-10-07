@@ -38,9 +38,10 @@ Se trabajó con las siguientes ramas:
 
 - `main`: rama principal del proyecto.
 - `develop`: rama de integración del desarrollo.
-- `feature/Valero-modelo-flota`: rama utilizada para trabajar sobre el modelo de la flota.
+- `feature/reto1-chimchar`: rama utilizada para implementar las consultas con Streams del Reto 1.
+- `feature/Valero-modelo-flota`: rama utilizada para documentar el flujo GitFlow del Reto 2.
 
-El desarrollo realizado en la rama `feature` fue integrado posteriormente a `develop` mediante un Pull Request, evitando realizar cambios directamente sobre `main`.
+El Reto 1 fue integrado desde `feature/reto1-chimchar` a `develop` mediante el Pull Request #2 (commit `a2c42e8`). La documentación del Reto 2 fue integrada desde `feature/Valero-modelo-flota` a `develop` mediante el Pull Request #4 (commit `85c4e63`).
 
 ### Evidencias
 
@@ -54,3 +55,20 @@ Se verificó la estructura de ramas y commits mediante:
 
 ```bash
 git log --oneline --graph --all --decorate
+```
+
+## Reto 3 - Patrones de Diseño
+
+Se implementaron Builder para conservar los datos de la misión, Chain of Responsibility para validar batería, destino y carga, y Strategy para asignar el drone disponible con mayor batería (mínimo 30%).
+
+Detalles y alcance del MVP: [Reto 3 - Patrones de Diseño](docs/chimchar/reto3-patrones.md).
+
+## Compilación y ejecución
+
+Se requiere un JDK 17 o superior y Maven. La compilación usa Java 17, admite records y mantiene los packages existentes `src.main.java.*`. JUnit 5 está configurado para pruebas posteriores; este bloque no incorpora pruebas del Reto 4.
+
+```bash
+mvn clean test
+java -cp target/classes src.main.java.reto1.reto1
+java -cp target/classes src.main.java.reto3.Reto3
+```

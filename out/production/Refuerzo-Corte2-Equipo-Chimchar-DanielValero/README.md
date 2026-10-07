@@ -1,1 +1,0 @@
-# Refuerzo-Corte2-Equipo-Chimchar-DanielValero
