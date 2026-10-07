@@ -69,6 +69,18 @@ Se separaron asignación, almacenamiento, alertas, reportes y rutas (SRP), se hi
 
 Detalles del rediseño: [Reto 4 - Principios SOLID](docs/chimchar/reto4-solid.md).
 
+## Reto 5 - Diagrama de Contexto C4
+
+[Alcance, actores y flujos del contexto](docs/chimchar/reto5-c4/README.md) · [Diagrama SVG](docs/chimchar/reto5-c4/contexto-chimchar.svg).
+
+## Reto 6 - RF, RNF y MoSCoW
+
+[Tres RF, tres RNF medibles y sus prioridades](docs/chimchar/reto6-requerimientos.md).
+
+## Reto 7 - Plantilla DOSW
+
+[SC-01: Registrar misión de reparto de documento](docs/chimchar/reto7-dosw.md).
+
 ## Compilación y ejecución
 
 Se requiere un JDK 17 o superior y Maven. La compilación usa Java 17 y admite records. Los packages corresponden a las carpetas relativas a `src/main/java`: `model`, `reto1`, `reto3` y `reto4`, con sus subpackages. JUnit 5 está configurado para pruebas posteriores.

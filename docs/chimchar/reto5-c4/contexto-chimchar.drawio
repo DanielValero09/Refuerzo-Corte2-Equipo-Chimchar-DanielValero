@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" type="device">
+  <diagram id="contexto-chimchar" name="Contexto Chimchar">
+    <mxGraphModel dx="1600" dy="1200" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="titulo" value="SkyCampus · Contexto Chimchar" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=34;fontStyle=1;fontColor=#18344d;" vertex="1" parent="1">
+          <mxGeometry x="70" y="35" width="1400" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitulo" value="C4 nivel 1 · Reparto interno mediante drones · MVP como caja negra" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=20;fontColor=#52667a;" vertex="1" parent="1">
+          <mxGeometry x="70" y="85" width="1400" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="pie" value="Tres actores · Seis flujos de datos · Sistemas externos: ninguno" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=18;fontColor=#52667a;" vertex="1" parent="1">
+          <mxGeometry x="70" y="1090" width="1400" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="solicitante" value="&lt;b style=&quot;font-size:24px&quot;&gt;Solicitante&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;font-size:16px&quot;&gt;[Persona]&lt;/span&gt;" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Arial;fontColor=#ffffff;strokeWidth=2;fillColor=#08427b;strokeColor=#063360;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="70" y="200" width="310" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="operador" value="&lt;b style=&quot;font-size:24px&quot;&gt;Operador de drones&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;font-size:16px&quot;&gt;[Persona]&lt;/span&gt;" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Arial;fontColor=#ffffff;strokeWidth=2;fillColor=#08427b;strokeColor=#063360;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="70" y="500" width="310" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="admin" value="&lt;b style=&quot;font-size:24px&quot;&gt;Admin&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;font-size:16px&quot;&gt;[Persona]&lt;/span&gt;" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Arial;fontColor=#ffffff;strokeWidth=2;fillColor=#08427b;strokeColor=#063360;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="70" y="800" width="310" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="skycampus" value="&lt;b style=&quot;font-size:28px&quot;&gt;SkyCampus App&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;font-size:16px&quot;&gt;[Sistema]&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;font-size:20px&quot;&gt;Sistema de reparto interno&lt;br&gt;mediante drones&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;font-size:16px&quot;&gt;Caja negra · MVP Chimchar&lt;/span&gt;" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Arial;fontColor=#ffffff;strokeWidth=2;fillColor=#1168bd;strokeColor=#0c5295;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="200" width="350" height="780" as="geometry" />
+        </mxCell>
+        <mxCell id="flujo-1" value="Envía solicitud: origen,&lt;br&gt;destino y tipo de carga" style="edgeStyle=none;html=1;endArrow=block;endFill=1;startArrow=none;strokeWidth=2.5;strokeColor=#246890;fontColor=#18344d;fontFamily=Arial;fontSize=20;labelBackgroundColor=#f5f7fb;align=center;verticalAlign=middle;labelWidth=700;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;entryX=0;entryY=0.07692307692307693;entryDx=0;entryDy=0;" edge="1" parent="1" source="solicitante" target="skycampus">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0" y="-30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flujo-2" value="Devuelve código y estado de la misión" style="edgeStyle=none;html=1;endArrow=block;endFill=1;startArrow=none;strokeWidth=2.5;strokeColor=#52667a;fontColor=#18344d;fontFamily=Arial;fontSize=20;labelBackgroundColor=#f5f7fb;align=center;verticalAlign=middle;labelWidth=700;exitX=0;exitY=0.17307692307692307;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="skycampus" target="solicitante">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0" y="-22" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flujo-3" value="Asigna drone y confirma entrega" style="edgeStyle=none;html=1;endArrow=block;endFill=1;startArrow=none;strokeWidth=2.5;strokeColor=#246890;fontColor=#18344d;fontFamily=Arial;fontSize=20;labelBackgroundColor=#f5f7fb;align=center;verticalAlign=middle;labelWidth=700;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;entryX=0;entryY=0.46153846153846156;entryDx=0;entryDy=0;" edge="1" parent="1" source="operador" target="skycampus">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0" y="-22" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flujo-4" value="Muestra flota: ID, batería, disponibilidad,&lt;br&gt;ubicación y estado de misión" style="edgeStyle=none;html=1;endArrow=block;endFill=1;startArrow=none;strokeWidth=2.5;strokeColor=#52667a;fontColor=#18344d;fontFamily=Arial;fontSize=20;labelBackgroundColor=#f5f7fb;align=center;verticalAlign=middle;labelWidth=700;exitX=0;exitY=0.5576923076923077;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="skycampus" target="operador">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0" y="-30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flujo-5" value="Configura destinos y datos de la flota" style="edgeStyle=none;html=1;endArrow=block;endFill=1;startArrow=none;strokeWidth=2.5;strokeColor=#246890;fontColor=#18344d;fontFamily=Arial;fontSize=20;labelBackgroundColor=#f5f7fb;align=center;verticalAlign=middle;labelWidth=700;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;entryX=0;entryY=0.8461538461538461;entryDx=0;entryDy=0;" edge="1" parent="1" source="admin" target="skycampus">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0" y="-22" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flujo-6" value="Confirma configuración" style="edgeStyle=none;html=1;endArrow=block;endFill=1;startArrow=none;strokeWidth=2.5;strokeColor=#52667a;fontColor=#18344d;fontFamily=Arial;fontSize=20;labelBackgroundColor=#f5f7fb;align=center;verticalAlign=middle;labelWidth=700;exitX=0;exitY=0.9423076923076923;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="skycampus" target="admin">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0" y="-22" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

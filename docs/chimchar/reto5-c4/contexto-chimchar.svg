@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1200" viewBox="0 0 1600 1200" role="img" aria-labelledby="titulo-svg descripcion-svg">
+  <title id="titulo-svg">SkyCampus · Contexto Chimchar</title>
+  <desc id="descripcion-svg">C4 nivel 1: tres actores y seis flujos con SkyCampus App como caja negra, sin sistemas externos.</desc>
+  <defs>
+    <marker id="entrada" markerWidth="14" markerHeight="14" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse" viewBox="0 0 12 12">
+      <path d="M 1 1 L 11 6 L 1 11 Z" fill="#246890" />
+    </marker>
+    <marker id="salida" markerWidth="14" markerHeight="14" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse" viewBox="0 0 12 12">
+      <path d="M 1 1 L 11 6 L 1 11 Z" fill="#52667a" />
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="1600" height="1200" fill="#f5f7fb" />
+  <text x="70" y="70" fill="#18344d" font-family="Arial, Helvetica, sans-serif" font-size="34" text-anchor="start" font-weight="700">SkyCampus · Contexto Chimchar</text>
+  <text x="70" y="108" fill="#52667a" font-family="Arial, Helvetica, sans-serif" font-size="20" text-anchor="start" font-weight="400">C4 nivel 1 · Reparto interno mediante drones · MVP como caja negra</text>
+  <g id="solicitante" data-kind="persona" aria-label="Solicitante">
+    <rect x="70" y="200" width="310" height="180" rx="18" fill="#08427b" stroke="#063360" stroke-width="2" />
+    <text x="225" y="285" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="24" text-anchor="middle" font-weight="700">Solicitante</text>
+    <text x="225" y="320" fill="#d9e8f7" font-family="Arial, Helvetica, sans-serif" font-size="16" text-anchor="middle" font-weight="400">[Persona]</text>
+  </g>
+  <g id="operador" data-kind="persona" aria-label="Operador de drones">
+    <rect x="70" y="500" width="310" height="180" rx="18" fill="#08427b" stroke="#063360" stroke-width="2" />
+    <text x="225" y="585" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="24" text-anchor="middle" font-weight="700">Operador de drones</text>
+    <text x="225" y="620" fill="#d9e8f7" font-family="Arial, Helvetica, sans-serif" font-size="16" text-anchor="middle" font-weight="400">[Persona]</text>
+  </g>
+  <g id="admin" data-kind="persona" aria-label="Admin">
+    <rect x="70" y="800" width="310" height="180" rx="18" fill="#08427b" stroke="#063360" stroke-width="2" />
+    <text x="225" y="885" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="24" text-anchor="middle" font-weight="700">Admin</text>
+    <text x="225" y="920" fill="#d9e8f7" font-family="Arial, Helvetica, sans-serif" font-size="16" text-anchor="middle" font-weight="400">[Persona]</text>
+  </g>
+  <g id="skycampus" data-kind="sistema" aria-label="SkyCampus App">
+    <rect x="1180" y="200" width="350" height="780" rx="20" fill="#1168bd" stroke="#0c5295" stroke-width="2" />
+    <text x="1355" y="520" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="28" text-anchor="middle" font-weight="700">SkyCampus App</text>
+    <text x="1355" y="555" fill="#e0edff" font-family="Arial, Helvetica, sans-serif" font-size="16" text-anchor="middle" font-weight="400">[Sistema]</text>
+    <text x="1355" y="610" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="20" text-anchor="middle" font-weight="400">Sistema de reparto interno</text>
+    <text x="1355" y="638" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="20" text-anchor="middle" font-weight="400">mediante drones</text>
+    <text x="1355" y="690" fill="#e0edff" font-family="Arial, Helvetica, sans-serif" font-size="16" text-anchor="middle" font-weight="400">Caja negra · MVP Chimchar</text>
+  </g>
+  <g id="flujo-1" data-source="Solicitante" data-target="SkyCampus App" aria-label="Envía solicitud: origen, destino y tipo de carga">
+    <line x1="380" x2="1180" y1="260" y2="260" stroke="#246890" stroke-width="2.5" marker-end="url(#entrada)" />
+    <text x="780" y="222" text-anchor="middle" fill="#18344d" font-family="Arial, Helvetica, sans-serif" font-size="20">
+      <tspan x="780" y="222">Envía solicitud: origen,</tspan>
+      <tspan x="780" y="247">destino y tipo de carga</tspan>
+    </text>
+  </g>
+  <g id="flujo-2" data-source="SkyCampus App" data-target="Solicitante" aria-label="Devuelve código y estado de la misión">
+    <line x1="1180" x2="380" y1="335" y2="335" stroke="#52667a" stroke-width="2.5" marker-end="url(#salida)" />
+    <text x="780" y="318" text-anchor="middle" fill="#18344d" font-family="Arial, Helvetica, sans-serif" font-size="20">
+      <tspan x="780" y="318">Devuelve código y estado de la misión</tspan>
+    </text>
+  </g>
+  <g id="flujo-3" data-source="Operador de drones" data-target="SkyCampus App" aria-label="Asigna drone y confirma entrega">
+    <line x1="380" x2="1180" y1="560" y2="560" stroke="#246890" stroke-width="2.5" marker-end="url(#entrada)" />
+    <text x="780" y="543" text-anchor="middle" fill="#18344d" font-family="Arial, Helvetica, sans-serif" font-size="20">
+      <tspan x="780" y="543">Asigna drone y confirma entrega</tspan>
+    </text>
+  </g>
+  <g id="flujo-4" data-source="SkyCampus App" data-target="Operador de drones" aria-label="Muestra flota: ID, batería, disponibilidad, ubicación y estado de misión">
+    <line x1="1180" x2="380" y1="635" y2="635" stroke="#52667a" stroke-width="2.5" marker-end="url(#salida)" />
+    <text x="780" y="597" text-anchor="middle" fill="#18344d" font-family="Arial, Helvetica, sans-serif" font-size="20">
+      <tspan x="780" y="597">Muestra flota: ID, batería, disponibilidad,</tspan>
+      <tspan x="780" y="622">ubicación y estado de misión</tspan>
+    </text>
+  </g>
+  <g id="flujo-5" data-source="Admin" data-target="SkyCampus App" aria-label="Configura destinos y datos de la flota">
+    <line x1="380" x2="1180" y1="860" y2="860" stroke="#246890" stroke-width="2.5" marker-end="url(#entrada)" />
+    <text x="780" y="843" text-anchor="middle" fill="#18344d" font-family="Arial, Helvetica, sans-serif" font-size="20">
+      <tspan x="780" y="843">Configura destinos y datos de la flota</tspan>
+    </text>
+  </g>
+  <g id="flujo-6" data-source="SkyCampus App" data-target="Admin" aria-label="Confirma configuración">
+    <line x1="1180" x2="380" y1="935" y2="935" stroke="#52667a" stroke-width="2.5" marker-end="url(#salida)" />
+    <text x="780" y="918" text-anchor="middle" fill="#18344d" font-family="Arial, Helvetica, sans-serif" font-size="20">
+      <tspan x="780" y="918">Confirma configuración</tspan>
+    </text>
+  </g>
+  <text x="70" y="1120" fill="#52667a" font-family="Arial, Helvetica, sans-serif" font-size="18" text-anchor="start" font-weight="400">Tres actores · Seis flujos de datos · Sistemas externos: ninguno</text>
+</svg>
