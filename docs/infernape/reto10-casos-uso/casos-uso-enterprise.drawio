@@ -1,0 +1,368 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" version="24.7.17">
+  <diagram id="enterprise-use-cases" name="Enterprise">
+    <mxGraphModel dx="2500" dy="2850" grid="1" page="1" pageWidth="2500" pageHeight="2850">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="system" value="SkyCampus Enterprise — arquitectura funcional objetivo" vertex="1" parent="1" style="rounded=1;fillColor=#FFFFFF;strokeColor=#00457C;verticalAlign=top;fontSize=24;">
+          <mxGeometry as="geometry" x="540" y="110" width="1860" height="2600" />
+        </mxCell>
+        <mxCell id="package-misiones" value="Gestión de Misiones" vertex="1" parent="system" style="shape=folder;tabWidth=180;tabHeight=35;fillColor=#F4F7FA;strokeColor=#526576;fontSize=24;verticalAlign=top;">
+          <mxGeometry as="geometry" x="60" y="40" width="830" height="760" />
+        </mxCell>
+        <mxCell id="package-flota" value="Gestión de Flota" vertex="1" parent="system" style="shape=folder;tabWidth=180;tabHeight=35;fillColor=#F4F7FA;strokeColor=#526576;fontSize=24;verticalAlign=top;">
+          <mxGeometry as="geometry" x="960" y="40" width="850" height="760" />
+        </mxCell>
+        <mxCell id="package-rutas" value="Rutas y Navegación" vertex="1" parent="system" style="shape=folder;tabWidth=180;tabHeight=35;fillColor=#F4F7FA;strokeColor=#526576;fontSize=24;verticalAlign=top;">
+          <mxGeometry as="geometry" x="60" y="890" width="1080" height="920" />
+        </mxCell>
+        <mxCell id="package-mantenimiento" value="Mantenimiento" vertex="1" parent="system" style="shape=folder;tabWidth=180;tabHeight=35;fillColor=#F4F7FA;strokeColor=#526576;fontSize=24;verticalAlign=top;">
+          <mxGeometry as="geometry" x="1210" y="890" width="600" height="920" />
+        </mxCell>
+        <mxCell id="package-administracion" value="Administración" vertex="1" parent="system" style="shape=folder;tabWidth=180;tabHeight=35;fillColor=#F4F7FA;strokeColor=#526576;fontSize=24;verticalAlign=top;">
+          <mxGeometry as="geometry" x="60" y="1910" width="1750" height="650" />
+        </mxCell>
+        <mxCell id="pendientes" value="Ver solicitudes pendientes" vertex="1" parent="package-misiones" style="ellipse;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#00457C;fontSize=21;">
+          <mxGeometry as="geometry" x="54.0" y="95.0" width="347.0" height="120" />
+        </mxCell>
+        <mxCell id="crear" value="Crear misión" vertex="1" parent="package-misiones" style="ellipse;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#00457C;fontSize=21;">
+          <mxGeometry as="geometry" x="429.0" y="95.0" width="347.0" height="120" />
+        </mxCell>
+        <mxCell id="cancelar" value="Cancelar misión" vertex="1" parent="package-misiones" style="ellipse;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#00457C;fontSize=21;">
+          <mxGeometry as="geometry" x="54.0" y="290.0" width="347.0" height="120" />
+        </mxCell>
+        <mxCell id="historial" value="Ver historial" vertex="1" parent="package-misiones" style="ellipse;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#00457C;fontSize=21;">
+          <mxGeometry as="geometry" x="429.0" y="290.0" width="347.0" height="120" />
+        </mxCell>
+        <mxCell id="consultar" value="Consultar misión" vertex="1" parent="package-misiones" style="ellipse;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#00457C;fontSize=21;">
+          <mxGeometry as="geometry" x="54.0" y="485.0" width="347.0" height="120" />
+        </mxCell>
+        <mxCell id="solicitud" value="Registrar solicitud de reparto" vertex="1" parent="package-misiones" style="ellipse;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#00457C;fontSize=21;">
+          <mxGeometry as="geometry" x="429.0" y="485.0" width="347.0" height="120" />
+        </mxCell>
+        <mxCell id="estado" value="Ver estado de drones" vertex="1" parent="package-flota" style="ellipse;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#00457C;fontSize=21;">
+          <mxGeometry as="geometry" x="54.0" y="95.0" width="357.0" height="120" />
+        </mxCell>
+        <mxCell id="CU-E07" value="CU-E07 — Asignar drone de flota compartida" vertex="1" parent="package-flota" style="ellipse;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#00457C;fontSize=21;">
+          <mxGeometry as="geometry" x="439.0" y="95.0" width="357.0" height="120" />
+        </mxCell>
+        <mxCell id="CU-E06" value="CU-E06 — Transferir drone entre sedes" vertex="1" parent="package-flota" style="ellipse;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#00457C;fontSize=21;">
+          <mxGeometry as="geometry" x="54.0" y="290.0" width="357.0" height="120" />
+        </mxCell>
+        <mxCell id="CU-E01" value="CU-E01 — Consultar analytics por sede" vertex="1" parent="package-flota" style="ellipse;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#00457C;fontSize=21;">
+          <mxGeometry as="geometry" x="439.0" y="290.0" width="357.0" height="120" />
+        </mxCell>
+        <mxCell id="apto" value="Validar drone apto" vertex="1" parent="package-flota" style="ellipse;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#00457C;fontSize=21;">
+          <mxGeometry as="geometry" x="54.0" y="485.0" width="357.0" height="120" />
+        </mxCell>
+        <mxCell id="simple" value="Calcular ruta simple" vertex="1" parent="package-rutas" style="ellipse;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#00457C;fontSize=21;">
+          <mxGeometry as="geometry" x="65.0" y="95.0" width="450" height="120" />
+        </mxCell>
+        <mxCell id="CU-E03" value="CU-E03 — Planificar ruta multi-etapa" vertex="1" parent="package-rutas" style="ellipse;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#00457C;fontSize=21;">
+          <mxGeometry as="geometry" x="565.0" y="95.0" width="450" height="120" />
+        </mxCell>
+        <mxCell id="CU-E04" value="CU-E04 — Autorizar ruta con Aerocivil" vertex="1" parent="package-rutas" style="ellipse;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#00457C;fontSize=21;">
+          <mxGeometry as="geometry" x="65.0" y="290.0" width="450" height="120" />
+        </mxCell>
+        <mxCell id="CU-E05" value="CU-E05 — Gestionar estación de carga" vertex="1" parent="package-rutas" style="ellipse;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#00457C;fontSize=21;">
+          <mxGeometry as="geometry" x="565.0" y="290.0" width="450" height="120" />
+        </mxCell>
+        <mxCell id="estaciones" value="Validar estaciones de carga" vertex="1" parent="package-rutas" style="ellipse;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#00457C;fontSize=21;">
+          <mxGeometry as="geometry" x="65.0" y="485.0" width="450" height="120" />
+        </mxCell>
+        <mxCell id="diagnosticar" value="Diagnosticar fallo" vertex="1" parent="package-mantenimiento" style="ellipse;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#00457C;fontSize=21;">
+          <mxGeometry as="geometry" x="75.0" y="95.0" width="450" height="120" />
+        </mxCell>
+        <mxCell id="mantener" value="Marcar en mantenimiento" vertex="1" parent="package-mantenimiento" style="ellipse;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#00457C;fontSize=21;">
+          <mxGeometry as="geometry" x="75.0" y="280.0" width="450" height="120" />
+        </mxCell>
+        <mxCell id="retorno" value="Aprobar retorno a servicio" vertex="1" parent="package-mantenimiento" style="ellipse;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#00457C;fontSize=21;">
+          <mxGeometry as="geometry" x="75.0" y="465.0" width="450" height="120" />
+        </mxCell>
+        <mxCell id="sede" value="Configurar sede" vertex="1" parent="package-administracion" style="ellipse;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#00457C;fontSize=21;">
+          <mxGeometry as="geometry" x="93.33333333333326" y="95.0" width="450" height="120" />
+        </mxCell>
+        <mxCell id="usuarios" value="Gestionar usuarios" vertex="1" parent="package-administracion" style="ellipse;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#00457C;fontSize=21;">
+          <mxGeometry as="geometry" x="650.0" y="95.0" width="450" height="120" />
+        </mxCell>
+        <mxCell id="CU-E08" value="CU-E08 — Ver dashboard Enterprise" vertex="1" parent="package-administracion" style="ellipse;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#00457C;fontSize=21;">
+          <mxGeometry as="geometry" x="1206.6666666666665" y="95.0" width="450" height="120" />
+        </mxCell>
+        <mxCell id="reportes" value="Generar reportes" vertex="1" parent="package-administracion" style="ellipse;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#00457C;fontSize=21;">
+          <mxGeometry as="geometry" x="93.33333333333326" y="290.0" width="450" height="120" />
+        </mxCell>
+        <mxCell id="CU-E02" value="CU-E02 — Configurar radio máximo de vuelo" vertex="1" parent="package-administracion" style="ellipse;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#00457C;fontSize=21;">
+          <mxGeometry as="geometry" x="650.0" y="290.0" width="450" height="120" />
+        </mxCell>
+        <mxCell id="destinos" value="Configurar destinos / reglas operativas" vertex="1" parent="package-administracion" style="ellipse;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#00457C;fontSize=21;">
+          <mxGeometry as="geometry" x="1206.6666666666665" y="290.0" width="450" height="120" />
+        </mxCell>
+        <mxCell id="operador" value="Operador" vertex="1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;strokeColor=#00457C;fontSize=23;">
+          <mxGeometry as="geometry" x="190" y="215" width="180" height="180" />
+        </mxCell>
+        <mxCell id="coordinador" value="Coordinador de sede" vertex="1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;strokeColor=#00457C;fontSize=23;">
+          <mxGeometry as="geometry" x="190" y="525" width="180" height="180" />
+        </mxCell>
+        <mxCell id="superadmin" value="Superadministrador" vertex="1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;strokeColor=#00457C;fontSize=23;">
+          <mxGeometry as="geometry" x="190" y="805" width="180" height="180" />
+        </mxCell>
+        <mxCell id="solicitante" value="Solicitante" vertex="1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;strokeColor=#00457C;fontSize=23;">
+          <mxGeometry as="geometry" x="190" y="1125" width="180" height="180" />
+        </mxCell>
+        <mxCell id="tecnico" value="Técnico de mantenimiento" vertex="1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;strokeColor=#00457C;fontSize=23;">
+          <mxGeometry as="geometry" x="190" y="1475" width="180" height="180" />
+        </mxCell>
+        <mxCell id="admin" value="Admin" vertex="1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;strokeColor=#00457C;fontSize=23;">
+          <mxGeometry as="geometry" x="190" y="2185" width="180" height="180" />
+        </mxCell>
+        <mxCell id="uml-0" value="&lt;&lt;include&gt;&gt; " edge="1" parent="1" source="crear" target="apto" style="dashed=1;endArrow=open;endFill=0;html=0;fontSize=20;labelBackgroundColor=#FFFFFF;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="1202.5" y="415" />
+              <mxPoint x="1455" y="415" />
+              <mxPoint x="1455" y="605" />
+              <mxPoint x="1732.5" y="605" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uml-1" value="&lt;&lt;include&gt;&gt; " edge="1" parent="1" source="CU-E03" target="CU-E04" style="dashed=1;endArrow=open;endFill=0;html=0;fontSize=20;labelBackgroundColor=#FFFFFF;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="1390.0" y="1250" />
+              <mxPoint x="890.0" y="1250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uml-2" value="&lt;&lt;include&gt;&gt; " edge="1" parent="1" source="CU-E03" target="estaciones" style="dashed=1;endArrow=open;endFill=0;html=0;fontSize=20;labelBackgroundColor=#FFFFFF;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="1640" y="1155" />
+              <mxPoint x="1640" y="1440" />
+              <mxPoint x="890.0" y="1440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uml-3" value="&lt;&lt;extend&gt;&gt; [estado = PENDIENTE]" edge="1" parent="1" source="cancelar" target="consultar" style="dashed=1;endArrow=open;endFill=0;html=0;fontSize=20;labelBackgroundColor=#FFFFFF;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="uml-4" value="&lt;&lt;extend&gt;&gt; [requiere intervención]" edge="1" parent="1" source="mantener" target="diagnosticar" style="dashed=1;endArrow=open;endFill=0;html=0;fontSize=20;labelBackgroundColor=#FFFFFF;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="association-0" value="participa" edge="1" parent="1" source="operador" target="pendientes" style="endArrow=none;strokeColor=#A8B8C5;fontSize=16;labelBackgroundColor=#FFFFFF;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="450" y="280" />
+              <mxPoint x="450" y="225.0" />
+              <mxPoint x="827.5" y="225.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="association-1" value="participa" edge="1" parent="1" source="operador" target="crear" style="endArrow=none;strokeColor=#A8B8C5;fontSize=16;labelBackgroundColor=#FFFFFF;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="453" y="280" />
+              <mxPoint x="453" y="225.0" />
+              <mxPoint x="1202.5" y="225.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="association-2" value="participa" edge="1" parent="1" source="operador" target="estado" style="endArrow=none;strokeColor=#A8B8C5;fontSize=16;labelBackgroundColor=#FFFFFF;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="456" y="280" />
+              <mxPoint x="456" y="225.0" />
+              <mxPoint x="1732.5" y="225.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="association-3" value="participa" edge="1" parent="1" source="operador" target="CU-E07" style="endArrow=none;strokeColor=#A8B8C5;fontSize=16;labelBackgroundColor=#FFFFFF;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="459" y="280" />
+              <mxPoint x="459" y="225.0" />
+              <mxPoint x="2117.5" y="225.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="association-4" value="participa" edge="1" parent="1" source="operador" target="CU-E03" style="endArrow=none;strokeColor=#A8B8C5;fontSize=16;labelBackgroundColor=#FFFFFF;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="462" y="280" />
+              <mxPoint x="462" y="1075.0" />
+              <mxPoint x="1390.0" y="1075.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="association-5" value="participa" edge="1" parent="1" source="operador" target="consultar" style="endArrow=none;strokeColor=#A8B8C5;fontSize=16;labelBackgroundColor=#FFFFFF;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="465" y="280" />
+              <mxPoint x="465" y="615.0" />
+              <mxPoint x="827.5" y="615.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="association-6" value="participa" edge="1" parent="1" source="operador" target="cancelar" style="endArrow=none;strokeColor=#A8B8C5;fontSize=16;labelBackgroundColor=#FFFFFF;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="468" y="280" />
+              <mxPoint x="468" y="420.0" />
+              <mxPoint x="827.5" y="420.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="association-7" value="participa" edge="1" parent="1" source="operador" target="historial" style="endArrow=none;strokeColor=#A8B8C5;fontSize=16;labelBackgroundColor=#FFFFFF;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="471" y="280" />
+              <mxPoint x="471" y="420.0" />
+              <mxPoint x="1202.5" y="420.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="association-8" value="participa" edge="1" parent="1" source="operador" target="simple" style="endArrow=none;strokeColor=#A8B8C5;fontSize=16;labelBackgroundColor=#FFFFFF;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="474" y="280" />
+              <mxPoint x="474" y="1075.0" />
+              <mxPoint x="890.0" y="1075.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="association-9" value="participa" edge="1" parent="1" source="coordinador" target="CU-E02" style="endArrow=none;strokeColor=#A8B8C5;fontSize=16;labelBackgroundColor=#FFFFFF;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="477" y="590" />
+              <mxPoint x="477" y="2290.0" />
+              <mxPoint x="1475.0" y="2290.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="association-10" value="participa" edge="1" parent="1" source="coordinador" target="CU-E06" style="endArrow=none;strokeColor=#A8B8C5;fontSize=16;labelBackgroundColor=#FFFFFF;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="480" y="590" />
+              <mxPoint x="480" y="420.0" />
+              <mxPoint x="1732.5" y="420.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="association-11" value="participa" edge="1" parent="1" source="coordinador" target="CU-E05" style="endArrow=none;strokeColor=#A8B8C5;fontSize=16;labelBackgroundColor=#FFFFFF;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="483" y="590" />
+              <mxPoint x="483" y="1270.0" />
+              <mxPoint x="1390.0" y="1270.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="association-12" value="participa" edge="1" parent="1" source="superadmin" target="CU-E01" style="endArrow=none;strokeColor=#A8B8C5;fontSize=16;labelBackgroundColor=#FFFFFF;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="486" y="870" />
+              <mxPoint x="486" y="420.0" />
+              <mxPoint x="2117.5" y="420.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="association-13" value="participa" edge="1" parent="1" source="superadmin" target="CU-E08" style="endArrow=none;strokeColor=#A8B8C5;fontSize=16;labelBackgroundColor=#FFFFFF;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="489" y="870" />
+              <mxPoint x="489" y="2095.0" />
+              <mxPoint x="2031.6666666666665" y="2095.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="association-14" value="participa" edge="1" parent="1" source="superadmin" target="reportes" style="endArrow=none;strokeColor=#A8B8C5;fontSize=16;labelBackgroundColor=#FFFFFF;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="492" y="870" />
+              <mxPoint x="492" y="2290.0" />
+              <mxPoint x="918.3333333333333" y="2290.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="association-15" value="participa" edge="1" parent="1" source="solicitante" target="solicitud" style="endArrow=none;strokeColor=#A8B8C5;fontSize=16;labelBackgroundColor=#FFFFFF;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="495" y="1190" />
+              <mxPoint x="495" y="615.0" />
+              <mxPoint x="1202.5" y="615.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="association-16" value="participa" edge="1" parent="1" source="solicitante" target="consultar" style="endArrow=none;strokeColor=#A8B8C5;fontSize=16;labelBackgroundColor=#FFFFFF;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="498" y="1190" />
+              <mxPoint x="498" y="615.0" />
+              <mxPoint x="827.5" y="615.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="association-17" value="participa" edge="1" parent="1" source="tecnico" target="diagnosticar" style="endArrow=none;strokeColor=#A8B8C5;fontSize=16;labelBackgroundColor=#FFFFFF;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="501" y="1540" />
+              <mxPoint x="501" y="1075.0" />
+              <mxPoint x="2050.0" y="1075.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="association-18" value="participa" edge="1" parent="1" source="tecnico" target="mantener" style="endArrow=none;strokeColor=#A8B8C5;fontSize=16;labelBackgroundColor=#FFFFFF;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="504" y="1540" />
+              <mxPoint x="504" y="1260.0" />
+              <mxPoint x="2050.0" y="1260.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="association-19" value="participa" edge="1" parent="1" source="tecnico" target="retorno" style="endArrow=none;strokeColor=#A8B8C5;fontSize=16;labelBackgroundColor=#FFFFFF;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="507" y="1540" />
+              <mxPoint x="507" y="1445.0" />
+              <mxPoint x="2050.0" y="1445.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="association-20" value="participa" edge="1" parent="1" source="admin" target="usuarios" style="endArrow=none;strokeColor=#A8B8C5;fontSize=16;labelBackgroundColor=#FFFFFF;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="510" y="2250" />
+              <mxPoint x="510" y="2095.0" />
+              <mxPoint x="1475.0" y="2095.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="association-21" value="participa" edge="1" parent="1" source="admin" target="sede" style="endArrow=none;strokeColor=#A8B8C5;fontSize=16;labelBackgroundColor=#FFFFFF;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="513" y="2250" />
+              <mxPoint x="513" y="2095.0" />
+              <mxPoint x="918.3333333333333" y="2095.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="association-22" value="participa" edge="1" parent="1" source="admin" target="destinos" style="endArrow=none;strokeColor=#A8B8C5;fontSize=16;labelBackgroundColor=#FFFFFF;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="516" y="2250" />
+              <mxPoint x="516" y="2290.0" />
+              <mxPoint x="2031.6666666666665" y="2290.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="inheritance-0" value="hereda" edge="1" parent="1" source="coordinador" target="operador" style="endArrow=block;endFill=0;strokeColor=#00457C;edgeStyle=orthogonalEdgeStyle;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="inheritance-1" value="hereda" edge="1" parent="1" source="superadmin" target="coordinador" style="endArrow=block;endFill=0;strokeColor=#00457C;edgeStyle=orthogonalEdgeStyle;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
