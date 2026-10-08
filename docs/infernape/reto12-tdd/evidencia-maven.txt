@@ -1,0 +1,11 @@
+COMANDO REAL: mvn -B -ntp clean verify
+MAVEN EXIT CODE: 0
+2026-10-08T17:53:47.636-05:00  INFO 23860 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:enterprise-endpoint user=SA
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 17.59 s -- in infernape.api.MisionesEndpointTest
+2026-10-08T17:53:55.810-05:00  INFO 23860 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection conn10: url=jdbc:h2:mem:enterprise-integration user=SA
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.894 s -- in infernape.api.PersistenciaMisionIntegrationTest
+[INFO] Tests run: 226, Failures: 0, Errors: 0, Skipped: 0
+[INFO] --- jacoco:0.8.11:check (check) @ chimchar ---
+[INFO] All coverage checks have been met.
+[INFO] BUILD SUCCESS
+[INFO] Finished at: 2026-10-08T17:54:01-05:00

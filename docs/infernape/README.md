@@ -1,6 +1,6 @@
 # Evolución Infernape — SkyCampus Enterprise
 
-Fuente principal: `DOSW_Equipo_Chimchar_fixed.html`, contexto Enterprise y retos 01–08, con la simulación aislada de Git autorizada por el usuario.
+Fuente principal: `DOSW_Equipo_Chimchar_fixed.html`, contexto Enterprise y retos 01–12, con la simulación aislada de Git del bloque 1 autorizada por el usuario.
 
 ## Contexto y alcance de implementación
 
@@ -21,7 +21,7 @@ El bloque 1/4 implementó analytics, cuatro patrones combinados y asignación po
 
 ## Compatibilidad y validación
 
-Los packages `infernape.*` son propios. No se sustituyen fuentes o pruebas Chimchar/Monferno ni se cambia pom.xml. Se conservan Java release 17, JUnit, Mockito y el check JaCoCo 80% LINE / 70% BRANCH; 85%/75% se reserva para Reto 13 Enterprise.
+Los packages `infernape.*` son propios. No se sustituyen fuentes o pruebas Chimchar/Monferno. Los bloques 1 y 2 conservaron pom.xml; el bloque 3 agrega Spring Boot y H2 para las pruebas REST. Se conservan Java release 17, JUnit 5.11.4, Mockito 5.15.2 y el check JaCoCo 80% LINE / 70% BRANCH; cambiar ese check a 85%/75% se reserva para Reto 13 Enterprise.
 
 Base remota exacta: `origin/evolution/monferno`, `0cd28e03049120bd09ffc92cc8246698356e41b6`. La rama de trabajo es evolution/infernape; main, develop y las evoluciones previas permanecen protegidas.
 
@@ -48,6 +48,23 @@ Validación: `mvn clean verify`, 2026-10-08T15:54:27-05:00: **186 pruebas = 34 C
 
 Los cuatro SVG nuevos y el HTML se renderizaron realmente con Chrome headless. Se corrigió el desbordamiento de nombres de actores antes de la revisión final; no quedan recortes. El navegador confirmó tres paneles y tres tarjetas equivalentes, 37 reglas CSS, tokens exactos y ausencia de desbordamiento horizontal. No hay scripts o fuentes de red obligatorias en los componentes.
 
-No se inicia Reto 9 ni Retos 10–14. SonarQube Chimchar/Monferno y capturas Jira anteriores continúan pendientes. Los tags v3.0.0/v3.0.1 y todas las ramas distintas de evolution/infernape se conservan.
+Al cierre del bloque 2 no se habían iniciado Retos 9–14. El bloque 3 añade Retos 9–12, conservando pendientes Retos 13 y 14. SonarQube Chimchar/Monferno y capturas Jira anteriores continúan pendientes. Los tags v3.0.0/v3.0.1 y todas las ramas distintas de evolution/infernape se conservan.
 
 Auditoría del bloque 2/4: 224 enlaces relativos válidos; 27 SVG y 6 Draw.io XML válidos en todo docs (cuatro SVG y dos Draw.io nuevos); ningún RF sin CU/HU/prueba. Se preservan 199 archivos previos fuera de los dos índices autorizados, catorce ramas locales distintas de la evolución actual y los dos tags anotados. Sin secretos detectados, packages antiguos, imports externos/red/BD en dominio o generados versionados; git diff --check pasa.
+
+
+## Infernape Reto 9 - Roadmap Jira
+
+[Planificación real y ceremonias](reto9-jira/README.md), [roadmap](reto9-jira/roadmap.md) y [retrospectiva simulada](reto9-jira/retrospectiva-simulada.md). Jira real: ocho HU, tres sprints futuros y 45 SP; capacidad estimada de 20 SP por sprint, sin velocidad histórica medida. Captura auténtica pendiente.
+
+## Infernape Reto 10 - Casos de Uso
+
+[Cinco paquetes y relaciones UML](reto10-casos-uso/README.md) · [diagrama general](reto10-casos-uso/casos-uso-enterprise.svg) · [Draw.io editable](reto10-casos-uso/casos-uso-enterprise.drawio).
+
+## Infernape Reto 11 - Prototipo Navegable
+
+[Prototipo y evidencia](reto11-prototipo/README.md) · [HTML interactivo](reto11-prototipo/index.html). Temas ECI/UNAL, cuatro sedes y seis errores; 26 comprobaciones reales en Chrome. Prueba humana con compañero pendiente.
+
+## Infernape Reto 12 - TDD e Integración REST
+
+[Red → Green → Refactor y tres capas de pruebas](reto12-tdd/README.md). POST /api/v3/misiones, MockMvc y H2 real en memoria. 226 pruebas aprobadas; cobertura global LINE 98.42% / BRANCH 92.03%. Check heredado 80/70 conservado. Retos 13 y 14 de Infernape no iniciados; Sonar anterior permanece pendiente.

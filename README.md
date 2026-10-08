@@ -243,3 +243,20 @@ Estado: **PENDIENTE TÉCNICO — SONARQUBE**. [Objetivos oficiales y evidencia p
 ## Infernape Reto 8 - Design Tokens y UX
 
 [Sistema de tokens y componentes](docs/infernape/reto8-ux/README.md) · [Demostración estática HTML](docs/infernape/reto8-ux/componentes-enterprise.html). Cuatro temas oficiales, con ejemplos ECI/UNAL/UNIANDES y estructuras reutilizables; no se inicia el prototipo de Reto 11.
+
+
+## Infernape Reto 9 - Roadmap Jira
+
+[Planificación real y ceremonias](docs/infernape/reto9-jira/README.md), [roadmap](docs/infernape/reto9-jira/roadmap.md) y [retrospectiva simulada](docs/infernape/reto9-jira/retrospectiva-simulada.md). Jira real: ocho HU, tres sprints futuros y 45 SP; capacidad estimada de 20 SP por sprint, sin velocidad histórica medida. Captura auténtica pendiente.
+
+## Infernape Reto 10 - Casos de Uso
+
+[Cinco paquetes y relaciones UML](docs/infernape/reto10-casos-uso/README.md) · [diagrama general](docs/infernape/reto10-casos-uso/casos-uso-enterprise.svg) · [Draw.io editable](docs/infernape/reto10-casos-uso/casos-uso-enterprise.drawio).
+
+## Infernape Reto 11 - Prototipo Navegable
+
+[Prototipo y evidencia](docs/infernape/reto11-prototipo/README.md) · [HTML interactivo](docs/infernape/reto11-prototipo/index.html). Temas ECI/UNAL, cuatro sedes y seis errores; 26 comprobaciones reales en Chrome. Prueba humana con compañero pendiente.
+
+## Infernape Reto 12 - TDD e Integración REST
+
+[Red → Green → Refactor y tres capas de pruebas](docs/infernape/reto12-tdd/README.md). POST /api/v3/misiones, MockMvc y H2 real en memoria. 226 pruebas aprobadas; cobertura global LINE 98.42% / BRANCH 92.03%. Check heredado 80/70 conservado. Retos 13 y 14 de Infernape no iniciados; Sonar anterior permanece pendiente.
