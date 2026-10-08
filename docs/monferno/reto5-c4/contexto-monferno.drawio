@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" version="24.7.17" type="device">
+  <diagram id="monferno-contexto" name="Contexto C4 Monferno">
+    <mxGraphModel dx="2000" dy="1240" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="1240" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="solicitante" value="Solicitante&#10;[Persona]" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#E8F2F6;fontColor=#142D3A;strokeColor=#CBD5E1;fontFamily=Arial;fontSize=20;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="170" width="250" height="180" />
+        </mxCell>
+        <mxCell id="operador" value="Operador de drones&#10;[Persona]" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#E8F2F6;fontColor=#142D3A;strokeColor=#CBD5E1;fontFamily=Arial;fontSize=20;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="430" width="250" height="180" />
+        </mxCell>
+        <mxCell id="admin" value="Admin&#10;[Persona]" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#E8F2F6;fontColor=#142D3A;strokeColor=#CBD5E1;fontFamily=Arial;fontSize=20;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="690" width="250" height="180" />
+        </mxCell>
+        <mxCell id="tecnico" value="Técnico de mantenimiento&#10;[Persona]" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#E8F2F6;fontColor=#142D3A;strokeColor=#CBD5E1;fontFamily=Arial;fontSize=20;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="950" width="250" height="180" />
+        </mxCell>
+        <mxCell id="skycampus" value="SkyCampus v2&#10;[Sistema de software]&#10;Sistema de reparto interno mediante drones&#10;CAJA NEGRA" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#0B4F6C;fontColor=#FFFFFF;strokeColor=#CBD5E1;fontFamily=Arial;fontSize=20;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="850" y="140" width="300" height="1010" />
+        </mxCell>
+        <mxCell id="clima" value="API Meteorológica&#10;[Sistema externo]" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#E2E8F0;fontColor=#142D3A;strokeColor=#CBD5E1;fontFamily=Arial;fontSize=20;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1710" y="220" width="250" height="210" />
+        </mxCell>
+        <mxCell id="control" value="Control Aéreo ECI&#10;[Sistema externo]" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#E2E8F0;fontColor=#142D3A;strokeColor=#CBD5E1;fontFamily=Arial;fontSize=20;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1710" y="540" width="250" height="210" />
+        </mxCell>
+        <mxCell id="alertas" value="Sistema de Alertas&#10;[Sistema externo]" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#E2E8F0;fontColor=#142D3A;strokeColor=#CBD5E1;fontFamily=Arial;fontSize=20;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1710" y="860" width="250" height="210" />
+        </mxCell>
+        <mxCell id="flujo-1" value="Registra solicitud de reparto: origen, destino, paquete y prioridad" style="edgeStyle=none;rounded=0;html=0;endArrow=block;endFill=1;strokeColor=#0B4F6C;strokeWidth=2;fontColor=#142D3A;fontFamily=Arial;fontSize=17;labelBackgroundColor=#F4F7FA;whiteSpace=wrap;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.07425742574257425;entryDx=0;entryDy=0;" edge="1" parent="1" source="solicitante" target="skycampus">
+          <mxGeometry as="geometry" x="0" y="-22" relative="1">
+            <mxPoint as="offset" x="0" y="-18" />
+            <mxRectangle as="alternateBounds" width="510" height="60" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flujo-2" value="Devuelve código y estado de la misión" style="edgeStyle=none;rounded=0;html=0;endArrow=block;endFill=1;strokeColor=#0B4F6C;strokeWidth=2;fontColor=#142D3A;fontFamily=Arial;fontSize=17;labelBackgroundColor=#F4F7FA;whiteSpace=wrap;exitX=0;exitY=0.16336633663366337;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="skycampus" target="solicitante">
+          <mxGeometry as="geometry" x="0" y="-22" relative="1">
+            <mxPoint as="offset" x="0" y="-18" />
+            <mxRectangle as="alternateBounds" width="510" height="60" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flujo-3" value="Supervisa flota y confirma/cancela misiones" style="edgeStyle=none;rounded=0;html=0;endArrow=block;endFill=1;strokeColor=#0B4F6C;strokeWidth=2;fontColor=#142D3A;fontFamily=Arial;fontSize=17;labelBackgroundColor=#F4F7FA;whiteSpace=wrap;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.3316831683168317;entryDx=0;entryDy=0;" edge="1" parent="1" source="operador" target="skycampus">
+          <mxGeometry as="geometry" x="0" y="-22" relative="1">
+            <mxPoint as="offset" x="0" y="-18" />
+            <mxRectangle as="alternateBounds" width="510" height="60" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flujo-4" value="Estado de drones, misiones y alertas" style="edgeStyle=none;rounded=0;html=0;endArrow=block;endFill=1;strokeColor=#0B4F6C;strokeWidth=2;fontColor=#142D3A;fontFamily=Arial;fontSize=17;labelBackgroundColor=#F4F7FA;whiteSpace=wrap;exitX=0;exitY=0.4207920792079208;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="skycampus" target="operador">
+          <mxGeometry as="geometry" x="0" y="-22" relative="1">
+            <mxPoint as="offset" x="0" y="-18" />
+            <mxRectangle as="alternateBounds" width="510" height="60" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flujo-5" value="Configura destinos, flota y reglas operativas" style="edgeStyle=none;rounded=0;html=0;endArrow=block;endFill=1;strokeColor=#0B4F6C;strokeWidth=2;fontColor=#142D3A;fontFamily=Arial;fontSize=17;labelBackgroundColor=#F4F7FA;whiteSpace=wrap;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5891089108910891;entryDx=0;entryDy=0;" edge="1" parent="1" source="admin" target="skycampus">
+          <mxGeometry as="geometry" x="0" y="-22" relative="1">
+            <mxPoint as="offset" x="0" y="-18" />
+            <mxRectangle as="alternateBounds" width="510" height="60" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flujo-6" value="Confirma configuración" style="edgeStyle=none;rounded=0;html=0;endArrow=block;endFill=1;strokeColor=#0B4F6C;strokeWidth=2;fontColor=#142D3A;fontFamily=Arial;fontSize=17;labelBackgroundColor=#F4F7FA;whiteSpace=wrap;exitX=0;exitY=0.6782178217821783;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="skycampus" target="admin">
+          <mxGeometry as="geometry" x="0" y="-22" relative="1">
+            <mxPoint as="offset" x="0" y="-18" />
+            <mxRectangle as="alternateBounds" width="510" height="60" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flujo-7" value="Diagnostica fallos y registra reparación" style="edgeStyle=none;rounded=0;html=0;endArrow=block;endFill=1;strokeColor=#0B4F6C;strokeWidth=2;fontColor=#142D3A;fontFamily=Arial;fontSize=17;labelBackgroundColor=#F4F7FA;whiteSpace=wrap;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.8465346534653465;entryDx=0;entryDy=0;" edge="1" parent="1" source="tecnico" target="skycampus">
+          <mxGeometry as="geometry" x="0" y="-22" relative="1">
+            <mxPoint as="offset" x="0" y="-18" />
+            <mxRectangle as="alternateBounds" width="510" height="60" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flujo-8" value="Notifica drones en FALLO y datos de diagnóstico" style="edgeStyle=none;rounded=0;html=0;endArrow=block;endFill=1;strokeColor=#0B4F6C;strokeWidth=2;fontColor=#142D3A;fontFamily=Arial;fontSize=17;labelBackgroundColor=#F4F7FA;whiteSpace=wrap;exitX=0;exitY=0.9356435643564357;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="skycampus" target="tecnico">
+          <mxGeometry as="geometry" x="0" y="-22" relative="1">
+            <mxPoint as="offset" x="0" y="-18" />
+            <mxRectangle as="alternateBounds" width="510" height="60" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flujo-9" value="Solicita condiciones de viento y lluvia" style="edgeStyle=none;rounded=0;html=0;endArrow=block;endFill=1;strokeColor=#0B4F6C;strokeWidth=2;fontColor=#142D3A;fontFamily=Arial;fontSize=17;labelBackgroundColor=#F4F7FA;whiteSpace=wrap;exitX=1;exitY=0.13861386138613863;exitDx=0;exitDy=0;entryX=0;entryY=0.2857142857142857;entryDx=0;entryDy=0;" edge="1" parent="1" source="skycampus" target="clima">
+          <mxGeometry as="geometry" x="0" y="-22" relative="1">
+            <mxPoint as="offset" x="0" y="-18" />
+            <mxRectangle as="alternateBounds" width="510" height="60" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flujo-10" value="Devuelve condiciones meteorológicas" style="edgeStyle=none;rounded=0;html=0;endArrow=block;endFill=1;strokeColor=#0B4F6C;strokeWidth=2;fontColor=#142D3A;fontFamily=Arial;fontSize=17;labelBackgroundColor=#F4F7FA;whiteSpace=wrap;exitX=0;exitY=0.7142857142857143;exitDx=0;exitDy=0;entryX=1;entryY=0.22772277227722773;entryDx=0;entryDy=0;" edge="1" parent="1" source="clima" target="skycampus">
+          <mxGeometry as="geometry" x="0" y="-22" relative="1">
+            <mxPoint as="offset" x="0" y="-18" />
+            <mxRectangle as="alternateBounds" width="510" height="60" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flujo-11" value="Registra vuelo y solicita autorización de ruta" style="edgeStyle=none;rounded=0;html=0;endArrow=block;endFill=1;strokeColor=#0B4F6C;strokeWidth=2;fontColor=#142D3A;fontFamily=Arial;fontSize=17;labelBackgroundColor=#F4F7FA;whiteSpace=wrap;exitX=1;exitY=0.45544554455445546;exitDx=0;exitDy=0;entryX=0;entryY=0.2857142857142857;entryDx=0;entryDy=0;" edge="1" parent="1" source="skycampus" target="control">
+          <mxGeometry as="geometry" x="0" y="-22" relative="1">
+            <mxPoint as="offset" x="0" y="-18" />
+            <mxRectangle as="alternateBounds" width="510" height="60" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flujo-12" value="Devuelve autorización o rechazo" style="edgeStyle=none;rounded=0;html=0;endArrow=block;endFill=1;strokeColor=#0B4F6C;strokeWidth=2;fontColor=#142D3A;fontFamily=Arial;fontSize=17;labelBackgroundColor=#F4F7FA;whiteSpace=wrap;exitX=0;exitY=0.7142857142857143;exitDx=0;exitDy=0;entryX=1;entryY=0.5445544554455446;entryDx=0;entryDy=0;" edge="1" parent="1" source="control" target="skycampus">
+          <mxGeometry as="geometry" x="0" y="-22" relative="1">
+            <mxPoint as="offset" x="0" y="-18" />
+            <mxRectangle as="alternateBounds" width="510" height="60" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flujo-13" value="Envía alerta de drone en FALLO" style="edgeStyle=none;rounded=0;html=0;endArrow=block;endFill=1;strokeColor=#0B4F6C;strokeWidth=2;fontColor=#142D3A;fontFamily=Arial;fontSize=17;labelBackgroundColor=#F4F7FA;whiteSpace=wrap;exitX=1;exitY=0.7722772277227723;exitDx=0;exitDy=0;entryX=0;entryY=0.2857142857142857;entryDx=0;entryDy=0;" edge="1" parent="1" source="skycampus" target="alertas">
+          <mxGeometry as="geometry" x="0" y="-22" relative="1">
+            <mxPoint as="offset" x="0" y="-18" />
+            <mxRectangle as="alternateBounds" width="510" height="60" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flujo-14" value="Confirma recepción de la alerta" style="edgeStyle=none;rounded=0;html=0;endArrow=block;endFill=1;strokeColor=#0B4F6C;strokeWidth=2;fontColor=#142D3A;fontFamily=Arial;fontSize=17;labelBackgroundColor=#F4F7FA;whiteSpace=wrap;exitX=0;exitY=0.7142857142857143;exitDx=0;exitDy=0;entryX=1;entryY=0.8613861386138614;entryDx=0;entryDy=0;" edge="1" parent="1" source="alertas" target="skycampus">
+          <mxGeometry as="geometry" x="0" y="-22" relative="1">
+            <mxPoint as="offset" x="0" y="-18" />
+            <mxRectangle as="alternateBounds" width="510" height="60" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="titulo" value="SkyCampus v2 — Diagrama de contexto C4&#10;Nivel 1 / caja negra · 4 actores · 3 sistemas externos · 14 flujos" style="text;html=0;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=26;fontColor=#0B4F6C;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="20" width="1840" height="80" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

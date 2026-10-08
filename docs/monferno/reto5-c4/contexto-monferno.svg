@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="1240" viewBox="0 0 2000 1240" role="img" aria-labelledby="title desc">
+<title id="title">SkyCampus v2 — Contexto C4</title>
+<desc id="desc">Nivel 1. Cuatro actores, tres sistemas externos y catorce relaciones dirigidas con datos etiquetados.</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M1,1 L9,5 L1,9 Z" fill="#0B4F6C"/></marker></defs>
+<rect x="0" y="0" width="2000" height="1240" rx="0" fill="#F4F7FA"/>
+<text x="40" y="54" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#0B4F6C" font-weight="700" text-anchor="start">
+<tspan x="40" dy="0">SkyCampus v2 — Diagrama de contexto C4</tspan>
+</text>
+<text x="40" y="87" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#526576" font-weight="400" text-anchor="start">
+<tspan x="40" dy="0">Nivel 1 / caja negra · 4 actores · 3 sistemas externos · 14 flujos de datos</tspan>
+</text>
+<rect x="40" y="170" width="250" height="180" rx="14" fill="#E8F2F6" stroke="#CBD5E1" stroke-width="1.5"/>
+<circle cx="165.0" cy="205" r="14" fill="none" stroke="#0B4F6C" stroke-width="2"/>
+<path d="M165.0,220 L165.0,250" fill="none" stroke="#0B4F6C" stroke-width="2"/>
+<path d="M142.0,230 L188.0,230" fill="none" stroke="#0B4F6C" stroke-width="2"/>
+<path d="M165.0,250 L145.0,270" fill="none" stroke="#0B4F6C" stroke-width="2"/>
+<path d="M165.0,250 L185.0,270" fill="none" stroke="#0B4F6C" stroke-width="2"/>
+<text x="165.0" y="298" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#142D3A" font-weight="700" text-anchor="middle">
+<tspan x="165.0" dy="0">Solicitante</tspan>
+</text>
+<text x="165.0" y="339" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#526576" font-weight="400" text-anchor="middle">
+<tspan x="165.0" dy="0">[Persona]</tspan>
+</text>
+<rect x="40" y="430" width="250" height="180" rx="14" fill="#E8F2F6" stroke="#CBD5E1" stroke-width="1.5"/>
+<circle cx="165.0" cy="465" r="14" fill="none" stroke="#0B4F6C" stroke-width="2"/>
+<path d="M165.0,480 L165.0,510" fill="none" stroke="#0B4F6C" stroke-width="2"/>
+<path d="M142.0,490 L188.0,490" fill="none" stroke="#0B4F6C" stroke-width="2"/>
+<path d="M165.0,510 L145.0,530" fill="none" stroke="#0B4F6C" stroke-width="2"/>
+<path d="M165.0,510 L185.0,530" fill="none" stroke="#0B4F6C" stroke-width="2"/>
+<text x="165.0" y="558" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#142D3A" font-weight="700" text-anchor="middle">
+<tspan x="165.0" dy="0">Operador de drones</tspan>
+</text>
+<text x="165.0" y="599" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#526576" font-weight="400" text-anchor="middle">
+<tspan x="165.0" dy="0">[Persona]</tspan>
+</text>
+<rect x="40" y="690" width="250" height="180" rx="14" fill="#E8F2F6" stroke="#CBD5E1" stroke-width="1.5"/>
+<circle cx="165.0" cy="725" r="14" fill="none" stroke="#0B4F6C" stroke-width="2"/>
+<path d="M165.0,740 L165.0,770" fill="none" stroke="#0B4F6C" stroke-width="2"/>
+<path d="M142.0,750 L188.0,750" fill="none" stroke="#0B4F6C" stroke-width="2"/>
+<path d="M165.0,770 L145.0,790" fill="none" stroke="#0B4F6C" stroke-width="2"/>
+<path d="M165.0,770 L185.0,790" fill="none" stroke="#0B4F6C" stroke-width="2"/>
+<text x="165.0" y="818" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#142D3A" font-weight="700" text-anchor="middle">
+<tspan x="165.0" dy="0">Admin</tspan>
+</text>
+<text x="165.0" y="859" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#526576" font-weight="400" text-anchor="middle">
+<tspan x="165.0" dy="0">[Persona]</tspan>
+</text>
+<rect x="40" y="950" width="250" height="180" rx="14" fill="#E8F2F6" stroke="#CBD5E1" stroke-width="1.5"/>
+<circle cx="165.0" cy="985" r="14" fill="none" stroke="#0B4F6C" stroke-width="2"/>
+<path d="M165.0,1000 L165.0,1030" fill="none" stroke="#0B4F6C" stroke-width="2"/>
+<path d="M142.0,1010 L188.0,1010" fill="none" stroke="#0B4F6C" stroke-width="2"/>
+<path d="M165.0,1030 L145.0,1050" fill="none" stroke="#0B4F6C" stroke-width="2"/>
+<path d="M165.0,1030 L185.0,1050" fill="none" stroke="#0B4F6C" stroke-width="2"/>
+<text x="165.0" y="1078" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#142D3A" font-weight="700" text-anchor="middle">
+<tspan x="165.0" dy="0">Técnico de</tspan>
+<tspan x="165.0" dy="24">mantenimiento</tspan>
+</text>
+<text x="165.0" y="1119" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#526576" font-weight="400" text-anchor="middle">
+<tspan x="165.0" dy="0">[Persona]</tspan>
+</text>
+<rect x="850" y="140" width="300" height="1010" rx="18" fill="#0B4F6C"/>
+<text x="1000.0" y="555" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#FFFFFF" font-weight="700" text-anchor="middle">
+<tspan x="1000.0" dy="0">SkyCampus v2</tspan>
+</text>
+<text x="1000.0" y="593" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#DBEAFE" font-weight="400" text-anchor="middle">
+<tspan x="1000.0" dy="0">[Sistema de software]</tspan>
+</text>
+<text x="1000.0" y="640" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#FFFFFF" font-weight="400" text-anchor="middle">
+<tspan x="1000.0" dy="0">Sistema de reparto</tspan>
+<tspan x="1000.0" dy="25.650000000000002">interno mediante drones</tspan>
+</text>
+<text x="1000.0" y="715" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#DBEAFE" font-weight="700" text-anchor="middle">
+<tspan x="1000.0" dy="0">CAJA NEGRA</tspan>
+</text>
+<rect x="1710" y="220" width="250" height="210" rx="14" fill="#E2E8F0" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="1835.0" y="312" font-family="Arial, Helvetica, sans-serif" font-size="21" fill="#142D3A" font-weight="700" text-anchor="middle">
+<tspan x="1835.0" dy="0">API Meteorológica</tspan>
+</text>
+<text x="1835.0" y="366" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#526576" font-weight="400" text-anchor="middle">
+<tspan x="1835.0" dy="0">[Sistema externo]</tspan>
+</text>
+<rect x="1710" y="540" width="250" height="210" rx="14" fill="#E2E8F0" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="1835.0" y="632" font-family="Arial, Helvetica, sans-serif" font-size="21" fill="#142D3A" font-weight="700" text-anchor="middle">
+<tspan x="1835.0" dy="0">Control Aéreo ECI</tspan>
+</text>
+<text x="1835.0" y="686" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#526576" font-weight="400" text-anchor="middle">
+<tspan x="1835.0" dy="0">[Sistema externo]</tspan>
+</text>
+<rect x="1710" y="860" width="250" height="210" rx="14" fill="#E2E8F0" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="1835.0" y="952" font-family="Arial, Helvetica, sans-serif" font-size="21" fill="#142D3A" font-weight="700" text-anchor="middle">
+<tspan x="1835.0" dy="0">Sistema de Alertas</tspan>
+</text>
+<text x="1835.0" y="1006" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#526576" font-weight="400" text-anchor="middle">
+<tspan x="1835.0" dy="0">[Sistema externo]</tspan>
+</text>
+<text x="570" y="177" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#142D3A" font-weight="400" text-anchor="middle">
+<tspan x="570" dy="0">Registra solicitud de reparto: origen, destino,</tspan>
+<tspan x="570" dy="23">paquete y prioridad</tspan>
+</text>
+<path d="M290,215 L850,215" fill="none" stroke="#0B4F6C" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="570" y="290" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#142D3A" font-weight="400" text-anchor="middle">
+<tspan x="570" dy="0">Devuelve código y estado de la misión</tspan>
+</text>
+<path d="M850,305 L290,305" fill="none" stroke="#0B4F6C" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="570" y="460" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#142D3A" font-weight="400" text-anchor="middle">
+<tspan x="570" dy="0">Supervisa flota y confirma/cancela misiones</tspan>
+</text>
+<path d="M290,475 L850,475" fill="none" stroke="#0B4F6C" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="570" y="550" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#142D3A" font-weight="400" text-anchor="middle">
+<tspan x="570" dy="0">Estado de drones, misiones y alertas</tspan>
+</text>
+<path d="M850,565 L290,565" fill="none" stroke="#0B4F6C" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="570" y="720" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#142D3A" font-weight="400" text-anchor="middle">
+<tspan x="570" dy="0">Configura destinos, flota y reglas operativas</tspan>
+</text>
+<path d="M290,735 L850,735" fill="none" stroke="#0B4F6C" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="570" y="810" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#142D3A" font-weight="400" text-anchor="middle">
+<tspan x="570" dy="0">Confirma configuración</tspan>
+</text>
+<path d="M850,825 L290,825" fill="none" stroke="#0B4F6C" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="570" y="980" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#142D3A" font-weight="400" text-anchor="middle">
+<tspan x="570" dy="0">Diagnostica fallos y registra reparación</tspan>
+</text>
+<path d="M290,995 L850,995" fill="none" stroke="#0B4F6C" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="570" y="1070" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#142D3A" font-weight="400" text-anchor="middle">
+<tspan x="570" dy="0">Notifica drones en FALLO y datos de diagnóstico</tspan>
+</text>
+<path d="M850,1085 L290,1085" fill="none" stroke="#0B4F6C" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="1430" y="265" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#142D3A" font-weight="400" text-anchor="middle">
+<tspan x="1430" dy="0">Solicita condiciones de viento y lluvia</tspan>
+</text>
+<path d="M1150,280 L1710,280" fill="none" stroke="#0B4F6C" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="1430" y="355" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#142D3A" font-weight="400" text-anchor="middle">
+<tspan x="1430" dy="0">Devuelve condiciones meteorológicas</tspan>
+</text>
+<path d="M1710,370 L1150,370" fill="none" stroke="#0B4F6C" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="1430" y="585" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#142D3A" font-weight="400" text-anchor="middle">
+<tspan x="1430" dy="0">Registra vuelo y solicita autorización de ruta</tspan>
+</text>
+<path d="M1150,600 L1710,600" fill="none" stroke="#0B4F6C" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="1430" y="675" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#142D3A" font-weight="400" text-anchor="middle">
+<tspan x="1430" dy="0">Devuelve autorización o rechazo</tspan>
+</text>
+<path d="M1710,690 L1150,690" fill="none" stroke="#0B4F6C" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="1430" y="905" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#142D3A" font-weight="400" text-anchor="middle">
+<tspan x="1430" dy="0">Envía alerta de drone en FALLO</tspan>
+</text>
+<path d="M1150,920 L1710,920" fill="none" stroke="#0B4F6C" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="1430" y="995" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#142D3A" font-weight="400" text-anchor="middle">
+<tspan x="1430" dy="0">Confirma recepción de la alerta</tspan>
+</text>
+<path d="M1710,1010 L1150,1010" fill="none" stroke="#0B4F6C" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="40" y="1200" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#526576" font-weight="400" text-anchor="start">
+<tspan x="40" dy="0">Flecha = dirección de los datos · Las integraciones muestran contratos de la v2, sin implementación de red en este bloque.</tspan>
+</text>
+</svg>
