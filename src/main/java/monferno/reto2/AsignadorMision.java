@@ -18,7 +18,7 @@ public class AsignadorMision {
     }
 
     public Optional<Mision> asignar(List<Drone> flota, Mision mision) {
-        return gestor.asignar(flota, mision).map(mision::conDrone);
+        return gestor.asignar(flota, mision).map(mision::conDrone).map(this::notificar);
     }
 
     private Mision notificar(Mision asignada) {
