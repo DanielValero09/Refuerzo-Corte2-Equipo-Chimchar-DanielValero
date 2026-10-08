@@ -1,0 +1,81 @@
+:root {
+  --color-background: #F4F7FA;
+  --color-surface: #FFFFFF;
+  --color-text: #142D3A;
+  --color-muted: #526576;
+  --color-border: #D3DEE7;
+  --color-alert-surface: #FDEDEE;
+  --spacing-1: 0.5rem;
+  --spacing-2: 1rem;
+  --spacing-3: 1.5rem;
+  --spacing-4: 2rem;
+  --shadow-card: 0 8px 24px rgb(20 45 58 / 8%);
+  --font-mono: Consolas, "Courier New", monospace;
+  --font-fallback: Arial, Helvetica, sans-serif;
+  --color-primary: #00457C;
+  --color-alert: #E63946;
+  --font-ui: "Space Grotesk";
+  --border-radius: 10px;
+}
+
+[data-theme="eci"] {
+  --color-primary: #00457C;
+  --color-alert: #E63946;
+  --font-ui: "Space Grotesk";
+  --border-radius: 10px;
+}
+
+[data-theme="unal"] {
+  --color-primary: #7B0000;
+  --color-alert: #E63946;
+  --font-ui: "Merriweather";
+  --border-radius: 4px;
+}
+
+[data-theme="uniandes"] {
+  --color-primary: #0057A8;
+  --color-alert: #E63946;
+  --font-ui: "Inter";
+  --border-radius: 8px;
+}
+
+[data-theme="eafit"] {
+  --color-primary: #2D6A4F;
+  --color-alert: #E63946;
+  --font-ui: "Source Sans";
+  --border-radius: 12px;
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--color-background); color: var(--color-text); font-family: var(--font-fallback); }
+a { color: var(--color-primary); text-underline-offset: 0.2em; }
+a:focus-visible { outline: 3px solid var(--color-primary); outline-offset: 4px; }
+.cabecera, main { max-width: 1500px; padding: var(--spacing-4); margin: auto; }
+.cabecera { padding-bottom: 0; }
+.cabecera h1 { margin: 0 0 var(--spacing-1); font-size: 2rem; }
+.cabecera p { color: var(--color-muted); line-height: 1.5; }
+nav { display: flex; flex-wrap: wrap; gap: var(--spacing-3); }
+.variantes { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--spacing-3); }
+.tema { font-family: var(--font-ui), var(--font-fallback); min-width: 0; }
+.tema > h2 { color: var(--color-primary); margin: 0 0 var(--spacing-2); }
+.panel-mision, .tarjeta-drone { background: var(--color-surface); border: 1px solid var(--color-border); border-top: 6px solid var(--color-primary); border-radius: var(--border-radius); padding: var(--spacing-3); box-shadow: var(--shadow-card); }
+.tarjeta-drone { margin-top: var(--spacing-3); }
+.encabezado-componente { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: var(--spacing-1); }
+.encabezado-componente h3 { margin: 0; font-family: var(--font-mono); font-size: 1.2rem; }
+.etiqueta { display: inline-flex; gap: 0.4rem; align-items: center; padding: 0.45rem 0.65rem; border-radius: var(--border-radius); background: var(--color-primary); color: #FFFFFF; font: bold 0.85rem var(--font-ui), var(--font-fallback); }
+.datos { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--spacing-2); margin: var(--spacing-3) 0; }
+.datos div { min-width: 0; }
+.datos dt { color: var(--color-muted); font-size: 0.9rem; margin-bottom: 0.35rem; }
+.datos dd { margin: 0; line-height: 1.35; font-weight: bold; overflow-wrap: anywhere; }
+.id-tecnico { font-family: var(--font-mono); }
+.indicador { margin: var(--spacing-2) 0; }
+.indicador p { display: flex; justify-content: space-between; gap: var(--spacing-1); }
+progress { width: 100%; height: 14px; accent-color: var(--color-primary); border: none; border-radius: var(--border-radius); overflow: hidden; }
+progress::-webkit-progress-bar { background: var(--color-border); }
+progress::-webkit-progress-value { background: var(--color-primary); }
+progress::-moz-progress-bar { background: var(--color-primary); }
+.alerta { display: flex; align-items: flex-start; gap: var(--spacing-1); margin: var(--spacing-3) 0 0; padding: var(--spacing-2); border: 2px solid var(--color-alert); border-radius: var(--border-radius); background: var(--color-alert-surface); line-height: 1.5; }
+.simbolo-alerta { flex: 0 0 24px; width: 24px; height: 24px; border: 2px solid var(--color-alert); border-radius: 50%; text-align: center; line-height: 20px; font-weight: bold; }
+.nota { color: var(--color-muted); line-height: 1.5; margin-bottom: 0; }
+@media (max-width: 1000px) { .variantes { grid-template-columns: 1fr; } }
+@media (max-width: 480px) { .cabecera, main { padding: var(--spacing-2); } }

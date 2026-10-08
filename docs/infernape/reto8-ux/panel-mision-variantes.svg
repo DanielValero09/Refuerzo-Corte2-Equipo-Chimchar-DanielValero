@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" aria-labelledby="title description" viewBox="0 0 1500 1000" width="1500" height="1000" role="img">
+  <title id="title">Panel de misión activa · variantes Enterprise</title>
+  <desc id="description">Tres variantes de la misma estructura; datos ilustrativos constantes. Fuentes locales con fallback, sin recursos externos.</desc>
+  <rect x="0" y="0" width="1500" height="1000" fill="#F4F7FA" />
+  <text x="45" y="62" font-size="32" fill="#142D3A" font-family="Arial, Helvetica, sans-serif" font-weight="bold">Panel de misión activa · variantes Enterprise</text>
+  <text x="45" y="103" font-size="21" fill="#526576" font-family="Arial, Helvetica, sans-serif" font-weight="normal">Mismo componente y datos · variación exclusiva de tokens · demostración estática</text>
+  <text x="45" y="157" font-size="28" fill="#00457C" font-family="Arial, Helvetica, sans-serif" font-weight="bold">ECI</text>
+  <rect x="45" y="185" width="430" height="710" rx="10" fill="#FFFFFF" stroke="#D3DEE7" stroke-width="2" />
+  <path d="M 55 188 H 465" stroke="#00457C" stroke-width="6" />
+  <text x="69" y="241" font-size="27" fill="#142D3A" font-family="Consolas, Courier New, monospace" font-weight="bold">ME-015</text>
+  <rect x="275" y="210" width="175" height="42" rx="10" fill="#00457C" />
+  <text x="290" y="238" font-size="19" fill="#FFFFFF" font-family="&quot;Space Grotesk&quot;, Arial, Helvetica, sans-serif" font-weight="bold">● EN_VUELO</text>
+  <text x="69" y="311" font-size="19" fill="#526576" font-family="&quot;Space Grotesk&quot;, Arial, Helvetica, sans-serif" font-weight="normal">Sede origen</text>
+  <text x="69" y="344" font-size="21" fill="#142D3A" font-family="&quot;Space Grotesk&quot;, Arial, Helvetica, sans-serif" font-weight="bold">ECI</text>
+  <text x="270" y="311" font-size="19" fill="#526576" font-family="&quot;Space Grotesk&quot;, Arial, Helvetica, sans-serif" font-weight="normal">Sede destino</text>
+  <text x="270" y="344" font-size="21" fill="#142D3A" font-family="&quot;Space Grotesk&quot;, Arial, Helvetica, sans-serif" font-weight="bold">UNAL</text>
+  <text x="69" y="419" font-size="19" fill="#526576" font-family="&quot;Space Grotesk&quot;, Arial, Helvetica, sans-serif" font-weight="normal">Prioridad</text>
+  <text x="69" y="452" font-size="21" fill="#142D3A" font-family="&quot;Space Grotesk&quot;, Arial, Helvetica, sans-serif" font-weight="bold">↑ URGENTE</text>
+  <text x="270" y="419" font-size="19" fill="#526576" font-family="&quot;Space Grotesk&quot;, Arial, Helvetica, sans-serif" font-weight="normal">Drone</text>
+  <text x="270" y="452" font-size="21" fill="#142D3A" font-family="&quot;Space Grotesk&quot;, Arial, Helvetica, sans-serif" font-weight="bold">DE-07 · EXPRESS</text>
+  <text x="69" y="527" font-size="19" fill="#526576" font-family="&quot;Space Grotesk&quot;, Arial, Helvetica, sans-serif" font-weight="normal">Batería</text>
+  <text x="69" y="560" font-size="21" fill="#142D3A" font-family="&quot;Space Grotesk&quot;, Arial, Helvetica, sans-serif" font-weight="bold">70% · suficiente</text>
+  <text x="270" y="527" font-size="19" fill="#526576" font-family="&quot;Space Grotesk&quot;, Arial, Helvetica, sans-serif" font-weight="normal">Etapa actual</text>
+  <text x="270" y="560" font-size="21" fill="#142D3A" font-family="&quot;Space Grotesk&quot;, Arial, Helvetica, sans-serif" font-weight="bold">1 de 2</text>
+  <text x="69" y="647" font-size="21" fill="#142D3A" font-family="&quot;Space Grotesk&quot;, Arial, Helvetica, sans-serif" font-weight="normal">Progreso de misión</text>
+  <text x="389" y="647" font-size="21" fill="#142D3A" font-family="&quot;Space Grotesk&quot;, Arial, Helvetica, sans-serif" font-weight="bold">50%</text>
+  <rect x="69" y="669" width="382" height="14" rx="7" fill="#D3DEE7" />
+  <rect x="69" y="669" width="191.0" height="14" rx="7" fill="#00457C" />
+  <rect x="69" y="735" width="382" height="120" rx="10" fill="#FDEDEE" stroke="#E63946" stroke-width="2" />
+  <circle cx="93" cy="764" r="12" fill="none" stroke="#E63946" stroke-width="2" />
+  <text x="90" y="771" font-size="20" fill="#142D3A" font-family="Arial, Helvetica, sans-serif" font-weight="bold">!</text>
+  <text x="119" y="770" font-size="19" fill="#142D3A" font-family="&quot;Space Grotesk&quot;, Arial, Helvetica, sans-serif" font-weight="normal">Aviso: próxima recarga</text>
+  <text x="88" y="802" font-size="19" fill="#142D3A" font-family="&quot;Space Grotesk&quot;, Arial, Helvetica, sans-serif" font-weight="normal">en C-116. Estación disponible.</text>
+  <text x="535" y="157" font-size="28" fill="#7B0000" font-family="Arial, Helvetica, sans-serif" font-weight="bold">UNAL</text>
+  <rect x="535" y="185" width="430" height="710" rx="4" fill="#FFFFFF" stroke="#D3DEE7" stroke-width="2" />
+  <path d="M 539 188 H 961" stroke="#7B0000" stroke-width="6" />
+  <text x="559" y="241" font-size="27" fill="#142D3A" font-family="Consolas, Courier New, monospace" font-weight="bold">ME-015</text>
+  <rect x="765" y="210" width="175" height="42" rx="4" fill="#7B0000" />
+  <text x="780" y="238" font-size="19" fill="#FFFFFF" font-family="&quot;Merriweather&quot;, Arial, Helvetica, sans-serif" font-weight="bold">● EN_VUELO</text>
+  <text x="559" y="311" font-size="19" fill="#526576" font-family="&quot;Merriweather&quot;, Arial, Helvetica, sans-serif" font-weight="normal">Sede origen</text>
+  <text x="559" y="344" font-size="21" fill="#142D3A" font-family="&quot;Merriweather&quot;, Arial, Helvetica, sans-serif" font-weight="bold">ECI</text>
+  <text x="760" y="311" font-size="19" fill="#526576" font-family="&quot;Merriweather&quot;, Arial, Helvetica, sans-serif" font-weight="normal">Sede destino</text>
+  <text x="760" y="344" font-size="21" fill="#142D3A" font-family="&quot;Merriweather&quot;, Arial, Helvetica, sans-serif" font-weight="bold">UNAL</text>
+  <text x="559" y="419" font-size="19" fill="#526576" font-family="&quot;Merriweather&quot;, Arial, Helvetica, sans-serif" font-weight="normal">Prioridad</text>
+  <text x="559" y="452" font-size="21" fill="#142D3A" font-family="&quot;Merriweather&quot;, Arial, Helvetica, sans-serif" font-weight="bold">↑ URGENTE</text>
+  <text x="760" y="419" font-size="19" fill="#526576" font-family="&quot;Merriweather&quot;, Arial, Helvetica, sans-serif" font-weight="normal">Drone</text>
+  <text x="760" y="452" font-size="21" fill="#142D3A" font-family="&quot;Merriweather&quot;, Arial, Helvetica, sans-serif" font-weight="bold">DE-07 · EXPRESS</text>
+  <text x="559" y="527" font-size="19" fill="#526576" font-family="&quot;Merriweather&quot;, Arial, Helvetica, sans-serif" font-weight="normal">Batería</text>
+  <text x="559" y="560" font-size="21" fill="#142D3A" font-family="&quot;Merriweather&quot;, Arial, Helvetica, sans-serif" font-weight="bold">70% · suficiente</text>
+  <text x="760" y="527" font-size="19" fill="#526576" font-family="&quot;Merriweather&quot;, Arial, Helvetica, sans-serif" font-weight="normal">Etapa actual</text>
+  <text x="760" y="560" font-size="21" fill="#142D3A" font-family="&quot;Merriweather&quot;, Arial, Helvetica, sans-serif" font-weight="bold">1 de 2</text>
+  <text x="559" y="647" font-size="21" fill="#142D3A" font-family="&quot;Merriweather&quot;, Arial, Helvetica, sans-serif" font-weight="normal">Progreso de misión</text>
+  <text x="879" y="647" font-size="21" fill="#142D3A" font-family="&quot;Merriweather&quot;, Arial, Helvetica, sans-serif" font-weight="bold">50%</text>
+  <rect x="559" y="669" width="382" height="14" rx="7" fill="#D3DEE7" />
+  <rect x="559" y="669" width="191.0" height="14" rx="7" fill="#7B0000" />
+  <rect x="559" y="735" width="382" height="120" rx="4" fill="#FDEDEE" stroke="#E63946" stroke-width="2" />
+  <circle cx="583" cy="764" r="12" fill="none" stroke="#E63946" stroke-width="2" />
+  <text x="580" y="771" font-size="20" fill="#142D3A" font-family="Arial, Helvetica, sans-serif" font-weight="bold">!</text>
+  <text x="609" y="770" font-size="19" fill="#142D3A" font-family="&quot;Merriweather&quot;, Arial, Helvetica, sans-serif" font-weight="normal">Aviso: próxima recarga</text>
+  <text x="578" y="802" font-size="19" fill="#142D3A" font-family="&quot;Merriweather&quot;, Arial, Helvetica, sans-serif" font-weight="normal">en C-116. Estación disponible.</text>
+  <text x="1025" y="157" font-size="28" fill="#0057A8" font-family="Arial, Helvetica, sans-serif" font-weight="bold">UNIANDES</text>
+  <rect x="1025" y="185" width="430" height="710" rx="8" fill="#FFFFFF" stroke="#D3DEE7" stroke-width="2" />
+  <path d="M 1033 188 H 1447" stroke="#0057A8" stroke-width="6" />
+  <text x="1049" y="241" font-size="27" fill="#142D3A" font-family="Consolas, Courier New, monospace" font-weight="bold">ME-015</text>
+  <rect x="1255" y="210" width="175" height="42" rx="8" fill="#0057A8" />
+  <text x="1270" y="238" font-size="19" fill="#FFFFFF" font-family="&quot;Inter&quot;, Arial, Helvetica, sans-serif" font-weight="bold">● EN_VUELO</text>
+  <text x="1049" y="311" font-size="19" fill="#526576" font-family="&quot;Inter&quot;, Arial, Helvetica, sans-serif" font-weight="normal">Sede origen</text>
+  <text x="1049" y="344" font-size="21" fill="#142D3A" font-family="&quot;Inter&quot;, Arial, Helvetica, sans-serif" font-weight="bold">ECI</text>
+  <text x="1250" y="311" font-size="19" fill="#526576" font-family="&quot;Inter&quot;, Arial, Helvetica, sans-serif" font-weight="normal">Sede destino</text>
+  <text x="1250" y="344" font-size="21" fill="#142D3A" font-family="&quot;Inter&quot;, Arial, Helvetica, sans-serif" font-weight="bold">UNAL</text>
+  <text x="1049" y="419" font-size="19" fill="#526576" font-family="&quot;Inter&quot;, Arial, Helvetica, sans-serif" font-weight="normal">Prioridad</text>
+  <text x="1049" y="452" font-size="21" fill="#142D3A" font-family="&quot;Inter&quot;, Arial, Helvetica, sans-serif" font-weight="bold">↑ URGENTE</text>
+  <text x="1250" y="419" font-size="19" fill="#526576" font-family="&quot;Inter&quot;, Arial, Helvetica, sans-serif" font-weight="normal">Drone</text>
+  <text x="1250" y="452" font-size="21" fill="#142D3A" font-family="&quot;Inter&quot;, Arial, Helvetica, sans-serif" font-weight="bold">DE-07 · EXPRESS</text>
+  <text x="1049" y="527" font-size="19" fill="#526576" font-family="&quot;Inter&quot;, Arial, Helvetica, sans-serif" font-weight="normal">Batería</text>
+  <text x="1049" y="560" font-size="21" fill="#142D3A" font-family="&quot;Inter&quot;, Arial, Helvetica, sans-serif" font-weight="bold">70% · suficiente</text>
+  <text x="1250" y="527" font-size="19" fill="#526576" font-family="&quot;Inter&quot;, Arial, Helvetica, sans-serif" font-weight="normal">Etapa actual</text>
+  <text x="1250" y="560" font-size="21" fill="#142D3A" font-family="&quot;Inter&quot;, Arial, Helvetica, sans-serif" font-weight="bold">1 de 2</text>
+  <text x="1049" y="647" font-size="21" fill="#142D3A" font-family="&quot;Inter&quot;, Arial, Helvetica, sans-serif" font-weight="normal">Progreso de misión</text>
+  <text x="1369" y="647" font-size="21" fill="#142D3A" font-family="&quot;Inter&quot;, Arial, Helvetica, sans-serif" font-weight="bold">50%</text>
+  <rect x="1049" y="669" width="382" height="14" rx="7" fill="#D3DEE7" />
+  <rect x="1049" y="669" width="191.0" height="14" rx="7" fill="#0057A8" />
+  <rect x="1049" y="735" width="382" height="120" rx="8" fill="#FDEDEE" stroke="#E63946" stroke-width="2" />
+  <circle cx="1073" cy="764" r="12" fill="none" stroke="#E63946" stroke-width="2" />
+  <text x="1070" y="771" font-size="20" fill="#142D3A" font-family="Arial, Helvetica, sans-serif" font-weight="bold">!</text>
+  <text x="1099" y="770" font-size="19" fill="#142D3A" font-family="&quot;Inter&quot;, Arial, Helvetica, sans-serif" font-weight="normal">Aviso: próxima recarga</text>
+  <text x="1068" y="802" font-size="19" fill="#142D3A" font-family="&quot;Inter&quot;, Arial, Helvetica, sans-serif" font-weight="normal">en C-116. Estación disponible.</text>
+  <text x="45" y="958" font-size="21" fill="#526576" font-family="Arial, Helvetica, sans-serif" font-weight="normal">Identidades del material oficial · no se descargan fuentes · sin JavaScript</text>
+</svg>

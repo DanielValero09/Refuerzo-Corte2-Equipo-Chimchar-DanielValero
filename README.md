@@ -227,3 +227,19 @@ Estado: **PENDIENTE TÉCNICO — SONARQUBE**. [Objetivos oficiales y evidencia p
 ## Infernape Reto 4 - SOLID y Arquitectura por Capas
 
 [Dominio, aplicación, infraestructura y pruebas Mockito](docs/infernape/reto4-solid/README.md) · [Diagrama](docs/infernape/reto4-solid/arquitectura-3-capas.svg).
+
+## Infernape Reto 5 - C4 Enterprise
+
+[Contexto, contenedores y comparación de tres evoluciones](docs/infernape/reto5-c4/README.md) · [Nivel 1 SVG](docs/infernape/reto5-c4/contexto-enterprise.svg) · [Nivel 2 SVG](docs/infernape/reto5-c4/contenedores-enterprise.svg). Arquitectura objetivo; no acredita HTTP/JDBC/BD desplegados.
+
+## Infernape Reto 6 - Matriz de Trazabilidad
+
+[8 RF, 4 RNF, CU estables, HU reales y pruebas](docs/infernape/reto6-trazabilidad.md). Configuración, autorización local, transferencia lógica y resumen agregan 29 pruebas; las 157 previas se conservan.
+
+## Infernape Reto 7 - Plantilla DOSW SC-15
+
+[Planificar ruta multi-etapa inter-sede](docs/infernape/reto7-dosw-sc15.md): datos tipados, seis pasos, tres alternos y cinco reglas.
+
+## Infernape Reto 8 - Design Tokens y UX
+
+[Sistema de tokens y componentes](docs/infernape/reto8-ux/README.md) · [Demostración estática HTML](docs/infernape/reto8-ux/componentes-enterprise.html). Cuatro temas oficiales, con ejemplos ECI/UNAL/UNIANDES y estructuras reutilizables; no se inicia el prototipo de Reto 11.

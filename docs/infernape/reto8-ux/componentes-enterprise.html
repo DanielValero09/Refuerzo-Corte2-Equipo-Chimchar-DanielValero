@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SkyCampus Enterprise — componentes con design tokens</title>
+  <link rel="stylesheet" href="tokens.css">
+</head>
+<body>
+  <header class="cabecera">
+    <h1>Un sistema, identidades por sede</h1>
+    <p>Reto 8 · ejemplos estáticos. Misma misión y drone de demostración; solo cambian tema y tokens. Los datos no representan telemetría real.</p>
+    <nav aria-label="Temas de ejemplo"><a href="#titulo-eci">ECI</a><a href="#titulo-unal">UNAL</a><a href="#titulo-uniandes">UNIANDES</a><a href="design-tokens.md">Especificación de tokens</a></nav>
+  </header>
+  <main><div class="variantes"><section class="tema" data-theme="eci" aria-labelledby="titulo-eci">
+<h2 id="titulo-eci">ECI</h2>
+<article class="panel-mision" aria-label="Panel de misión activa ME-015">
+  <header class="encabezado-componente">
+    <h3>ME-015</h3>
+    <span class="etiqueta"><span aria-hidden="true">●</span> EN_VUELO</span>
+  </header>
+  <dl class="datos">
+    <div><dt>Sede origen</dt><dd>ECI</dd></div>
+    <div><dt>Sede destino</dt><dd>UNAL</dd></div>
+    <div><dt>Prioridad</dt><dd><span aria-hidden="true">↑</span> URGENTE</dd></div>
+    <div><dt>Drone</dt><dd class="id-tecnico">DE-07 · EXPRESS</dd></div>
+    <div><dt>Batería</dt><dd>70% · suficiente</dd></div>
+    <div><dt>Etapa actual</dt><dd>1 de 2</dd></div>
+  </dl>
+  <div class="indicador">
+    <p><span>Progreso de misión</span><strong>50%</strong></p>
+    <progress value="50" max="100" aria-label="Progreso de misión: 50%">50%</progress>
+  </div>
+  <p class="alerta"><span class="simbolo-alerta" aria-hidden="true">!</span><span>Aviso: próxima recarga en C-116. Estación disponible.</span></p>
+</article>
+<article class="tarjeta-drone" aria-label="Drone DE-07">
+  <header class="encabezado-componente">
+    <h3>DE-07</h3><span class="etiqueta">EXPRESS</span>
+  </header>
+  <dl class="datos">
+    <div><dt>Estado</dt><dd><span aria-hidden="true">●</span> EN_VUELO</dd></div>
+    <div><dt>Adscripción</dt><dd>ECI</dd></div>
+  </dl>
+  <div class="indicador">
+    <p><span>Batería</span><strong>70% · suficiente</strong></p>
+    <progress value="70" max="100" aria-label="Batería del drone: 70%">70%</progress>
+  </div>
+  <p class="nota">Asignado a ME-015 · etapa 1 de 2.</p>
+</article>
+</section>
+<section class="tema" data-theme="unal" aria-labelledby="titulo-unal">
+<h2 id="titulo-unal">UNAL</h2>
+<article class="panel-mision" aria-label="Panel de misión activa ME-015">
+  <header class="encabezado-componente">
+    <h3>ME-015</h3>
+    <span class="etiqueta"><span aria-hidden="true">●</span> EN_VUELO</span>
+  </header>
+  <dl class="datos">
+    <div><dt>Sede origen</dt><dd>ECI</dd></div>
+    <div><dt>Sede destino</dt><dd>UNAL</dd></div>
+    <div><dt>Prioridad</dt><dd><span aria-hidden="true">↑</span> URGENTE</dd></div>
+    <div><dt>Drone</dt><dd class="id-tecnico">DE-07 · EXPRESS</dd></div>
+    <div><dt>Batería</dt><dd>70% · suficiente</dd></div>
+    <div><dt>Etapa actual</dt><dd>1 de 2</dd></div>
+  </dl>
+  <div class="indicador">
+    <p><span>Progreso de misión</span><strong>50%</strong></p>
+    <progress value="50" max="100" aria-label="Progreso de misión: 50%">50%</progress>
+  </div>
+  <p class="alerta"><span class="simbolo-alerta" aria-hidden="true">!</span><span>Aviso: próxima recarga en C-116. Estación disponible.</span></p>
+</article>
+<article class="tarjeta-drone" aria-label="Drone DE-07">
+  <header class="encabezado-componente">
+    <h3>DE-07</h3><span class="etiqueta">EXPRESS</span>
+  </header>
+  <dl class="datos">
+    <div><dt>Estado</dt><dd><span aria-hidden="true">●</span> EN_VUELO</dd></div>
+    <div><dt>Adscripción</dt><dd>ECI</dd></div>
+  </dl>
+  <div class="indicador">
+    <p><span>Batería</span><strong>70% · suficiente</strong></p>
+    <progress value="70" max="100" aria-label="Batería del drone: 70%">70%</progress>
+  </div>
+  <p class="nota">Asignado a ME-015 · etapa 1 de 2.</p>
+</article>
+</section>
+<section class="tema" data-theme="uniandes" aria-labelledby="titulo-uniandes">
+<h2 id="titulo-uniandes">UNIANDES</h2>
+<article class="panel-mision" aria-label="Panel de misión activa ME-015">
+  <header class="encabezado-componente">
+    <h3>ME-015</h3>
+    <span class="etiqueta"><span aria-hidden="true">●</span> EN_VUELO</span>
+  </header>
+  <dl class="datos">
+    <div><dt>Sede origen</dt><dd>ECI</dd></div>
+    <div><dt>Sede destino</dt><dd>UNAL</dd></div>
+    <div><dt>Prioridad</dt><dd><span aria-hidden="true">↑</span> URGENTE</dd></div>
+    <div><dt>Drone</dt><dd class="id-tecnico">DE-07 · EXPRESS</dd></div>
+    <div><dt>Batería</dt><dd>70% · suficiente</dd></div>
+    <div><dt>Etapa actual</dt><dd>1 de 2</dd></div>
+  </dl>
+  <div class="indicador">
+    <p><span>Progreso de misión</span><strong>50%</strong></p>
+    <progress value="50" max="100" aria-label="Progreso de misión: 50%">50%</progress>
+  </div>
+  <p class="alerta"><span class="simbolo-alerta" aria-hidden="true">!</span><span>Aviso: próxima recarga en C-116. Estación disponible.</span></p>
+</article>
+<article class="tarjeta-drone" aria-label="Drone DE-07">
+  <header class="encabezado-componente">
+    <h3>DE-07</h3><span class="etiqueta">EXPRESS</span>
+  </header>
+  <dl class="datos">
+    <div><dt>Estado</dt><dd><span aria-hidden="true">●</span> EN_VUELO</dd></div>
+    <div><dt>Adscripción</dt><dd>ECI</dd></div>
+  </dl>
+  <div class="indicador">
+    <p><span>Batería</span><strong>70% · suficiente</strong></p>
+    <progress value="70" max="100" aria-label="Batería del drone: 70%">70%</progress>
+  </div>
+  <p class="nota">Asignado a ME-015 · etapa 1 de 2.</p>
+</article>
+</section></div></main>
+</body>
+</html>
