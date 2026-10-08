@@ -121,7 +121,7 @@ Análisis SonarQube pendiente por limitación del entorno. El contenedor existen
 
 ## Compilación y ejecución
 
-Se requiere un JDK 17 o superior y Maven. La compilación usa Java 17 y admite records. Los packages corresponden a las carpetas relativas a `src/main/java`: `model`, `reto1`, `reto3`, `reto4`, `reto12` y `monferno`, con sus subpackages. Esta rama ejecuta 85 pruebas: 34 Chimchar y 51 Monferno; conserva las nueve del Reto 12.
+Se requiere un JDK 17 o superior y Maven. La compilación usa Java 17 y admite records. Los packages corresponden a las carpetas relativas a `src/main/java`: `model`, `reto1`, `reto3`, `reto4`, `reto12` y `monferno`, con sus subpackages. Esta rama ejecuta 90 pruebas: 34 Chimchar y 56 Monferno; conserva las nueve del Reto 12.
 
 ```bash
 mvn clean test
@@ -159,3 +159,19 @@ Monferno extiende el proyecto con packages propios, 20 drones, tres tipos, peso,
 ## Monferno Reto 4 - SOLID
 
 [Comparación del rediseño y pruebas de intercambiabilidad](docs/monferno/reto4-solid.md).
+
+## Monferno Reto 5 - Contexto C4
+
+[Contexto v2, flujos y comparación con Chimchar](docs/monferno/reto5-c4/README.md) · [Diagrama SVG](docs/monferno/reto5-c4/contexto-monferno.svg).
+
+## Monferno Reto 6 - RF/RNF
+
+[Cuatro RF, cuatro RNF medibles, MoSCoW y prioridad RF-07/RF-08](docs/monferno/reto6-requerimientos.md).
+
+## Monferno Reto 7 - Plantilla DOSW
+
+[SC-07 — Asignar automáticamente drone a misión](docs/monferno/reto7-dosw.md).
+
+## Monferno Reto 8 - Identidad y UX
+
+[Componentes v2 y leyes UX](docs/monferno/reto8-ux/README.md) · [Flujo de tres pantallas](docs/monferno/reto8-ux/flujo-asignacion.svg).

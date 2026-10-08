@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="850" viewBox="0 0 1440 850" role="img" aria-labelledby="title desc">
+<title id="title">SkyCampus v2 — Tarjeta de drone</title>
+<desc id="desc">Cinco variantes: Disponible, En vuelo, En carga, Fallo y Mantenimiento. Cada una muestra ID, tipo, bateria y sector ilustrativo.</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M1,1 L9,5 L1,9 Z" fill="#0B4F6C"/></marker></defs>
+<rect x="0" y="0" width="1440" height="850" rx="0" fill="#F4F7FA"/>
+<text x="40" y="54" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#0B4F6C" font-weight="700" text-anchor="start">
+<tspan x="40" dy="0">SkyCampus v2 — Tarjeta de drone</tspan>
+</text>
+<text x="40" y="87" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#526576" font-weight="400" text-anchor="start">
+<tspan x="40" dy="0">Cinco variantes del mismo componente · Estado textual + símbolo · Sectores de ejemplo</tspan>
+</text>
+<rect x="40" y="125" width="440" height="295" rx="14" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="64" y="168" font-family="Consolas, Courier New, monospace" font-size="27" fill="#0B4F6C" font-weight="700" text-anchor="start">
+<tspan x="64" dy="0">D-01</tspan>
+</text>
+<text x="456" y="167" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#526576" font-weight="700" text-anchor="end">
+<tspan x="456" dy="0">MINI</tspan>
+</text>
+<rect x="64" y="191" width="392" height="42" rx="8" fill="#DCFCE7"/>
+<text x="80" y="219" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#166534" font-weight="700" text-anchor="start">
+<tspan x="80" dy="0">✓  DISPONIBLE</tspan>
+</text>
+<text x="64" y="275" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#142D3A" font-weight="700" text-anchor="start">
+<tspan x="64" dy="0">Batería  85%</tspan>
+</text>
+<rect x="64" y="292" width="392" height="12" rx="6" fill="#E2E8F0"/>
+<rect x="64" y="292" width="333.2" height="12" rx="6" fill="#166534"/>
+<text x="64" y="341" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#526576" font-weight="400" text-anchor="start">
+<tspan x="64" dy="0">Sector: Bloque A</tspan>
+</text>
+<text x="64" y="385" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#166534" font-weight="700" text-anchor="start">
+<tspan x="64" dy="0">Apto si carga y clima permiten</tspan>
+</text>
+<rect x="500" y="125" width="440" height="295" rx="14" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="524" y="168" font-family="Consolas, Courier New, monospace" font-size="27" fill="#0B4F6C" font-weight="700" text-anchor="start">
+<tspan x="524" dy="0">D-02</tspan>
+</text>
+<text x="916" y="167" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#526576" font-weight="700" text-anchor="end">
+<tspan x="916" dy="0">EXPRESS</tspan>
+</text>
+<rect x="524" y="191" width="392" height="42" rx="8" fill="#DBEAFE"/>
+<text x="540" y="219" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#1E40AF" font-weight="700" text-anchor="start">
+<tspan x="540" dy="0">↑  EN_VUELO</tspan>
+</text>
+<text x="524" y="275" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#142D3A" font-weight="700" text-anchor="start">
+<tspan x="524" dy="0">Batería  42%</tspan>
+</text>
+<rect x="524" y="292" width="392" height="12" rx="6" fill="#E2E8F0"/>
+<rect x="524" y="292" width="164.64" height="12" rx="6" fill="#854D0E"/>
+<text x="524" y="341" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#526576" font-weight="400" text-anchor="start">
+<tspan x="524" dy="0">Sector: Biblioteca</tspan>
+</text>
+<text x="524" y="385" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#1E40AF" font-weight="700" text-anchor="start">
+<tspan x="524" dy="0">En misión · no asignable</tspan>
+</text>
+<rect x="960" y="125" width="440" height="295" rx="14" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="984" y="168" font-family="Consolas, Courier New, monospace" font-size="27" fill="#0B4F6C" font-weight="700" text-anchor="start">
+<tspan x="984" dy="0">D-03</tspan>
+</text>
+<text x="1376" y="167" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#526576" font-weight="700" text-anchor="end">
+<tspan x="1376" dy="0">CARGO</tspan>
+</text>
+<rect x="984" y="191" width="392" height="42" rx="8" fill="#FEF3C7"/>
+<text x="1000" y="219" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#854D0E" font-weight="700" text-anchor="start">
+<tspan x="1000" dy="0">+  EN_CARGA</tspan>
+</text>
+<text x="984" y="275" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#142D3A" font-weight="700" text-anchor="start">
+<tspan x="984" dy="0">Batería  67%</tspan>
+</text>
+<rect x="984" y="292" width="392" height="12" rx="6" fill="#E2E8F0"/>
+<rect x="984" y="292" width="262.64" height="12" rx="6" fill="#166534"/>
+<text x="984" y="341" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#526576" font-weight="400" text-anchor="start">
+<tspan x="984" dy="0">Sector: Bloque C</tspan>
+</text>
+<text x="984" y="385" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#854D0E" font-weight="700" text-anchor="start">
+<tspan x="984" dy="0">Carga en curso · no asignable</tspan>
+</text>
+<rect x="40" y="450" width="440" height="295" rx="14" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="64" y="493" font-family="Consolas, Courier New, monospace" font-size="27" fill="#0B4F6C" font-weight="700" text-anchor="start">
+<tspan x="64" dy="0">D-04</tspan>
+</text>
+<text x="456" y="492" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#526576" font-weight="700" text-anchor="end">
+<tspan x="456" dy="0">MINI</tspan>
+</text>
+<rect x="64" y="516" width="392" height="42" rx="8" fill="#FEE2E2"/>
+<text x="80" y="544" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#991B1B" font-weight="700" text-anchor="start">
+<tspan x="80" dy="0">!  FALLO</tspan>
+</text>
+<text x="64" y="600" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#142D3A" font-weight="700" text-anchor="start">
+<tspan x="64" dy="0">Batería  18%</tspan>
+</text>
+<rect x="64" y="617" width="392" height="12" rx="6" fill="#E2E8F0"/>
+<rect x="64" y="617" width="70.56" height="12" rx="6" fill="#991B1B"/>
+<text x="64" y="666" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#526576" font-weight="400" text-anchor="start">
+<tspan x="64" dy="0">Sector: Bloque B</tspan>
+</text>
+<text x="64" y="710" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#991B1B" font-weight="700" text-anchor="start">
+<tspan x="64" dy="0">Fallo registrado · requiere técnico</tspan>
+</text>
+<rect x="500" y="450" width="440" height="295" rx="14" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="524" y="493" font-family="Consolas, Courier New, monospace" font-size="27" fill="#0B4F6C" font-weight="700" text-anchor="start">
+<tspan x="524" dy="0">D-05</tspan>
+</text>
+<text x="916" y="492" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#526576" font-weight="700" text-anchor="end">
+<tspan x="916" dy="0">EXPRESS</tspan>
+</text>
+<rect x="524" y="516" width="392" height="42" rx="8" fill="#E2E8F0"/>
+<text x="540" y="544" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#475569" font-weight="700" text-anchor="start">
+<tspan x="540" dy="0">×  MANTENIMIENTO</tspan>
+</text>
+<text x="524" y="600" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#142D3A" font-weight="700" text-anchor="start">
+<tspan x="524" dy="0">Batería  55%</tspan>
+</text>
+<rect x="524" y="617" width="392" height="12" rx="6" fill="#E2E8F0"/>
+<rect x="524" y="617" width="215.6" height="12" rx="6" fill="#854D0E"/>
+<text x="524" y="666" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#526576" font-weight="400" text-anchor="start">
+<tspan x="524" dy="0">Sector: Bloque D</tspan>
+</text>
+<text x="524" y="710" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#475569" font-weight="700" text-anchor="start">
+<tspan x="524" dy="0">Atención técnica · no asignable</tspan>
+</text>
+<text x="40" y="795" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#526576" font-weight="400" text-anchor="start">
+<tspan x="40" dy="0">FALLO: D-04 tiene batería crítica (18%); asignación bloqueada. ATERRIZANDO permanece en el modelo operativo.</tspan>
+</text>
+</svg>

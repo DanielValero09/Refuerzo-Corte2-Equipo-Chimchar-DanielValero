@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="570" viewBox="0 0 1200 570" role="img" aria-labelledby="title desc">
+<title id="title">SkyCampus v2 — Indicador de batería</title>
+<desc id="desc">Tres rangos con porcentaje y mensaje: mayor o igual a 60 normal, 30 a 59 advertencia y menor a 30 critico no asignable.</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M1,1 L9,5 L1,9 Z" fill="#0B4F6C"/></marker></defs>
+<rect x="0" y="0" width="1200" height="570" rx="0" fill="#F4F7FA"/>
+<text x="40" y="54" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#0B4F6C" font-weight="700" text-anchor="start">
+<tspan x="40" dy="0">SkyCampus v2 — Indicador de batería</tspan>
+</text>
+<text x="40" y="87" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#526576" font-weight="400" text-anchor="start">
+<tspan x="40" dy="0">El porcentaje y el mensaje acompañan al color · Mínimo para asignar: 30%</tspan>
+</text>
+<rect x="40" y="135" width="365" height="320" rx="14" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="64" y="180" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#526576" font-weight="700" text-anchor="start">
+<tspan x="64" dy="0">&gt;=60%</tspan>
+</text>
+<text x="64" y="253" font-family="Arial, Helvetica, sans-serif" font-size="52" fill="#166534" font-weight="700" text-anchor="start">
+<tspan x="64" dy="0">85%</tspan>
+</text>
+<rect x="64" y="283" width="302" height="30" rx="5" fill="#DCFCE7" stroke="#166534" stroke-width="1.5"/>
+<rect x="69" y="288" width="248.2" height="20" rx="2" fill="#166534"/>
+<rect x="369" y="293" width="8" height="10" rx="1" fill="#166534"/>
+<text x="64" y="359" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#166534" font-weight="700" text-anchor="start">
+<tspan x="64" dy="0">✓ Nivel normal</tspan>
+</text>
+<text x="64" y="401" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#526576" font-weight="400" text-anchor="start">
+<tspan x="64" dy="0">Condición de batería</tspan>
+<tspan x="64" dy="23">suficiente</tspan>
+</text>
+<rect x="425" y="135" width="365" height="320" rx="14" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="449" y="180" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#526576" font-weight="700" text-anchor="start">
+<tspan x="449" dy="0">30–59%</tspan>
+</text>
+<text x="449" y="253" font-family="Arial, Helvetica, sans-serif" font-size="52" fill="#854D0E" font-weight="700" text-anchor="start">
+<tspan x="449" dy="0">42%</tspan>
+</text>
+<rect x="449" y="283" width="302" height="30" rx="5" fill="#FEF3C7" stroke="#854D0E" stroke-width="1.5"/>
+<rect x="454" y="288" width="122.64" height="20" rx="2" fill="#854D0E"/>
+<rect x="754" y="293" width="8" height="10" rx="1" fill="#854D0E"/>
+<text x="449" y="359" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#854D0E" font-weight="700" text-anchor="start">
+<tspan x="449" dy="0">! Revisar autonomía</tspan>
+</text>
+<text x="449" y="401" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#526576" font-weight="400" text-anchor="start">
+<tspan x="449" dy="0">Cumple el mínimo de batería</tspan>
+</text>
+<rect x="810" y="135" width="365" height="320" rx="14" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="834" y="180" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#526576" font-weight="700" text-anchor="start">
+<tspan x="834" dy="0">&lt;30%</tspan>
+</text>
+<text x="834" y="253" font-family="Arial, Helvetica, sans-serif" font-size="52" fill="#991B1B" font-weight="700" text-anchor="start">
+<tspan x="834" dy="0">18%</tspan>
+</text>
+<rect x="834" y="283" width="302" height="30" rx="5" fill="#FEE2E2" stroke="#991B1B" stroke-width="1.5"/>
+<rect x="839" y="288" width="52.56" height="20" rx="2" fill="#991B1B"/>
+<rect x="1139" y="293" width="8" height="10" rx="1" fill="#991B1B"/>
+<text x="834" y="359" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#991B1B" font-weight="700" text-anchor="start">
+<tspan x="834" dy="0">! No asignable</tspan>
+</text>
+<text x="834" y="401" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#526576" font-weight="400" text-anchor="start">
+<tspan x="834" dy="0">Batería crítica: asignación</tspan>
+<tspan x="834" dy="23">bloqueada</tspan>
+</text>
+<text x="40" y="517" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#526576" font-weight="400" text-anchor="start">
+<tspan x="40" dy="0">Batería suficiente no significa asignación garantizada:</tspan>
+<tspan x="40" dy="22.950000000000003">también se comprueban estado, disponibilidad, carga compatible y clima apto.</tspan>
+</text>
+</svg>

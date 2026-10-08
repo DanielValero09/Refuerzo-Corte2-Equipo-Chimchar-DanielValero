@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="830" viewBox="0 0 1200 830" role="img" aria-labelledby="title desc">
+<title id="title">SkyCampus v2 — Botón Asignar misión</title>
+<desc id="desc">Default, Hover, Procesando con indicador estatico, Exito y Deshabilitado con causa.</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M1,1 L9,5 L1,9 Z" fill="#0B4F6C"/></marker></defs>
+<rect x="0" y="0" width="1200" height="830" rx="0" fill="#F4F7FA"/>
+<text x="40" y="54" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#0B4F6C" font-weight="700" text-anchor="start">
+<tspan x="40" dy="0">SkyCampus v2 — Botón «Asignar misión»</tspan>
+</text>
+<text x="40" y="87" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#526576" font-weight="400" text-anchor="start">
+<tspan x="40" dy="0">Cinco estados · Representación estática · La acción se mantiene en el mismo lugar</tspan>
+</text>
+<rect x="40" y="125" width="550" height="190" rx="14" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="64" y="161" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#142D3A" font-weight="700" text-anchor="start">
+<tspan x="64" dy="0">Default</tspan>
+</text>
+<rect x="64" y="186" width="502" height="54" rx="9" fill="#0B4F6C"/>
+<text x="315.0" y="220" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#FFFFFF" font-weight="700" text-anchor="middle">
+<tspan x="315.0" dy="0">Asignar misión</tspan>
+</text>
+<text x="64" y="277" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#526576" font-weight="400" text-anchor="start">
+<tspan x="64" dy="0">Disponible para iniciar la asignación</tspan>
+</text>
+<rect x="610" y="125" width="550" height="190" rx="14" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="634" y="161" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#142D3A" font-weight="700" text-anchor="start">
+<tspan x="634" dy="0">Hover</tspan>
+</text>
+<rect x="629" y="181" width="512" height="64" rx="11" fill="none" stroke="#0F766E" stroke-width="1.5"/>
+<rect x="634" y="186" width="502" height="54" rx="9" fill="#073D54"/>
+<text x="885.0" y="220" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#FFFFFF" font-weight="700" text-anchor="middle">
+<tspan x="885.0" dy="0">Asignar misión</tspan>
+</text>
+<text x="634" y="277" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#526576" font-weight="400" text-anchor="start">
+<tspan x="634" dy="0">Contorno visible al apuntar al control</tspan>
+</text>
+<rect x="40" y="340" width="550" height="190" rx="14" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="64" y="376" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#142D3A" font-weight="700" text-anchor="start">
+<tspan x="64" dy="0">Procesando</tspan>
+</text>
+<rect x="64" y="401" width="502" height="54" rx="9" fill="#0B4F6C"/>
+<text x="315.0" y="435" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#FFFFFF" font-weight="700" text-anchor="middle">
+<tspan x="315.0" dy="0">Asignando…</tspan>
+</text>
+<circle cx="152" cy="428" r="13" fill="none" stroke="#99CAD9" stroke-width="2"/>
+<path d="M152,415 A13,13 0 0 1 165,428" stroke="white" stroke-width="3" fill="none"/>
+<text x="64" y="492" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#526576" font-weight="400" text-anchor="start">
+<tspan x="64" dy="0">Evitar envíos duplicados mientras se valida</tspan>
+</text>
+<rect x="610" y="340" width="550" height="190" rx="14" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="634" y="376" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#142D3A" font-weight="700" text-anchor="start">
+<tspan x="634" dy="0">Éxito</tspan>
+</text>
+<rect x="634" y="401" width="502" height="54" rx="9" fill="#166534"/>
+<text x="885.0" y="435" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#FFFFFF" font-weight="700" text-anchor="middle">
+<tspan x="885.0" dy="0">✓ Misión asignada</tspan>
+</text>
+<text x="634" y="492" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#526576" font-weight="400" text-anchor="start">
+<tspan x="634" dy="0">Confirmación textual del resultado</tspan>
+</text>
+<rect x="40" y="555" width="550" height="190" rx="14" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="64" y="591" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#142D3A" font-weight="700" text-anchor="start">
+<tspan x="64" dy="0">Deshabilitado</tspan>
+</text>
+<rect x="64" y="616" width="502" height="54" rx="9" fill="#E2E8F0"/>
+<text x="315.0" y="650" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#475569" font-weight="700" text-anchor="middle">
+<tspan x="315.0" dy="0">Asignar misión — bloqueado</tspan>
+</text>
+<text x="64" y="707" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#526576" font-weight="400" text-anchor="start">
+<tspan x="64" dy="0">Sin candidato apto o condiciones no verificadas</tspan>
+</text>
+<text x="40" y="797" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#526576" font-weight="400" text-anchor="start">
+<tspan x="40" dy="0">Prototipo sin JavaScript · Procesando muestra un spinner vectorial estático, sin animación.</tspan>
+</text>
+</svg>
