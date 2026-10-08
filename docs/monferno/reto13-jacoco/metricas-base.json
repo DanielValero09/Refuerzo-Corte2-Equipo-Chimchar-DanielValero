@@ -1,0 +1,380 @@
+{
+  "measured_at": "2026-10-08T11:57:14.246557-05:00",
+  "command": "mvn clean test jacoco:report",
+  "global": {
+    "LINE": {
+      "covered": 369,
+      "missed": 4,
+      "total": 373,
+      "percent": 98.9276
+    },
+    "BRANCH": {
+      "covered": 99,
+      "missed": 7,
+      "total": 106,
+      "percent": 93.3962
+    }
+  },
+  "monferno": {
+    "LINE": {
+      "covered": 190,
+      "missed": 0,
+      "total": 190,
+      "percent": 100.0
+    },
+    "BRANCH": {
+      "covered": 68,
+      "missed": 6,
+      "total": 74,
+      "percent": 91.8919
+    }
+  },
+  "packages": {
+    "monferno/model": {
+      "LINE": {
+        "covered": 55,
+        "missed": 0,
+        "total": 55,
+        "percent": 100.0
+      },
+      "BRANCH": {
+        "covered": 21,
+        "missed": 5,
+        "total": 26,
+        "percent": 80.7692
+      }
+    },
+    "monferno/reto12": {
+      "LINE": {
+        "covered": 25,
+        "missed": 0,
+        "total": 25,
+        "percent": 100.0
+      },
+      "BRANCH": {
+        "covered": 12,
+        "missed": 0,
+        "total": 12,
+        "percent": 100.0
+      }
+    },
+    "reto12": {
+      "LINE": {
+        "covered": 9,
+        "missed": 0,
+        "total": 9,
+        "percent": 100.0
+      },
+      "BRANCH": {
+        "covered": 5,
+        "missed": 1,
+        "total": 6,
+        "percent": 83.3333
+      }
+    },
+    "reto3/strategy": {
+      "LINE": {
+        "covered": 11,
+        "missed": 0,
+        "total": 11,
+        "percent": 100.0
+      },
+      "BRANCH": {
+        "covered": 2,
+        "missed": 0,
+        "total": 2,
+        "percent": 100.0
+      }
+    },
+    "reto4/alert": {
+      "LINE": {
+        "covered": 3,
+        "missed": 0,
+        "total": 3,
+        "percent": 100.0
+      },
+      "BRANCH": {
+        "covered": 0,
+        "missed": 0,
+        "total": 0,
+        "percent": null
+      }
+    },
+    "monferno/reto3/strategy": {
+      "LINE": {
+        "covered": 21,
+        "missed": 0,
+        "total": 21,
+        "percent": 100.0
+      },
+      "BRANCH": {
+        "covered": 0,
+        "missed": 0,
+        "total": 0,
+        "percent": null
+      }
+    },
+    "reto4/route": {
+      "LINE": {
+        "covered": 4,
+        "missed": 0,
+        "total": 4,
+        "percent": 100.0
+      },
+      "BRANCH": {
+        "covered": 0,
+        "missed": 0,
+        "total": 0,
+        "percent": null
+      }
+    },
+    "reto4/report": {
+      "LINE": {
+        "covered": 5,
+        "missed": 0,
+        "total": 5,
+        "percent": 100.0
+      },
+      "BRANCH": {
+        "covered": 0,
+        "missed": 0,
+        "total": 0,
+        "percent": null
+      }
+    },
+    "monferno/reto3/validation": {
+      "LINE": {
+        "covered": 14,
+        "missed": 0,
+        "total": 14,
+        "percent": 100.0
+      },
+      "BRANCH": {
+        "covered": 12,
+        "missed": 0,
+        "total": 12,
+        "percent": 100.0
+      }
+    },
+    "reto4": {
+      "LINE": {
+        "covered": 26,
+        "missed": 1,
+        "total": 27,
+        "percent": 96.2963
+      },
+      "BRANCH": {
+        "covered": 0,
+        "missed": 0,
+        "total": 0,
+        "percent": null
+      }
+    },
+    "reto3": {
+      "LINE": {
+        "covered": 32,
+        "missed": 2,
+        "total": 34,
+        "percent": 94.1176
+      },
+      "BRANCH": {
+        "covered": 0,
+        "missed": 0,
+        "total": 0,
+        "percent": null
+      }
+    },
+    "reto3/builder": {
+      "LINE": {
+        "covered": 23,
+        "missed": 0,
+        "total": 23,
+        "percent": 100.0
+      },
+      "BRANCH": {
+        "covered": 6,
+        "missed": 0,
+        "total": 6,
+        "percent": 100.0
+      }
+    },
+    "reto1": {
+      "LINE": {
+        "covered": 22,
+        "missed": 1,
+        "total": 23,
+        "percent": 95.6522
+      },
+      "BRANCH": {
+        "covered": 8,
+        "missed": 0,
+        "total": 8,
+        "percent": 100.0
+      }
+    },
+    "monferno/reto1": {
+      "LINE": {
+        "covered": 24,
+        "missed": 0,
+        "total": 24,
+        "percent": 100.0
+      },
+      "BRANCH": {
+        "covered": 15,
+        "missed": 1,
+        "total": 16,
+        "percent": 93.75
+      }
+    },
+    "monferno/reto2": {
+      "LINE": {
+        "covered": 7,
+        "missed": 0,
+        "total": 7,
+        "percent": 100.0
+      },
+      "BRANCH": {
+        "covered": 0,
+        "missed": 0,
+        "total": 0,
+        "percent": null
+      }
+    },
+    "model": {
+      "LINE": {
+        "covered": 13,
+        "missed": 0,
+        "total": 13,
+        "percent": 100.0
+      },
+      "BRANCH": {
+        "covered": 0,
+        "missed": 0,
+        "total": 0,
+        "percent": null
+      }
+    },
+    "monferno/reto3": {
+      "LINE": {
+        "covered": 28,
+        "missed": 0,
+        "total": 28,
+        "percent": 100.0
+      },
+      "BRANCH": {
+        "covered": 6,
+        "missed": 0,
+        "total": 6,
+        "percent": 100.0
+      }
+    },
+    "reto3/chain": {
+      "LINE": {
+        "covered": 23,
+        "missed": 0,
+        "total": 23,
+        "percent": 100.0
+      },
+      "BRANCH": {
+        "covered": 10,
+        "missed": 0,
+        "total": 10,
+        "percent": 100.0
+      }
+    },
+    "monferno/reto3/observer": {
+      "LINE": {
+        "covered": 16,
+        "missed": 0,
+        "total": 16,
+        "percent": 100.0
+      },
+      "BRANCH": {
+        "covered": 2,
+        "missed": 0,
+        "total": 2,
+        "percent": 100.0
+      }
+    },
+    "reto4/repository": {
+      "LINE": {
+        "covered": 8,
+        "missed": 0,
+        "total": 8,
+        "percent": 100.0
+      },
+      "BRANCH": {
+        "covered": 0,
+        "missed": 0,
+        "total": 0,
+        "percent": null
+      }
+    }
+  },
+  "tests": {
+    "tests": 104,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "monferno": 70,
+    "chimchar": 34
+  },
+  "classes": {
+    "monferno/reto12/AsignadorMision": {
+      "LINE": {
+        "covered": 18,
+        "missed": 0,
+        "total": 18,
+        "percent": 100.0
+      },
+      "BRANCH": {
+        "covered": 12,
+        "missed": 0,
+        "total": 12,
+        "percent": 100.0
+      }
+    },
+    "monferno/reto12/EstrategiaUrgenteExpress": {
+      "LINE": {
+        "covered": 7,
+        "missed": 0,
+        "total": 7,
+        "percent": 100.0
+      },
+      "BRANCH": {
+        "covered": 0,
+        "missed": 0,
+        "total": 0,
+        "percent": null
+      }
+    },
+    "monferno/reto3/GestorMisiones": {
+      "LINE": {
+        "covered": 6,
+        "missed": 0,
+        "total": 6,
+        "percent": 100.0
+      },
+      "BRANCH": {
+        "covered": 0,
+        "missed": 0,
+        "total": 0,
+        "percent": null
+      }
+    },
+    "monferno/reto3/GestorFlota": {
+      "LINE": {
+        "covered": 22,
+        "missed": 0,
+        "total": 22,
+        "percent": 100.0
+      },
+      "BRANCH": {
+        "covered": 6,
+        "missed": 0,
+        "total": 6,
+        "percent": 100.0
+      }
+    }
+  }
+}

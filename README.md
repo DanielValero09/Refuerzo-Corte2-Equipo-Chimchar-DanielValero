@@ -193,3 +193,17 @@ Monferno extiende el proyecto con packages propios, 20 drones, tres tipos, peso,
 ## Monferno Reto 12 - TDD y Mockito
 
 [Red → Green → Refactor y commits reales](docs/monferno/reto12-tdd.md). Cinco escenarios iniciales con JUnit 5, AAA y Mockito; nueve pruebas adicionales de límites e intercambiabilidad. ApiMeteorologica es una abstracción local simulada: no realiza llamadas de red. NORMAL/BAJO usan mayor batería; URGENTE prefiere EXPRESS compatible.
+
+## Monferno Reto 13 - JaCoCo
+
+[Métricas reales, configuración y captura del reporte](docs/monferno/reto13-jacoco/README.md). Global: LINE **98,93%**, BRANCH **93,40%**; Monferno: LINE **100%**, BRANCH **91,89%**. `mvn clean verify` ejecuta 104 pruebas y aprueba el Quality Gate local: LINE >=80%, BRANCH >=70%, sin exclusiones.
+
+Estado: **PARCIAL — JACOCO COMPLETO / SONAR PENDIENTE**. JaCoCo completo; el análisis Sonar exigido también por este reto no se ejecutó por decisión del usuario.
+
+## Monferno Reto 14 - SonarQube
+
+Estado: **PENDIENTE TÉCNICO — SONARQUBE**. [Objetivos oficiales y evidencia pendiente](docs/monferno/reto14-sonarqube/README.md). No se intentó SonarQube en este bloque; no se presentan métricas ni capturas Sonar.
+
+## Estado de entrega Monferno
+
+[Auditoría de los Retos 1–14](docs/monferno/entrega-final.md). Retos 1–12 completados, con captura Jira pendiente; Reto 13 parcial y Reto 14 pendiente. No se declara cierre 14/14 ni se crea tag v2.0.0.

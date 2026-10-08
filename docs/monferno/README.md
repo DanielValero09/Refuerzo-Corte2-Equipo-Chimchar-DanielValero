@@ -2,7 +2,7 @@
 
 ## Contexto
 
-SkyCampus v2 contempla 20 drones, selección automática según carga y política intercambiable, peso del paquete, prioridad y notificaciones de cambio de estado. Agrega al Técnico de mantenimiento para los fallos. Fuente principal: `DOSW_Equipo_Chimchar_fixed.html`, contexto y apartados 01–12 de Monferno.
+SkyCampus v2 contempla 20 drones, selección automática según carga y política intercambiable, peso del paquete, prioridad y notificaciones de cambio de estado. Agrega al Técnico de mantenimiento para los fallos. Fuente principal: `DOSW_Equipo_Chimchar_fixed.html`, contexto y apartados 01–14 de Monferno.
 
 | Tipo | Capacidad máxima | Característica oficial |
 | --- | --- | --- |
@@ -40,6 +40,11 @@ La capacidad deriva de `TipoDrone` y no se duplica como un dato arbitrario de ca
 - [Reto 10 - Casos de uso y herencia](reto10-casos-uso/README.md)
 - [Reto 11 - Mocks con IA y Nielsen](reto11-mocks/README.md)
 - [Reto 12 - TDD y Mockito](reto12-tdd.md)
+- [Reto 13 - JaCoCo completo / Sonar pendiente](reto13-jacoco/README.md)
+- [Reto 14 - SonarQube pendiente técnico](reto14-sonarqube/README.md)
+- [Auditoría final de entrega Monferno](entrega-final.md)
+
+Estado actual: **Retos 1–12 completados**; Jira configurado realmente, con captura visual pendiente. **Reto 13 parcial — JaCoCo completo / Sonar pendiente. Reto 14 pendiente técnico — SonarQube.** No se afirma cumplimiento del DoD final ni cierre 14/14. Los apartados siguientes conservan evidencias históricas de cada bloque.
 
 ## Validación histórica del bloque 1/4
 
@@ -103,7 +108,7 @@ Los casos de uso muestran cuatro actores humanos, generalización Técnico → O
 
 TDD conserva cuatro commits consecutivos: configuración de Mockito 5.15.2, cinco pruebas antes de producción (Red real por clases ausentes), implementación Green y Refactor con inyección de políticas y transición de vuelo separada. NORMAL/BAJO aplican mayor batería; URGENTE prefiere EXPRESS compatible, con fallback MINI y CARGO. La política de urgencia se añadió en el Reto 12; el Reto 3 conserva sus tres estrategias base.
 
-Total actual: **104 pruebas = 34 Chimchar + 70 Monferno**. Se preservan las 90 pruebas anteriores, las nueve de ValidadorMisionTest y los cinco escenarios iniciales de AsignadorMisionTest; otras nueve pruebas verifican límites y delegación. Todos los nuevos casos usan AAA y verifican resultados e interacciones Mockito relevantes.
+Total al cierre del bloque 3/4: **104 pruebas = 34 Chimchar + 70 Monferno**. Se preservan las 90 pruebas anteriores, las nueve de ValidadorMisionTest y los cinco escenarios iniciales de AsignadorMisionTest; otras nueve pruebas verifican límites y delegación. Todos los nuevos casos usan AAA y verifican resultados e interacciones Mockito relevantes.
 
 ApiMeteorologica es únicamente un puerto local simulado mediante Mockito. No se implementaron HTTP, tiempo de espera de red, autorización real de ruta ni registro de reparación. La asignación devuelve un nuevo Drone EN_VUELO/no disponible y notifica una vez; no muta la flota recibida. Los tiempos de ruta/ETA de los mocks son ilustrativos.
 
@@ -119,3 +124,22 @@ Validación final real de `mvn clean test`, terminada el 2026-10-08 a las 00:41:
 ```
 
 La auditoría confirmó 70 archivos Java previos intactos, nueve heads protegidos sin cambios y la secuencia real setup → Red → Green → Refactor. Se validaron XML de un Draw.io y siete SVG; los siete SVG se renderizaron con Chrome headless y se revisaron visualmente, con contenido legible y sin recortes. Se comprobaron 85 enlaces relativos sin enlaces rotos, correspondencia package/ruta y ausencia de target/out/.idea versionados. `git diff --check` pasó; solo hubo avisos habituales LF/CRLF en Windows. Las capturas de revisión permanecen temporales y no sustituyen la captura real pendiente de Jira.
+
+## Bloque 4/4 — JaCoCo y cierre honesto
+
+Se conservó JaCoCo 0.8.11 y se añadió check en verify: BUNDLE LINE COVEREDRATIO >=0.80 y BRANCH COVEREDRATIO >=0.70. No se añadieron pruebas porque la cobertura base ya superaba el objetivo deseado de 85% LINE. No se modificaron fuentes ni pruebas Java; permanecen las 104 pruebas, con 34 Chimchar y 70 Monferno.
+
+La medición inicial `mvn clean test jacoco:report` y final `mvn clean verify` coinciden: global LINE 369/373 = **98,93%**, BRANCH 99/106 = **93,40%**; Monferno LINE 190/190 = **100%**, BRANCH 68/74 = **91,89%**. Los porcentajes se extrajeron por programa de los contadores XML; no son instruction coverage ni promedios entre paquetes. Se conserva una [captura real del reporte HTML](reto13-jacoco/reporte-jacoco-monferno.png).
+
+Validación final del código/configuración, 2026-10-08T11:58:15-05:00:
+
+```text
+[INFO] Tests run: 104, Failures: 0, Errors: 0, Skipped: 0
+[INFO] --- jacoco:0.8.11:check (check) @ chimchar ---
+[INFO] All coverage checks have been met.
+[INFO] BUILD SUCCESS
+```
+
+El Reto 13 permanece **PARCIAL — JACOCO COMPLETO / SONAR PENDIENTE** porque el enunciado exige también Sonar. El Reto 14 permanece **PENDIENTE TÉCNICO — SONARQUBE**. Por decisión del usuario no se intentó ejecutar Sonar ni resolver su configuración en este bloque; no hay métricas/capturas Sonar Monferno. Sonar Chimchar y las capturas Jira siguen pendientes. No se creó tag v2.0.0 ni se inició Infernape.
+
+Auditoría final: 36 archivos Markdown revisados, 163 enlaces relativos válidos y cero rotos; 18 SVG y 4 Draw.io XML válidos. Los 75 archivos Java de la base c5ec4ec permanecen intactos, incluidos todos los tests; nueve heads protegidos conservan sus hashes. No hay packages src.main.java, mismatch package/ruta ni target/out/.idea/*.class versionados. La búsqueda segura encontró ocho menciones documentales genéricas y cero credenciales; no imprimió valores sensibles. `git diff --check` pasó. La captura JaCoCo fue revisada y contiene el informe real completo.
