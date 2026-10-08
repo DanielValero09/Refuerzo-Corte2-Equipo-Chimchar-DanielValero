@@ -121,7 +121,7 @@ Análisis SonarQube pendiente por limitación del entorno. El contenedor existen
 
 ## Compilación y ejecución
 
-Se requiere un JDK 17 o superior y Maven. La compilación usa Java 17 y admite records. Los packages corresponden a las carpetas relativas a `src/main/java`: `model`, `reto1`, `reto3`, `reto4` y `reto12`, con sus subpackages. JUnit 5 ejecuta 34 pruebas del proyecto, incluidas las nueve del Reto 12.
+Se requiere un JDK 17 o superior y Maven. La compilación usa Java 17 y admite records. Los packages corresponden a las carpetas relativas a `src/main/java`: `model`, `reto1`, `reto3`, `reto4`, `reto12` y `monferno`, con sus subpackages. Esta rama ejecuta 85 pruebas: 34 Chimchar y 51 Monferno; conserva las nueve del Reto 12.
 
 ```bash
 mvn clean test
@@ -137,3 +137,25 @@ Para regenerar el reporte de cobertura: `mvn clean test jacoco:report`.
 [Auditoría final de los Retos 1–14](docs/chimchar/entrega-final.md).
 
 Evidencia Jira pendiente: captura real. SonarQube pendiente de autenticación válida para completar análisis, correcciones y evidencias.
+
+# Evolución Monferno — SkyCampus v2
+
+[Contexto v2, modelo y alcance del bloque](docs/monferno/README.md).
+
+Monferno extiende el proyecto con packages propios, 20 drones, tres tipos, peso, prioridad, selección automática y notificaciones de estado. Las métricas y evidencias de las secciones Chimchar corresponden a su cierre en `2c7fe37`; su código y sus 34 pruebas permanecen intactos.
+
+## Monferno Reto 1 - Streams
+
+[Cuatro consultas, fechas y desempates deterministas](docs/monferno/reto1-streams.md).
+
+## Monferno Reto 2 - GitFlow
+
+[Ramas temporales, conflicto real, resolución y grafo verificable](docs/monferno/reto2-gitflow.md).
+
+## Monferno Reto 3 - Strategy y Observer
+
+[Tres estrategias, reglas de carga y observadores extensibles](docs/monferno/reto3-patrones.md).
+
+## Monferno Reto 4 - SOLID
+
+[Comparación del rediseño y pruebas de intercambiabilidad](docs/monferno/reto4-solid.md).
