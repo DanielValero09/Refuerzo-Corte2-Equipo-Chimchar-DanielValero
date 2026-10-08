@@ -15,28 +15,38 @@ import monferno.reto3.strategy.MayorBateriaStrategy;
 public class AsignadorMision {
     private final ApiMeteorologica clima;
     private final ObservadorDrone notificador;
-    private final EstrategiaAsignacion normal = new MayorBateriaStrategy();
-    private final EstrategiaAsignacion urgente = new EstrategiaUrgenteExpress();
+    private final EstrategiaAsignacion normal;
+    private final EstrategiaAsignacion urgente;
 
     public AsignadorMision(ApiMeteorologica clima, ObservadorDrone notificador) {
+        this(clima, notificador, new MayorBateriaStrategy(), new EstrategiaUrgenteExpress());
+    }
+
+    public AsignadorMision(ApiMeteorologica clima, ObservadorDrone notificador,
+                           EstrategiaAsignacion normal, EstrategiaAsignacion urgente) {
         this.clima = Objects.requireNonNull(clima);
         this.notificador = Objects.requireNonNull(notificador);
+        this.normal = Objects.requireNonNull(normal);
+        this.urgente = Objects.requireNonNull(urgente);
     }
 
     public Optional<Drone> asignar(List<Drone> flota, Mision mision) {
-        if (mision.pesoPaqueteGramos() < 1 || mision.pesoPaqueteGramos() > 2000
-            || mision.estado() != EstadoMision.PENDIENTE) {
-            return Optional.empty();
-        }
-        if (!clima.esApto()) {
+        if (!solicitudAsignable(mision) || !clima.esApto()) {
             return Optional.empty();
         }
         EstrategiaAsignacion estrategia = mision.prioridad() == Prioridad.URGENTE ? urgente : normal;
-        return estrategia.seleccionar(flota, mision).map(drone -> {
-            Drone enVuelo = new Drone(drone.id(), drone.tipo(), drone.bateria(),
-                false, EstadoDrone.EN_VUELO, drone.misionesCompletadas());
-            notificador.onEstadoCambiado(enVuelo, EstadoDrone.EN_VUELO);
-            return enVuelo;
-        });
+        return estrategia.seleccionar(flota, mision).map(this::iniciarVuelo);
+    }
+
+    private boolean solicitudAsignable(Mision mision) {
+        return mision.pesoPaqueteGramos() >= 1 && mision.pesoPaqueteGramos() <= 2000
+            && mision.estado() == EstadoMision.PENDIENTE;
+    }
+
+    private Drone iniciarVuelo(Drone seleccionado) {
+        Drone enVuelo = new Drone(seleccionado.id(), seleccionado.tipo(), seleccionado.bateria(),
+            false, EstadoDrone.EN_VUELO, seleccionado.misionesCompletadas());
+        notificador.onEstadoCambiado(enVuelo, EstadoDrone.EN_VUELO);
+        return enVuelo;
     }
 }
