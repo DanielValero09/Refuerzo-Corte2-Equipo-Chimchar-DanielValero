@@ -1,0 +1,45 @@
+[INFO] Running infernape.application.AsignadorMisionEnterpriseTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.630 s -- in infernape.application.AsignadorMisionEnterpriseTest
+[INFO] Running infernape.architecture.ArquitecturaDominioTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s -- in infernape.architecture.ArquitecturaDominioTest
+[INFO] Running infernape.domain.DominioEnterpriseTest
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.165 s -- in infernape.domain.DominioEnterpriseTest
+[INFO] Running infernape.infrastructure.AdaptadoresLocalesTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s -- in infernape.infrastructure.AdaptadoresLocalesTest
+[INFO] Running infernape.reto1.AnalyticsRedTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.059 s -- in infernape.reto1.AnalyticsRedTest
+[INFO] Running infernape.reto3.FactoryMethodTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.061 s -- in infernape.reto3.FactoryMethodTest
+[INFO] Running infernape.reto3.ObserverYCombinacionTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 s -- in infernape.reto3.ObserverYCombinacionTest
+[INFO] Running infernape.reto3.PlanificadorRutaHotfixTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s -- in infernape.reto3.PlanificadorRutaHotfixTest
+[INFO] Running infernape.reto3.RutasYStrategyTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 s -- in infernape.reto3.RutasYStrategyTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s -- in model.MissionTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.052 s -- in monferno.model.EstadosOperativosTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.030 s -- in monferno.model.ModeloMonfernoTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s -- in monferno.reto1.EstadisticasMisionesTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.178 s -- in monferno.reto12.AsignadorMisionLimitesTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 s -- in monferno.reto12.AsignadorMisionTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s -- in monferno.reto2.AsignadorMisionTest
+[INFO] Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.193 s -- in monferno.reto3.EstrategiasAsignacionTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 s -- in monferno.reto3.GestorFlotaObserverTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in monferno.reto4.GestorMisionesStrategyTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.020 s -- in reto1.Reto1Test
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s -- in reto12.ValidadorMisionTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s -- in reto3.AsignacionMayorBateriaTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s -- in reto3.MissionBuilderTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.052 s -- in reto3.Reto3Test
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s -- in reto3.ValidadoresTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s -- in reto4.AsignadorMisionTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s -- in reto4.RepositorioMisionMemoriaTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s -- in reto4.Reto4Test
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s -- in reto4.ServiciosReto4Test
+[INFO] Tests run: 157, Failures: 0, Errors: 0, Skipped: 0
+[INFO] --- jacoco:0.8.11:check (check) @ chimchar ---
+[INFO] All coverage checks have been met.
+[INFO] BUILD SUCCESS
+[INFO] Total time:  13.999 s
+[INFO] Finished at: 2026-10-08T12:55:50-05:00
+MAVEN EXIT CODE: 0

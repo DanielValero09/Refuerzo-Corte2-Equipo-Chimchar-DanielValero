@@ -50,3 +50,7 @@ Los creadores conocidos no inventan nombres para los dos tipos Enterprise no nom
 ObserverYCombinacionTest.estrategiaCompositeFactoryYObserverSeCombinanSinGodObject: Strategy elige la ruta de 6 km vía carga frente a una directa de 10 km; Composite proporciona sus dos etapas; CreadorExpress genera un drone apto para la primera etapa de 300 g; GestorEjecucionRuta notifica INICIADA a monitor e historial. El test coordina piezas pequeñas; ninguna clase central concentra los cuatro algoritmos.
 
 Distancias ilustrativas y perfiles heredados; sin HTTP, hardware ni BD. [Índice Enterprise](../README.md).
+
+## Corrección posterior durante el hotfix académico
+
+PlanificadorRuta ahora comprueba la disponibilidad de cada estación visitada antes de delegar en la Strategy. Las implementaciones de optimización conservan sus contratos. [Caso reproducido, dos regresiones y hashes reales](../reto2-gitflow/README.md). No se considera una estación cerrada como alternativa operable aunque produzca menor distancia.

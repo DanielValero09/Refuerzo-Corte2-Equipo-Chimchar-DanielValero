@@ -218,7 +218,7 @@ Estado: **PENDIENTE TÉCNICO — SONARQUBE**. [Objetivos oficiales y evidencia p
 
 ## Infernape Reto 2 - Release, Hotfix y Tags
 
-La simulación usa ramas aisladas para representar main/develop; sus tags académicos no liberan main real. La evidencia se incorpora al terminar la ejecución.
+[Release, hotfix real, merges y tags académicos](docs/infernape/reto2-gitflow/README.md). La simulación usa ramas aisladas; sus tags no liberan main real.
 
 ## Infernape Reto 3 - Patrones Enterprise
 
