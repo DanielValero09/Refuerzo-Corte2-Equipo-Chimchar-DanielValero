@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="1000" viewBox="0 0 1280 1000" role="img" aria-labelledby="title desc">
+<title id="title">Clima adverso: vuelo bloqueado</title>
+<desc id="desc">Prototipo estático SkyCampus v2; datos de ejemplo, identidad del Reto 8, sin integración real ni JavaScript.</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M1,1 L9,5 L1,9 Z" fill="#0B4F6C"/></marker></defs>
+<rect x="0" y="0" width="1280" height="1000" rx="0" fill="#F4F7FA"/>
+<rect x="0" y="0" width="1280" height="90" rx="0" fill="#0B4F6C"/>
+<text x="40" y="54" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#FFFFFF" font-weight="700" text-anchor="start">
+<tspan x="40" dy="0">SkyCampus v2</tspan>
+</text>
+<text x="1240" y="53" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#FFFFFF" font-weight="400" text-anchor="end">
+<tspan x="1240" dy="0">Operador  /  Prototipo</tspan>
+</text>
+<text x="40" y="140" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#142D3A" font-weight="700" text-anchor="start">
+<tspan x="40" dy="0">Clima adverso: vuelo bloqueado</tspan>
+</text>
+<text x="40" y="177" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#526576" font-weight="400" text-anchor="start">
+<tspan x="40" dy="0">Estado de error / flujo bloqueado · Se conservan los datos de la solicitud</tspan>
+</text>
+<text x="40" y="958" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#526576" font-weight="400" text-anchor="start">
+<tspan x="40" dy="0">Prototipo · Datos ilustrativos · Clima, ruta y ETA corresponden únicamente a este ejemplo.</tspan>
+</text>
+<rect x="40" y="225" width="1200" height="102" rx="14" fill="#FEE2E2"/>
+<text x="65" y="287" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#991B1B" font-weight="700" text-anchor="start">
+<tspan x="65" dy="0">! Asignación bloqueada · clima no apto</tspan>
+</text>
+<rect x="40" y="365" width="1200" height="330" rx="14" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="72" y="427" font-family="Arial, Helvetica, sans-serif" font-size="27" fill="#142D3A" font-weight="700" text-anchor="start">
+<tspan x="72" dy="0">Qué ocurrió</tspan>
+</text>
+<text x="72" y="488" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#142D3A" font-weight="400" text-anchor="start">
+<tspan x="72" dy="0">Condición no apta: viento fuerte en este ejemplo.</tspan>
+<tspan x="72" dy="58">No se permite asignar ni confirmar el inicio del vuelo.</tspan>
+<tspan x="72" dy="58">Vuelve o reintenta cuando haya condiciones verificables.</tspan>
+</text>
+<text x="40" y="749" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#991B1B" font-weight="700" text-anchor="start">
+<tspan x="40" dy="0">Asignación bloqueada hasta resolver la causa.</tspan>
+</text>
+<rect x="40" y="835" width="300" height="54" rx="9" fill="#FFFFFF" stroke="#0B4F6C" stroke-width="1.5"/>
+<text x="190.0" y="869" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#0B4F6C" font-weight="700" text-anchor="middle">
+<tspan x="190.0" dy="0">Volver</tspan>
+</text>
+<rect x="790" y="835" width="450" height="54" rx="9" fill="#0B4F6C"/>
+<text x="1015.0" y="869" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#FFFFFF" font-weight="700" text-anchor="middle">
+<tspan x="1015.0" dy="0">Reintentar consulta</tspan>
+</text>
+</svg>

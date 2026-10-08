@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" version="24.7.17" type="device">
+  <diagram id="monferno-cu" name="Casos de uso Monferno">
+    <mxGraphModel grid="1" gridSize="10" page="1" pageWidth="1800" pageHeight="1500" pageScale="1">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="skycampus" value="SkyCampus v2" style="rounded=0;html=0;fillColor=#FFFFFF;strokeColor=#0B4F6C;fontColor=#0B4F6C;fontSize=25;verticalAlign=top;align=left;spacing=20;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="300" y="130" width="1270" height="1290" />
+        </mxCell>
+        <mxCell id="solicitante" value="Solicitante" style="shape=umlActor;html=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;whiteSpace=wrap;fontFamily=Arial;fontSize=19;fontColor=#142D3A;strokeColor=#0B4F6C;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="240" width="180" height="180" />
+        </mxCell>
+        <mxCell id="operador" value="Operador" style="shape=umlActor;html=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;whiteSpace=wrap;fontFamily=Arial;fontSize=19;fontColor=#142D3A;strokeColor=#0B4F6C;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="650" width="180" height="180" />
+        </mxCell>
+        <mxCell id="tecnico" value="Técnico de mantenimiento" style="shape=umlActor;html=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;whiteSpace=wrap;fontFamily=Arial;fontSize=19;fontColor=#142D3A;strokeColor=#0B4F6C;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="1180" width="180" height="180" />
+        </mxCell>
+        <mxCell id="admin" value="Admin" style="shape=umlActor;html=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;whiteSpace=wrap;fontFamily=Arial;fontSize=19;fontColor=#142D3A;strokeColor=#0B4F6C;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1600" y="1190" width="180" height="180" />
+        </mxCell>
+        <mxCell id="registrar" value="Registrar solicitud de reparto" style="ellipse;html=0;whiteSpace=wrap;fillColor=#F4F7FA;strokeColor=#0B4F6C;fontFamily=Arial;fontSize=18;fontColor=#142D3A;" vertex="1" parent="skycampus">
+          <mxGeometry as="geometry" x="50" y="120" width="350" height="90" />
+        </mxCell>
+        <mxCell id="estado" value="Consultar estado de misión" style="ellipse;html=0;whiteSpace=wrap;fillColor=#F4F7FA;strokeColor=#0B4F6C;fontFamily=Arial;fontSize=18;fontColor=#142D3A;" vertex="1" parent="skycampus">
+          <mxGeometry as="geometry" x="50" y="270" width="350" height="90" />
+        </mxCell>
+        <mxCell id="flota" value="Ver flota" style="ellipse;html=0;whiteSpace=wrap;fillColor=#F4F7FA;strokeColor=#0B4F6C;fontFamily=Arial;fontSize=18;fontColor=#142D3A;" vertex="1" parent="skycampus">
+          <mxGeometry as="geometry" x="50" y="430" width="350" height="90" />
+        </mxCell>
+        <mxCell id="asignar" value="Asignar drone automáticamente" style="ellipse;html=0;whiteSpace=wrap;fillColor=#F4F7FA;strokeColor=#0B4F6C;fontFamily=Arial;fontSize=18;fontColor=#142D3A;" vertex="1" parent="skycampus">
+          <mxGeometry as="geometry" x="50" y="600" width="350" height="90" />
+        </mxCell>
+        <mxCell id="consultar" value="Consultar misión" style="ellipse;html=0;whiteSpace=wrap;fillColor=#F4F7FA;strokeColor=#0B4F6C;fontFamily=Arial;fontSize=18;fontColor=#142D3A;" vertex="1" parent="skycampus">
+          <mxGeometry as="geometry" x="50" y="800" width="350" height="90" />
+        </mxCell>
+        <mxCell id="diagnosticar" value="Diagnosticar fallo" style="ellipse;html=0;whiteSpace=wrap;fillColor=#F4F7FA;strokeColor=#0B4F6C;fontFamily=Arial;fontSize=18;fontColor=#142D3A;" vertex="1" parent="skycampus">
+          <mxGeometry as="geometry" x="50" y="1050" width="350" height="90" />
+        </mxCell>
+        <mxCell id="reparar" value="Registrar reparación" style="ellipse;html=0;whiteSpace=wrap;fillColor=#F4F7FA;strokeColor=#0B4F6C;fontFamily=Arial;fontSize=18;fontColor=#142D3A;" vertex="1" parent="skycampus">
+          <mxGeometry as="geometry" x="50" y="1190" width="350" height="90" />
+        </mxCell>
+        <mxCell id="inicio" value="Confirmar inicio de vuelo" style="ellipse;html=0;whiteSpace=wrap;fillColor=#F4F7FA;strokeColor=#0B4F6C;fontFamily=Arial;fontSize=18;fontColor=#142D3A;" vertex="1" parent="skycampus">
+          <mxGeometry as="geometry" x="750" y="120" width="430" height="90" />
+        </mxCell>
+        <mxCell id="ruta" value="Solicitar autorización de ruta" style="ellipse;html=0;whiteSpace=wrap;fillColor=#F4F7FA;strokeColor=#0B4F6C;fontFamily=Arial;fontSize=18;fontColor=#142D3A;" vertex="1" parent="skycampus">
+          <mxGeometry as="geometry" x="750" y="270" width="430" height="90" />
+        </mxCell>
+        <mxCell id="clima" value="Validar condiciones climáticas" style="ellipse;html=0;whiteSpace=wrap;fillColor=#F4F7FA;strokeColor=#0B4F6C;fontFamily=Arial;fontSize=18;fontColor=#142D3A;" vertex="1" parent="skycampus">
+          <mxGeometry as="geometry" x="750" y="440" width="430" height="90" />
+        </mxCell>
+        <mxCell id="apto" value="Validar drone apto" style="ellipse;html=0;whiteSpace=wrap;fillColor=#F4F7FA;strokeColor=#0B4F6C;fontFamily=Arial;fontSize=18;fontColor=#142D3A;" vertex="1" parent="skycampus">
+          <mxGeometry as="geometry" x="750" y="600" width="430" height="90" />
+        </mxCell>
+        <mxCell id="alertar" value="Alertar técnico" style="ellipse;html=0;whiteSpace=wrap;fillColor=#F4F7FA;strokeColor=#0B4F6C;fontFamily=Arial;fontSize=18;fontColor=#142D3A;" vertex="1" parent="skycampus">
+          <mxGeometry as="geometry" x="750" y="760" width="430" height="90" />
+        </mxCell>
+        <mxCell id="cancelar" value="Cancelar misión" style="ellipse;html=0;whiteSpace=wrap;fillColor=#F4F7FA;strokeColor=#0B4F6C;fontFamily=Arial;fontSize=18;fontColor=#142D3A;" vertex="1" parent="skycampus">
+          <mxGeometry as="geometry" x="750" y="920" width="430" height="90" />
+        </mxCell>
+        <mxCell id="configflota" value="Configurar flota" style="ellipse;html=0;whiteSpace=wrap;fillColor=#F4F7FA;strokeColor=#0B4F6C;fontFamily=Arial;fontSize=18;fontColor=#142D3A;" vertex="1" parent="skycampus">
+          <mxGeometry as="geometry" x="750" y="1060" width="430" height="90" />
+        </mxCell>
+        <mxCell id="configreglas" value="Configurar destinos / reglas operativas" style="ellipse;html=0;whiteSpace=wrap;fillColor=#F4F7FA;strokeColor=#0B4F6C;fontFamily=Arial;fontSize=18;fontColor=#142D3A;" vertex="1" parent="skycampus">
+          <mxGeometry as="geometry" x="750" y="1190" width="430" height="90" />
+        </mxCell>
+        <mxCell id="rel-0" value="" style="edgeStyle=none;html=0;endArrow=none;endFill=0;strokeColor=#0B4F6C;strokeWidth=1.8;fontFamily=Arial;fontSize=15;fontColor=#0B4F6C;labelBackgroundColor=white;whiteSpace=wrap;labelWidth=300;" edge="1" parent="1" source="solicitante" target="registrar">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="rel-1" value="" style="edgeStyle=none;html=0;endArrow=none;endFill=0;strokeColor=#0B4F6C;strokeWidth=1.8;fontFamily=Arial;fontSize=15;fontColor=#0B4F6C;labelBackgroundColor=white;whiteSpace=wrap;labelWidth=300;" edge="1" parent="1" source="solicitante" target="estado">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="rel-2" value="" style="edgeStyle=none;html=0;endArrow=none;endFill=0;strokeColor=#0B4F6C;strokeWidth=1.8;fontFamily=Arial;fontSize=15;fontColor=#0B4F6C;labelBackgroundColor=white;whiteSpace=wrap;labelWidth=300;" edge="1" parent="1" source="operador" target="flota">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="rel-3" value="" style="edgeStyle=none;html=0;endArrow=none;endFill=0;strokeColor=#0B4F6C;strokeWidth=1.8;fontFamily=Arial;fontSize=15;fontColor=#0B4F6C;labelBackgroundColor=white;whiteSpace=wrap;labelWidth=300;" edge="1" parent="1" source="operador" target="asignar">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="rel-4" value="" style="edgeStyle=none;html=0;endArrow=none;endFill=0;strokeColor=#0B4F6C;strokeWidth=1.8;fontFamily=Arial;fontSize=15;fontColor=#0B4F6C;labelBackgroundColor=white;whiteSpace=wrap;labelWidth=300;" edge="1" parent="1" source="operador" target="consultar">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="rel-5" value="" style="edgeStyle=none;html=0;endArrow=none;endFill=0;strokeColor=#0B4F6C;strokeWidth=1.8;fontFamily=Arial;fontSize=15;fontColor=#0B4F6C;labelBackgroundColor=white;whiteSpace=wrap;labelWidth=300;" edge="1" parent="1" source="operador" target="cancelar">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="270" y="785" />
+              <mxPoint x="270" y="1145" />
+              <mxPoint x="1265" y="1145" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rel-6" value="" style="edgeStyle=none;html=0;endArrow=none;endFill=0;strokeColor=#0B4F6C;strokeWidth=1.8;fontFamily=Arial;fontSize=15;fontColor=#0B4F6C;labelBackgroundColor=white;whiteSpace=wrap;labelWidth=300;" edge="1" parent="1" source="operador" target="inicio">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="250" y="685" />
+              <mxPoint x="250" y="520" />
+              <mxPoint x="1520" y="520" />
+              <mxPoint x="1520" y="295" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rel-7" value="" style="edgeStyle=none;html=0;endArrow=none;endFill=0;strokeColor=#0B4F6C;strokeWidth=1.8;fontFamily=Arial;fontSize=15;fontColor=#0B4F6C;labelBackgroundColor=white;whiteSpace=wrap;labelWidth=300;" edge="1" parent="1" source="tecnico" target="diagnosticar">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="rel-8" value="" style="edgeStyle=none;html=0;endArrow=none;endFill=0;strokeColor=#0B4F6C;strokeWidth=1.8;fontFamily=Arial;fontSize=15;fontColor=#0B4F6C;labelBackgroundColor=white;whiteSpace=wrap;labelWidth=300;" edge="1" parent="1" source="tecnico" target="reparar">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="rel-9" value="" style="edgeStyle=none;html=0;endArrow=none;endFill=0;strokeColor=#0B4F6C;strokeWidth=1.8;fontFamily=Arial;fontSize=15;fontColor=#0B4F6C;labelBackgroundColor=white;whiteSpace=wrap;labelWidth=300;" edge="1" parent="1" source="admin" target="configflota">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="rel-10" value="" style="edgeStyle=none;html=0;endArrow=none;endFill=0;strokeColor=#0B4F6C;strokeWidth=1.8;fontFamily=Arial;fontSize=15;fontColor=#0B4F6C;labelBackgroundColor=white;whiteSpace=wrap;labelWidth=300;" edge="1" parent="1" source="admin" target="configreglas">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="rel-11" value="" style="edgeStyle=none;html=0;endArrow=block;endFill=0;strokeColor=#0B4F6C;strokeWidth=1.8;fontFamily=Arial;fontSize=15;fontColor=#0B4F6C;labelBackgroundColor=white;whiteSpace=wrap;labelWidth=300;" edge="1" parent="1" source="tecnico" target="operador">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="rel-12" value="&lt;&lt;include&gt;&gt;" style="edgeStyle=none;html=0;endArrow=open;endFill=0;strokeColor=#0B4F6C;strokeWidth=1.8;fontFamily=Arial;fontSize=15;fontColor=#0B4F6C;labelBackgroundColor=white;whiteSpace=wrap;labelWidth=300;dashed=1;" edge="1" parent="1" source="asignar" target="clima">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="rel-13" value="&lt;&lt;include&gt;&gt;" style="edgeStyle=none;html=0;endArrow=open;endFill=0;strokeColor=#0B4F6C;strokeWidth=1.8;fontFamily=Arial;fontSize=15;fontColor=#0B4F6C;labelBackgroundColor=white;whiteSpace=wrap;labelWidth=300;dashed=1;" edge="1" parent="1" source="asignar" target="apto">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="rel-14" value="&lt;&lt;include&gt;&gt;" style="edgeStyle=none;html=0;endArrow=open;endFill=0;strokeColor=#0B4F6C;strokeWidth=1.8;fontFamily=Arial;fontSize=15;fontColor=#0B4F6C;labelBackgroundColor=white;whiteSpace=wrap;labelWidth=300;dashed=1;" edge="1" parent="1" source="inicio" target="ruta">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="rel-15" value="&lt;&lt;extend&gt;&gt;&#10;[drone candidato con batería&#10;entre 30% y 40%]" style="edgeStyle=none;html=0;endArrow=open;endFill=0;strokeColor=#0B4F6C;strokeWidth=1.8;fontFamily=Arial;fontSize=15;fontColor=#0B4F6C;labelBackgroundColor=white;whiteSpace=wrap;labelWidth=300;dashed=1;" edge="1" parent="1" source="alertar" target="asignar">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="rel-16" value="&lt;&lt;extend&gt;&gt;&#10;[estado permite cancelación]" style="edgeStyle=none;html=0;endArrow=open;endFill=0;strokeColor=#0B4F6C;strokeWidth=1.8;fontFamily=Arial;fontSize=15;fontColor=#0B4F6C;labelBackgroundColor=white;whiteSpace=wrap;labelWidth=300;dashed=1;" edge="1" parent="1" source="cancelar" target="consultar">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="titulo" value="SkyCampus v2 — Casos de uso&#10;4 actores humanos · 3 include · 2 extend condicionales" style="text;html=0;align=left;fontSize=26;fontColor=#0B4F6C;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="20" width="1680" height="80" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

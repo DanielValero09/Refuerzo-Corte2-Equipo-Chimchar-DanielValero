@@ -1,0 +1,157 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1500" viewBox="0 0 1800 1500" role="img" aria-labelledby="title desc">
+<title id="title">SkyCampus v2 — Casos de uso</title>
+<desc id="desc">Cuatro actores humanos. Tecnico hereda Operador. Quince casos de uso, tres include y dos extend con condiciones.</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M1,1 L9,5 L1,9 Z" fill="#0B4F6C"/></marker></defs>
+<rect x="0" y="0" width="1800" height="1500" rx="0" fill="#F4F7FA"/>
+<text x="40" y="54" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#0B4F6C" font-weight="700" text-anchor="start">
+<tspan x="40" dy="0">SkyCampus v2 — Casos de uso</tspan>
+</text>
+<text x="40" y="87" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#526576" font-weight="400" text-anchor="start">
+<tspan x="40" dy="0">4 actores humanos · Generalización Técnico → Operador · 3 include · 2 extend condicionales</tspan>
+</text>
+<defs><marker id="uml-open" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M1,1 L10,6 L1,11" fill="none" stroke="#0B4F6C" stroke-width="1.7"/></marker><marker id="uml-general" markerWidth="18" markerHeight="18" refX="16" refY="9" orient="auto"><path d="M1,1 L16,9 L1,17 Z" fill="white" stroke="#0B4F6C" stroke-width="1.7"/></marker></defs>
+<rect x="300" y="130" width="1270" height="1290" rx="8" fill="#FFFFFF" stroke="#0B4F6C" stroke-width="1.5"/>
+<text x="324" y="175" font-family="Arial, Helvetica, sans-serif" font-size="27" fill="#0B4F6C" font-weight="700" text-anchor="start">
+<tspan x="324" dy="0">SkyCampus v2</tspan>
+</text>
+<circle cx="140" cy="270" r="17" fill="none" stroke="#0B4F6C" stroke-width="2"/>
+<path d="M140,287 L140,340" fill="none" stroke="#0B4F6C" stroke-width="2"/>
+<path d="M110,308 L170,308" fill="none" stroke="#0B4F6C" stroke-width="2"/>
+<path d="M140,340 L112,368" fill="none" stroke="#0B4F6C" stroke-width="2"/>
+<path d="M140,340 L168,368" fill="none" stroke="#0B4F6C" stroke-width="2"/>
+<text x="140" y="394" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#142D3A" font-weight="700" text-anchor="middle">
+<tspan x="140" dy="0">Solicitante</tspan>
+</text>
+<circle cx="140" cy="680" r="17" fill="none" stroke="#0B4F6C" stroke-width="2"/>
+<path d="M140,697 L140,750" fill="none" stroke="#0B4F6C" stroke-width="2"/>
+<path d="M110,718 L170,718" fill="none" stroke="#0B4F6C" stroke-width="2"/>
+<path d="M140,750 L112,778" fill="none" stroke="#0B4F6C" stroke-width="2"/>
+<path d="M140,750 L168,778" fill="none" stroke="#0B4F6C" stroke-width="2"/>
+<text x="140" y="804" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#142D3A" font-weight="700" text-anchor="middle">
+<tspan x="140" dy="0">Operador</tspan>
+</text>
+<circle cx="140" cy="1210" r="17" fill="none" stroke="#0B4F6C" stroke-width="2"/>
+<path d="M140,1227 L140,1280" fill="none" stroke="#0B4F6C" stroke-width="2"/>
+<path d="M110,1248 L170,1248" fill="none" stroke="#0B4F6C" stroke-width="2"/>
+<path d="M140,1280 L112,1308" fill="none" stroke="#0B4F6C" stroke-width="2"/>
+<path d="M140,1280 L168,1308" fill="none" stroke="#0B4F6C" stroke-width="2"/>
+<text x="140" y="1334" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#142D3A" font-weight="700" text-anchor="middle">
+<tspan x="140" dy="0">Técnico de</tspan>
+<tspan x="140" dy="24">mantenimiento</tspan>
+</text>
+<circle cx="1690" cy="1220" r="17" fill="none" stroke="#0B4F6C" stroke-width="2"/>
+<path d="M1690,1237 L1690,1290" fill="none" stroke="#0B4F6C" stroke-width="2"/>
+<path d="M1660,1258 L1720,1258" fill="none" stroke="#0B4F6C" stroke-width="2"/>
+<path d="M1690,1290 L1662,1318" fill="none" stroke="#0B4F6C" stroke-width="2"/>
+<path d="M1690,1290 L1718,1318" fill="none" stroke="#0B4F6C" stroke-width="2"/>
+<text x="1690" y="1344" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#142D3A" font-weight="700" text-anchor="middle">
+<tspan x="1690" dy="0">Admin</tspan>
+</text>
+<ellipse cx="525.0" cy="295" rx="175.0" ry="45" fill="#F4F7FA" stroke="#0B4F6C" stroke-width="1.7"/>
+<text x="525.0" y="300" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#142D3A" font-weight="400" text-anchor="middle">
+<tspan x="525.0" dy="0">Registrar solicitud de reparto</tspan>
+</text>
+<ellipse cx="525.0" cy="445" rx="175.0" ry="45" fill="#F4F7FA" stroke="#0B4F6C" stroke-width="1.7"/>
+<text x="525.0" y="450" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#142D3A" font-weight="400" text-anchor="middle">
+<tspan x="525.0" dy="0">Consultar estado de misión</tspan>
+</text>
+<ellipse cx="525.0" cy="605" rx="175.0" ry="45" fill="#F4F7FA" stroke="#0B4F6C" stroke-width="1.7"/>
+<text x="525.0" y="610" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#142D3A" font-weight="400" text-anchor="middle">
+<tspan x="525.0" dy="0">Ver flota</tspan>
+</text>
+<ellipse cx="525.0" cy="775" rx="175.0" ry="45" fill="#F4F7FA" stroke="#0B4F6C" stroke-width="1.7"/>
+<text x="525.0" y="780" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#142D3A" font-weight="400" text-anchor="middle">
+<tspan x="525.0" dy="0">Asignar drone automáticamente</tspan>
+</text>
+<ellipse cx="525.0" cy="975" rx="175.0" ry="45" fill="#F4F7FA" stroke="#0B4F6C" stroke-width="1.7"/>
+<text x="525.0" y="980" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#142D3A" font-weight="400" text-anchor="middle">
+<tspan x="525.0" dy="0">Consultar misión</tspan>
+</text>
+<ellipse cx="525.0" cy="1225" rx="175.0" ry="45" fill="#F4F7FA" stroke="#0B4F6C" stroke-width="1.7"/>
+<text x="525.0" y="1230" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#142D3A" font-weight="400" text-anchor="middle">
+<tspan x="525.0" dy="0">Diagnosticar fallo</tspan>
+</text>
+<ellipse cx="525.0" cy="1365" rx="175.0" ry="45" fill="#F4F7FA" stroke="#0B4F6C" stroke-width="1.7"/>
+<text x="525.0" y="1370" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#142D3A" font-weight="400" text-anchor="middle">
+<tspan x="525.0" dy="0">Registrar reparación</tspan>
+</text>
+<ellipse cx="1265.0" cy="295" rx="215.0" ry="45" fill="#F4F7FA" stroke="#0B4F6C" stroke-width="1.7"/>
+<text x="1265.0" y="300" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#142D3A" font-weight="400" text-anchor="middle">
+<tspan x="1265.0" dy="0">Confirmar inicio de vuelo</tspan>
+</text>
+<ellipse cx="1265.0" cy="445" rx="215.0" ry="45" fill="#F4F7FA" stroke="#0B4F6C" stroke-width="1.7"/>
+<text x="1265.0" y="450" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#142D3A" font-weight="400" text-anchor="middle">
+<tspan x="1265.0" dy="0">Solicitar autorización de ruta</tspan>
+</text>
+<ellipse cx="1265.0" cy="615" rx="215.0" ry="45" fill="#F4F7FA" stroke="#0B4F6C" stroke-width="1.7"/>
+<text x="1265.0" y="620" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#142D3A" font-weight="400" text-anchor="middle">
+<tspan x="1265.0" dy="0">Validar condiciones climáticas</tspan>
+</text>
+<ellipse cx="1265.0" cy="775" rx="215.0" ry="45" fill="#F4F7FA" stroke="#0B4F6C" stroke-width="1.7"/>
+<text x="1265.0" y="780" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#142D3A" font-weight="400" text-anchor="middle">
+<tspan x="1265.0" dy="0">Validar drone apto</tspan>
+</text>
+<ellipse cx="1265.0" cy="935" rx="215.0" ry="45" fill="#F4F7FA" stroke="#0B4F6C" stroke-width="1.7"/>
+<text x="1265.0" y="940" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#142D3A" font-weight="400" text-anchor="middle">
+<tspan x="1265.0" dy="0">Alertar técnico</tspan>
+</text>
+<ellipse cx="1265.0" cy="1095" rx="215.0" ry="45" fill="#F4F7FA" stroke="#0B4F6C" stroke-width="1.7"/>
+<text x="1265.0" y="1100" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#142D3A" font-weight="400" text-anchor="middle">
+<tspan x="1265.0" dy="0">Cancelar misión</tspan>
+</text>
+<ellipse cx="1265.0" cy="1235" rx="215.0" ry="45" fill="#F4F7FA" stroke="#0B4F6C" stroke-width="1.7"/>
+<text x="1265.0" y="1240" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#142D3A" font-weight="400" text-anchor="middle">
+<tspan x="1265.0" dy="0">Configurar flota</tspan>
+</text>
+<ellipse cx="1265.0" cy="1365" rx="215.0" ry="45" fill="#F4F7FA" stroke="#0B4F6C" stroke-width="1.7"/>
+<text x="1265.0" y="1358" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#142D3A" font-weight="400" text-anchor="middle">
+<tspan x="1265.0" dy="0">Configurar destinos / reglas</tspan>
+<tspan x="1265.0" dy="24">operativas</tspan>
+</text>
+<path d="M230,300 L350,295" stroke="#0B4F6C" stroke-width="1.8" fill="none"/>
+<path d="M230,340 L350,445" stroke="#0B4F6C" stroke-width="1.8" fill="none"/>
+<path d="M230,700 L350,605" stroke="#0B4F6C" stroke-width="1.8" fill="none"/>
+<path d="M230,750 L350,775" stroke="#0B4F6C" stroke-width="1.8" fill="none"/>
+<path d="M230,800 L350,975" stroke="#0B4F6C" stroke-width="1.8" fill="none"/>
+<path d="M230,785 L270,785 L270,1145 L1265,1145 L1265,1140" stroke="#0B4F6C" stroke-width="1.8" fill="none"/>
+<path d="M230,685 L250,685 L250,520 L1520,520 L1520,295 L1480,295" stroke="#0B4F6C" stroke-width="1.8" fill="none"/>
+<path d="M230,1225 L350,1225" stroke="#0B4F6C" stroke-width="1.8" fill="none"/>
+<path d="M230,1280 L350,1365" stroke="#0B4F6C" stroke-width="1.8" fill="none"/>
+<path d="M1600,1240 L1480,1235" stroke="#0B4F6C" stroke-width="1.8" fill="none"/>
+<path d="M1600,1310 L1480,1365" stroke="#0B4F6C" stroke-width="1.8" fill="none"/>
+<path d="M140,1180 L140,840" stroke="#0B4F6C" stroke-width="1.8" fill="none" marker-end="url(#uml-general)"/>
+<text x="157" y="1040" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#526576" font-weight="400" text-anchor="start">
+<tspan x="157" dy="0">hereda</tspan>
+</text>
+<path d="M700,760 L1050,615" stroke="#0B4F6C" stroke-width="1.8" fill="none" stroke-dasharray="8 5" marker-end="url(#uml-open)"/>
+<rect x="800.0" y="640" width="150" height="33" rx="3" fill="#FFFFFF"/>
+<text x="875" y="660" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#0B4F6C" font-weight="400" text-anchor="middle">
+<tspan x="875" dy="0">&lt;&lt;include&gt;&gt;</tspan>
+</text>
+<path d="M700,775 L1050,775" stroke="#0B4F6C" stroke-width="1.8" fill="none" stroke-dasharray="8 5" marker-end="url(#uml-open)"/>
+<rect x="800.0" y="725" width="150" height="33" rx="3" fill="#FFFFFF"/>
+<text x="875" y="745" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#0B4F6C" font-weight="400" text-anchor="middle">
+<tspan x="875" dy="0">&lt;&lt;include&gt;&gt;</tspan>
+</text>
+<path d="M1265,340 L1265,400" stroke="#0B4F6C" stroke-width="1.8" fill="none" stroke-dasharray="8 5" marker-end="url(#uml-open)"/>
+<rect x="1345.0" y="355" width="150" height="33" rx="3" fill="#FFFFFF"/>
+<text x="1420" y="375" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#0B4F6C" font-weight="400" text-anchor="middle">
+<tspan x="1420" dy="0">&lt;&lt;include&gt;&gt;</tspan>
+</text>
+<path d="M1050,935 L700,800" stroke="#0B4F6C" stroke-width="1.8" fill="none" stroke-dasharray="8 5" marker-end="url(#uml-open)"/>
+<rect x="727.0" y="830" width="296" height="79" rx="3" fill="#FFFFFF"/>
+<text x="875" y="850" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#0B4F6C" font-weight="400" text-anchor="middle">
+<tspan x="875" dy="0">&lt;&lt;extend&gt;&gt;</tspan>
+<tspan x="875" dy="23">[drone candidato con batería</tspan>
+<tspan x="875" dy="23">entre 30% y 40%]</tspan>
+</text>
+<path d="M1050,1095 L700,975" stroke="#0B4F6C" stroke-width="1.8" fill="none" stroke-dasharray="8 5" marker-end="url(#uml-open)"/>
+<rect x="727.0" y="1000" width="296" height="56" rx="3" fill="#FFFFFF"/>
+<text x="875" y="1020" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#0B4F6C" font-weight="400" text-anchor="middle">
+<tspan x="875" dy="0">&lt;&lt;extend&gt;&gt;</tspan>
+<tspan x="875" dy="23">[estado permite cancelación]</tspan>
+</text>
+<text x="40" y="1466" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#526576" font-weight="400" text-anchor="start">
+<tspan x="40" dy="0">Triángulo hueco: herencia · Línea discontinua: include/extend · Control Aéreo se documenta como integración externa, sin quinto actor humano.</tspan>
+</text>
+</svg>

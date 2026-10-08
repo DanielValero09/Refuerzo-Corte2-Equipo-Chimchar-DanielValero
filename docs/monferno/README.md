@@ -2,7 +2,7 @@
 
 ## Contexto
 
-SkyCampus v2 contempla 20 drones, selección automática según carga y política intercambiable, peso del paquete, prioridad y notificaciones de cambio de estado. Agrega al Técnico de mantenimiento para los fallos. Fuente principal: `DOSW_Equipo_Chimchar_fixed.html`, contexto y apartados 01–04 de Monferno.
+SkyCampus v2 contempla 20 drones, selección automática según carga y política intercambiable, peso del paquete, prioridad y notificaciones de cambio de estado. Agrega al Técnico de mantenimiento para los fallos. Fuente principal: `DOSW_Equipo_Chimchar_fixed.html`, contexto y apartados 01–12 de Monferno.
 
 | Tipo | Capacidad máxima | Característica oficial |
 | --- | --- | --- |
@@ -36,6 +36,10 @@ La capacidad deriva de `TipoDrone` y no se duplica como un dato arbitrario de ca
 - [Reto 6 - RF, RNF y MoSCoW](reto6-requerimientos.md)
 - [Reto 7 - SC-07, plantilla DOSW](reto7-dosw.md)
 - [Reto 8 - Identidad y UX](reto8-ux/README.md)
+- [Reto 9 - Planificación real en Jira](reto9-jira/README.md)
+- [Reto 10 - Casos de uso y herencia](reto10-casos-uso/README.md)
+- [Reto 11 - Mocks con IA y Nielsen](reto11-mocks/README.md)
+- [Reto 12 - TDD y Mockito](reto12-tdd.md)
 
 ## Validación histórica del bloque 1/4
 
@@ -85,8 +89,33 @@ Validación real de `mvn clean test`, terminada el 2026-10-08 a las 00:06:12 (UT
 [INFO] BUILD SUCCESS
 ```
 
-Total actual: **90 pruebas = 34 Chimchar + 56 Monferno**. Los XML Surefire permiten verificar los conteos. Se validaron mediante ElementTree el Draw.io y cinco SVG; los cinco SVG se renderizaron con Chrome headless y se revisaron visualmente, con texto, flechas y controles legibles, sin contenido cortado. Las capturas de revisión son temporales y no se añaden como nuevos entregables al repositorio.
+Total al cierre del bloque 2/4: **90 pruebas = 34 Chimchar + 56 Monferno**. Los XML Surefire permiten verificar los conteos. Se validaron mediante ElementTree el Draw.io y cinco SVG; los cinco SVG se renderizaron con Chrome headless y se revisaron visualmente, con texto, flechas y controles legibles, sin contenido cortado. Las capturas de revisión son temporales y no se añaden como nuevos entregables al repositorio.
 
 La auditoría comprobó 57 enlaces relativos válidos y cero rotos, coincidencia de los 14 flujos Draw.io/SVG, cuatro RF, cuatro RNF, ocho prioridades MoSCoW, siete pasos de SC-07, tres alternos y siete reglas. Las nueve ramas existentes distintas de evolution/monferno conservaron sus heads; todos los archivos de las 85 pruebas previas permanecieron sin cambios. `git diff --check` no encontró errores de formato.
 
-No se inició Reto 9 ni se creó tag v2.0.0. No se agregaron Mockito, integración meteorológica Java, cambios JaCoCo ni análisis SonarQube. SonarQube Chimchar sigue pendiente de acceso autorizado y su captura real de Jira continúa pendiente; no se intervino en esos pendientes durante este bloque.
+Durante el bloque 2/4 no se inició Reto 9 ni se creó tag v2.0.0. No se agregaron entonces Mockito, integración meteorológica Java, cambios JaCoCo ni análisis SonarQube.
+
+## Bloque 3/4 — Retos 9–12
+
+La API autenticada de Jira permitió verificar SCRUM-13, las cinco historias SCRUM-14–18 y el Sprint 1 — SkyCampus v2 (ID 3, board 1, estado future). Se documentaron sus diez criterios Gherkin existentes, DoD y capacidad de 19/20 points, con un point restante. No se crearon ni modificaron issues. La captura visual real queda pendiente porque el navegador autenticado no está disponible; los criterios de calidad del DoD final todavía deben verificarse en su bloque correspondiente.
+
+Los casos de uso muestran cuatro actores humanos, generalización Técnico → Operador, quince casos, tres include y dos extend con condiciones. Los seis mocks estáticos reutilizan la identidad del Reto 8: panel agrupado para veinte drones, formulario, confirmación y errores por falta de candidatos, clima adverso y peso mayor de 2000 g. Se conservan el prompt completo y nueve heurísticas de Nielsen vinculadas a elementos concretos.
+
+TDD conserva cuatro commits consecutivos: configuración de Mockito 5.15.2, cinco pruebas antes de producción (Red real por clases ausentes), implementación Green y Refactor con inyección de políticas y transición de vuelo separada. NORMAL/BAJO aplican mayor batería; URGENTE prefiere EXPRESS compatible, con fallback MINI y CARGO. La política de urgencia se añadió en el Reto 12; el Reto 3 conserva sus tres estrategias base.
+
+Total actual: **104 pruebas = 34 Chimchar + 70 Monferno**. Se preservan las 90 pruebas anteriores, las nueve de ValidadorMisionTest y los cinco escenarios iniciales de AsignadorMisionTest; otras nueve pruebas verifican límites y delegación. Todos los nuevos casos usan AAA y verifican resultados e interacciones Mockito relevantes.
+
+ApiMeteorologica es únicamente un puerto local simulado mediante Mockito. No se implementaron HTTP, tiempo de espera de red, autorización real de ruta ni registro de reparación. La asignación devuelve un nuevo Drone EN_VUELO/no disponible y notifica una vez; no muta la flota recibida. Los tiempos de ruta/ETA de los mocks son ilustrativos.
+
+No se iniciaron los Retos 13 o 14 Monferno, no se cambió la configuración JaCoCo heredada ni se ejecutó SonarQube. No se creó tag v2.0.0. SonarQube Chimchar y su captura real de Jira siguen pendientes, sin intervención en este bloque.
+
+Validación final real de `mvn clean test`, terminada el 2026-10-08 a las 00:41:57 (UTC−05:00):
+
+```text
+[INFO] Compiling 53 source files with javac [debug release 17] to target\classes
+[INFO] Compiling 22 source files with javac [debug release 17] to target\test-classes
+[INFO] Tests run: 104, Failures: 0, Errors: 0, Skipped: 0
+[INFO] BUILD SUCCESS
+```
+
+La auditoría confirmó 70 archivos Java previos intactos, nueve heads protegidos sin cambios y la secuencia real setup → Red → Green → Refactor. Se validaron XML de un Draw.io y siete SVG; los siete SVG se renderizaron con Chrome headless y se revisaron visualmente, con contenido legible y sin recortes. Se comprobaron 85 enlaces relativos sin enlaces rotos, correspondencia package/ruta y ausencia de target/out/.idea versionados. `git diff --check` pasó; solo hubo avisos habituales LF/CRLF en Windows. Las capturas de revisión permanecen temporales y no sustituyen la captura real pendiente de Jira.

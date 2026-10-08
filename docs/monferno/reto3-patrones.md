@@ -1,10 +1,12 @@
 # Monferno Reto 3 - Strategy y Observer
 
+Nota de evolución: **Reto 3 exigió las tres estrategias base; Reto 12 extiende el diseño con una política específica para prioridad URGENTE.** EstrategiaUrgenteExpress se incorporó después mediante TDD, en `monferno.reto12`, y no existía durante el cierre del Reto 3. [Evidencia TDD](reto12-tdd.md).
+
 Fuente: HTML oficial `DOSW_Equipo_Chimchar_fixed.html`, apartado 03 de Monferno y restricciones del bloque.
 
 ## Strategy
 
-`EstrategiaAsignacion` define `Optional<Drone> seleccionar(List<Drone>, Mision)`. Hay exactamente tres implementaciones de producción:
+`EstrategiaAsignacion` define `Optional<Drone> seleccionar(List<Drone>, Mision)`. El Reto 3 implementó exactamente estas tres estrategias base:
 
 | Implementación | Selección entre aptos | Desempate |
 | --- | --- | --- |
@@ -32,7 +34,7 @@ ValidadorBateria → ValidadorDisponibilidad → ValidadorCarga.
 | 801–2000 g | CARGO |
 | >2000 g | Ningún candidato: Optional.empty(). |
 
-Las tres estrategias respetan estas validaciones. Un nuevo validador puede componerse mediante el constructor de CadenaValidacion e inyectarse en la estrategia sin editar GestorMisiones. Las prioridades se conservan en la misión; este bloque implementa las tres políticas solicitadas, sin agregar una cuarta política por urgencia.
+Las tres estrategias respetan estas validaciones. Un nuevo validador puede componerse mediante el constructor de CadenaValidacion e inyectarse en la estrategia sin editar GestorMisiones. Durante el cierre del Reto 3 las prioridades se conservaban en la misión sin una política adicional de urgencia; esta se incorporó posteriormente en el Reto 12.
 
 ## Observer
 

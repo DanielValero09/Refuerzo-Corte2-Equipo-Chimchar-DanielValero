@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="1000" viewBox="0 0 1280 1000" role="img" aria-labelledby="title desc">
+<title id="title">Confirmación de misión</title>
+<desc id="desc">Prototipo estático SkyCampus v2; datos de ejemplo, identidad del Reto 8, sin integración real ni JavaScript.</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M1,1 L9,5 L1,9 Z" fill="#0B4F6C"/></marker></defs>
+<rect x="0" y="0" width="1280" height="1000" rx="0" fill="#F4F7FA"/>
+<rect x="0" y="0" width="1280" height="90" rx="0" fill="#0B4F6C"/>
+<text x="40" y="54" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#FFFFFF" font-weight="700" text-anchor="start">
+<tspan x="40" dy="0">SkyCampus v2</tspan>
+</text>
+<text x="1240" y="53" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#FFFFFF" font-weight="400" text-anchor="end">
+<tspan x="1240" dy="0">Operador  /  Prototipo</tspan>
+</text>
+<text x="40" y="140" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#142D3A" font-weight="700" text-anchor="start">
+<tspan x="40" dy="0">Confirmación de misión</tspan>
+</text>
+<text x="40" y="177" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#526576" font-weight="400" text-anchor="start">
+<tspan x="40" dy="0">1. Panel  →  2. Formulario  →  3. Confirmación activa</tspan>
+</text>
+<text x="40" y="958" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#526576" font-weight="400" text-anchor="start">
+<tspan x="40" dy="0">Prototipo · Datos ilustrativos · Clima, ruta y ETA corresponden únicamente a este ejemplo.</tspan>
+</text>
+<rect x="40" y="220" width="1200" height="86" rx="14" fill="#DCFCE7"/>
+<text x="64" y="273" font-family="Arial, Helvetica, sans-serif" font-size="25" fill="#166534" font-weight="700" text-anchor="start">
+<tspan x="64" dy="0">✓ Propuesta automática lista para revisión</tspan>
+</text>
+<rect x="40" y="341" width="560" height="439" rx="14" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="66" y="398" font-family="Consolas, Courier New, monospace" font-size="44" fill="#0B4F6C" font-weight="700" text-anchor="start">
+<tspan x="66" dy="0">D-03</tspan>
+</text>
+<text x="66" y="445" font-family="Arial, Helvetica, sans-serif" font-size="27" fill="#142D3A" font-weight="700" text-anchor="start">
+<tspan x="66" dy="0">Tipo: EXPRESS</tspan>
+</text>
+<text x="66" y="492" font-family="Arial, Helvetica, sans-serif" font-size="25" fill="#142D3A" font-weight="400" text-anchor="start">
+<tspan x="66" dy="0">Batería: 91%</tspan>
+</text>
+<text x="66" y="542" font-family="Arial, Helvetica, sans-serif" font-size="25" fill="#1E40AF" font-weight="700" text-anchor="start">
+<tspan x="66" dy="0">Prioridad: URGENTE</tspan>
+</text>
+<text x="66" y="595" font-family="Consolas, Courier New, monospace" font-size="22" fill="#142D3A" font-weight="400" text-anchor="start">
+<tspan x="66" dy="0">Misión: M-V2-007</tspan>
+</text>
+<text x="66" y="643" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#526576" font-weight="400" text-anchor="start">
+<tspan x="66" dy="0">Paquete: SOBRE · 300 g</tspan>
+</text>
+<text x="66" y="714" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#526576" font-weight="400" text-anchor="start">
+<tspan x="66" dy="0">Drone propuesto; inicio aún no confirmado.</tspan>
+</text>
+<rect x="640" y="341" width="600" height="439" rx="14" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="666" y="398" font-family="Arial, Helvetica, sans-serif" font-size="25" fill="#142D3A" font-weight="700" text-anchor="start">
+<tspan x="666" dy="0">Ruta estimada (ejemplo)</tspan>
+</text>
+<text x="666" y="455" font-family="Arial, Helvetica, sans-serif" font-size="29" fill="#0B4F6C" font-weight="700" text-anchor="start">
+<tspan x="666" dy="0">Bloque A → Biblioteca</tspan>
+</text>
+<text x="666" y="524" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#142D3A" font-weight="700" text-anchor="start">
+<tspan x="666" dy="0">ETA ilustrativo: 4 min</tspan>
+</text>
+<text x="666" y="586" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#526576" font-weight="400" text-anchor="start">
+<tspan x="666" dy="0">Ruta y tiempo de este prototipo son ilustrativos.</tspan>
+<tspan x="666" dy="35">Autorización de ruta pendiente de comprobar.</tspan>
+<tspan x="666" dy="35">Revisa los datos antes de confirmar.</tspan>
+</text>
+<rect x="40" y="835" width="330" height="54" rx="9" fill="#FFFFFF" stroke="#991B1B" stroke-width="1.5"/>
+<text x="205.0" y="869" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#991B1B" font-weight="700" text-anchor="middle">
+<tspan x="205.0" dy="0">Cancelar</tspan>
+</text>
+<rect x="910" y="835" width="330" height="54" rx="9" fill="#0B4F6C"/>
+<text x="1075.0" y="869" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#FFFFFF" font-weight="700" text-anchor="middle">
+<tspan x="1075.0" dy="0">Confirmar</tspan>
+</text>
+</svg>

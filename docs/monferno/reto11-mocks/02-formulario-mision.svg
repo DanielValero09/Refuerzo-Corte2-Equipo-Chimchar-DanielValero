@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="1000" viewBox="0 0 1280 1000" role="img" aria-labelledby="title desc">
+<title id="title">Formulario de misión</title>
+<desc id="desc">Prototipo estático SkyCampus v2; datos de ejemplo, identidad del Reto 8, sin integración real ni JavaScript.</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M1,1 L9,5 L1,9 Z" fill="#0B4F6C"/></marker></defs>
+<rect x="0" y="0" width="1280" height="1000" rx="0" fill="#F4F7FA"/>
+<rect x="0" y="0" width="1280" height="90" rx="0" fill="#0B4F6C"/>
+<text x="40" y="54" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#FFFFFF" font-weight="700" text-anchor="start">
+<tspan x="40" dy="0">SkyCampus v2</tspan>
+</text>
+<text x="1240" y="53" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#FFFFFF" font-weight="400" text-anchor="end">
+<tspan x="1240" dy="0">Operador  /  Prototipo</tspan>
+</text>
+<text x="40" y="140" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#142D3A" font-weight="700" text-anchor="start">
+<tspan x="40" dy="0">Formulario de misión</tspan>
+</text>
+<text x="40" y="177" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#526576" font-weight="400" text-anchor="start">
+<tspan x="40" dy="0">1. Panel  →  2. Formulario activo  →  3. Confirmación</tspan>
+</text>
+<text x="40" y="958" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#526576" font-weight="400" text-anchor="start">
+<tspan x="40" dy="0">Prototipo · Datos ilustrativos · Clima, ruta y ETA corresponden únicamente a este ejemplo.</tspan>
+</text>
+<rect x="40" y="215" width="600" height="585" rx="14" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="64" y="255" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#526576" font-weight="400" text-anchor="start">
+<tspan x="64" dy="0">Origen</tspan>
+</text>
+<rect x="64" y="271" width="552" height="50" rx="8" fill="#F4F7FA" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="80" y="304" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#142D3A" font-weight="700" text-anchor="start">
+<tspan x="80" dy="0">BLOQUE_A</tspan>
+</text>
+<text x="64" y="355" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#526576" font-weight="400" text-anchor="start">
+<tspan x="64" dy="0">Destino</tspan>
+</text>
+<rect x="64" y="371" width="552" height="50" rx="8" fill="#F4F7FA" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="80" y="404" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#142D3A" font-weight="700" text-anchor="start">
+<tspan x="80" dy="0">BIBLIOTECA</tspan>
+</text>
+<text x="64" y="455" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#526576" font-weight="400" text-anchor="start">
+<tspan x="64" dy="0">Peso del paquete</tspan>
+</text>
+<rect x="64" y="471" width="552" height="50" rx="8" fill="#F4F7FA" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="80" y="504" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#142D3A" font-weight="700" text-anchor="start">
+<tspan x="80" dy="0">300 g</tspan>
+</text>
+<text x="64" y="555" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#526576" font-weight="400" text-anchor="start">
+<tspan x="64" dy="0">Tipo de paquete</tspan>
+</text>
+<rect x="64" y="571" width="552" height="50" rx="8" fill="#F4F7FA" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="80" y="604" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#142D3A" font-weight="700" text-anchor="start">
+<tspan x="80" dy="0">SOBRE</tspan>
+</text>
+<text x="64" y="655" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#526576" font-weight="400" text-anchor="start">
+<tspan x="64" dy="0">Prioridad</tspan>
+</text>
+<rect x="64" y="671" width="552" height="50" rx="8" fill="#F4F7FA" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="80" y="704" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#142D3A" font-weight="700" text-anchor="start">
+<tspan x="80" dy="0">URGENTE</tspan>
+</text>
+<rect x="680" y="215" width="560" height="140" rx="14" fill="#DCFCE7"/>
+<text x="704" y="255" font-family="Arial, Helvetica, sans-serif" font-size="23" fill="#166534" font-weight="700" text-anchor="start">
+<tspan x="704" dy="0">✓ Clima apto en el ejemplo</tspan>
+</text>
+<text x="704" y="292" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#166534" font-weight="400" text-anchor="start">
+<tspan x="704" dy="0">Viento suave / sin lluvia</tspan>
+</text>
+<text x="704" y="328" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#166534" font-weight="400" text-anchor="start">
+<tspan x="704" dy="0">Respuesta simulada del prototipo</tspan>
+</text>
+<text x="680" y="405" font-family="Arial, Helvetica, sans-serif" font-size="25" fill="#142D3A" font-weight="700" text-anchor="start">
+<tspan x="680" dy="0">Candidatos aptos</tspan>
+</text>
+<rect x="680" y="432" width="560" height="64" rx="14" fill="#DCFCE7" stroke="#0F766E" stroke-width="1.5"/>
+<text x="704" y="472" font-family="Consolas, Courier New, monospace" font-size="21" fill="#166534" font-weight="400" text-anchor="start">
+<tspan x="704" dy="0">D-03 · EXPRESS · 91% · Propuesto</tspan>
+</text>
+<rect x="680" y="510" width="560" height="64" rx="14" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="704" y="550" font-family="Consolas, Courier New, monospace" font-size="21" fill="#142D3A" font-weight="400" text-anchor="start">
+<tspan x="704" dy="0">D-08 · MINI · 96% · Apto</tspan>
+</text>
+<rect x="680" y="588" width="560" height="64" rx="14" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="704" y="628" font-family="Consolas, Courier New, monospace" font-size="21" fill="#142D3A" font-weight="400" text-anchor="start">
+<tspan x="704" dy="0">D-12 · CARGO · 88% · Apto</tspan>
+</text>
+<rect x="680" y="698" width="560" height="102" rx="14" fill="#FEF3C7"/>
+<text x="704" y="729" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#854D0E" font-weight="400" text-anchor="start">
+<tspan x="704" dy="0">Batería &gt;=30% · Peso máximo 2000 g</tspan>
+<tspan x="704" dy="27">CARGO no admite menos de 100 g.</tspan>
+<tspan x="704" dy="27">URGENTE prioriza EXPRESS compatible.</tspan>
+</text>
+<rect x="40" y="835" width="250" height="54" rx="9" fill="#FFFFFF" stroke="#0B4F6C" stroke-width="1.5"/>
+<text x="165.0" y="869" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#0B4F6C" font-weight="700" text-anchor="middle">
+<tspan x="165.0" dy="0">Volver</tspan>
+</text>
+<rect x="910" y="835" width="330" height="54" rx="9" fill="#0B4F6C"/>
+<text x="1075.0" y="869" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#FFFFFF" font-weight="700" text-anchor="middle">
+<tspan x="1075.0" dy="0">Continuar</tspan>
+</text>
+</svg>

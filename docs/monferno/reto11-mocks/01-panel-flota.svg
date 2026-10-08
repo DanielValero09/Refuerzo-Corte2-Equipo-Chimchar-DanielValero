@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="1000" viewBox="0 0 1280 1000" role="img" aria-labelledby="title desc">
+<title id="title">Panel de flota</title>
+<desc id="desc">Prototipo estático SkyCampus v2; datos de ejemplo, identidad del Reto 8, sin integración real ni JavaScript.</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M1,1 L9,5 L1,9 Z" fill="#0B4F6C"/></marker></defs>
+<rect x="0" y="0" width="1280" height="1000" rx="0" fill="#F4F7FA"/>
+<rect x="0" y="0" width="1280" height="90" rx="0" fill="#0B4F6C"/>
+<text x="40" y="54" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#FFFFFF" font-weight="700" text-anchor="start">
+<tspan x="40" dy="0">SkyCampus v2</tspan>
+</text>
+<text x="1240" y="53" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#FFFFFF" font-weight="400" text-anchor="end">
+<tspan x="1240" dy="0">Operador  /  Prototipo</tspan>
+</text>
+<text x="40" y="140" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#142D3A" font-weight="700" text-anchor="start">
+<tspan x="40" dy="0">Panel de flota</tspan>
+</text>
+<text x="40" y="177" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#526576" font-weight="400" text-anchor="start">
+<tspan x="40" dy="0">1. Panel  →  2. Formulario  →  3. Confirmación</tspan>
+</text>
+<text x="40" y="958" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#526576" font-weight="400" text-anchor="start">
+<tspan x="40" dy="0">Prototipo · Datos ilustrativos · Clima, ruta y ETA corresponden únicamente a este ejemplo.</tspan>
+</text>
+<rect x="40" y="210" width="1200" height="65" rx="14" fill="#DCFCE7"/>
+<text x="60" y="250" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#166534" font-weight="700" text-anchor="start">
+<tspan x="60" dy="0">✓ Sistema en supervisión · 20 drones registrados · Alertas visibles</tspan>
+</text>
+<rect x="40" y="302" width="224" height="120" rx="14" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="58" y="350" font-family="Arial, Helvetica, sans-serif" font-size="38" fill="#166534" font-weight="700" text-anchor="start">
+<tspan x="58" dy="0">8</tspan>
+</text>
+<text x="58" y="393" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#166534" font-weight="700" text-anchor="start">
+<tspan x="58" dy="0">DISPONIBLE</tspan>
+</text>
+<rect x="284" y="302" width="224" height="120" rx="14" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="302" y="350" font-family="Arial, Helvetica, sans-serif" font-size="38" fill="#1E40AF" font-weight="700" text-anchor="start">
+<tspan x="302" dy="0">6</tspan>
+</text>
+<text x="302" y="393" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#1E40AF" font-weight="700" text-anchor="start">
+<tspan x="302" dy="0">EN_VUELO</tspan>
+</text>
+<rect x="528" y="302" width="224" height="120" rx="14" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="546" y="350" font-family="Arial, Helvetica, sans-serif" font-size="38" fill="#854D0E" font-weight="700" text-anchor="start">
+<tspan x="546" dy="0">3</tspan>
+</text>
+<text x="546" y="393" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#854D0E" font-weight="700" text-anchor="start">
+<tspan x="546" dy="0">EN_CARGA</tspan>
+</text>
+<rect x="772" y="302" width="224" height="120" rx="14" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="790" y="350" font-family="Arial, Helvetica, sans-serif" font-size="38" fill="#475569" font-weight="700" text-anchor="start">
+<tspan x="790" dy="0">2</tspan>
+</text>
+<text x="790" y="393" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#475569" font-weight="700" text-anchor="start">
+<tspan x="790" dy="0">MANTENIMIENTO</tspan>
+</text>
+<rect x="1016" y="302" width="224" height="120" rx="14" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="1034" y="350" font-family="Arial, Helvetica, sans-serif" font-size="38" fill="#991B1B" font-weight="700" text-anchor="start">
+<tspan x="1034" dy="0">1</tspan>
+</text>
+<text x="1034" y="393" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#991B1B" font-weight="700" text-anchor="start">
+<tspan x="1034" dy="0">FALLO</tspan>
+</text>
+<text x="40" y="466" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#526576" font-weight="400" text-anchor="start">
+<tspan x="40" dy="0">Tipo: Todos   /   Estado: Todos</tspan>
+</text>
+<rect x="40" y="492" width="380" height="168" rx="14" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="62" y="536" font-family="Arial, Helvetica, sans-serif" font-size="25" fill="#0B4F6C" font-weight="700" text-anchor="start">
+<tspan x="62" dy="0">MINI</tspan>
+</text>
+<text x="62" y="577" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#142D3A" font-weight="400" text-anchor="start">
+<tspan x="62" dy="0">7 drones agrupados</tspan>
+</text>
+<text x="62" y="619" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#526576" font-weight="400" text-anchor="start">
+<tspan x="62" dy="0">Ágil · hasta 500 g</tspan>
+</text>
+<rect x="450" y="492" width="380" height="168" rx="14" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="472" y="536" font-family="Arial, Helvetica, sans-serif" font-size="25" fill="#0B4F6C" font-weight="700" text-anchor="start">
+<tspan x="472" dy="0">CARGO</tspan>
+</text>
+<text x="472" y="577" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#142D3A" font-weight="400" text-anchor="start">
+<tspan x="472" dy="0">7 drones agrupados</tspan>
+</text>
+<text x="472" y="619" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#526576" font-weight="400" text-anchor="start">
+<tspan x="472" dy="0">Carga · hasta 2000 g</tspan>
+</text>
+<rect x="860" y="492" width="380" height="168" rx="14" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="882" y="536" font-family="Arial, Helvetica, sans-serif" font-size="25" fill="#0B4F6C" font-weight="700" text-anchor="start">
+<tspan x="882" dy="0">EXPRESS</tspan>
+</text>
+<text x="882" y="577" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#142D3A" font-weight="400" text-anchor="start">
+<tspan x="882" dy="0">6 drones agrupados</tspan>
+</text>
+<text x="882" y="619" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#526576" font-weight="400" text-anchor="start">
+<tspan x="882" dy="0">Rápido · hasta 800 g</tspan>
+</text>
+<rect x="40" y="695" width="1200" height="105" rx="14" fill="#FEE2E2"/>
+<text x="60" y="729" font-family="Arial, Helvetica, sans-serif" font-size="21" fill="#991B1B" font-weight="700" text-anchor="start">
+<tspan x="60" dy="0">! Alertas: 2 / máximo 7 sin confirmar</tspan>
+</text>
+<text x="60" y="761" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#991B1B" font-weight="400" text-anchor="start">
+<tspan x="60" dy="0">D-04 en FALLO requiere técnico · D-09 batería 18%: no asignable</tspan>
+</text>
+<rect x="40" y="835" width="400" height="54" rx="9" fill="#0B4F6C"/>
+<text x="240.0" y="869" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#FFFFFF" font-weight="700" text-anchor="middle">
+<tspan x="240.0" dy="0">Nueva misión</tspan>
+</text>
+<rect x="470" y="835" width="360" height="54" rx="9" fill="#FFFFFF" stroke="#991B1B" stroke-width="1.5"/>
+<text x="650.0" y="869" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#991B1B" font-weight="700" text-anchor="middle">
+<tspan x="650.0" dy="0">Cancelar misión</tspan>
+</text>
+<text x="880" y="869" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#526576" font-weight="400" text-anchor="start">
+<tspan x="880" dy="0">Agrupación: no lista plana</tspan>
+</text>
+</svg>

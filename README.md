@@ -121,7 +121,7 @@ Análisis SonarQube pendiente por limitación del entorno. El contenedor existen
 
 ## Compilación y ejecución
 
-Se requiere un JDK 17 o superior y Maven. La compilación usa Java 17 y admite records. Los packages corresponden a las carpetas relativas a `src/main/java`: `model`, `reto1`, `reto3`, `reto4`, `reto12` y `monferno`, con sus subpackages. Esta rama ejecuta 90 pruebas: 34 Chimchar y 56 Monferno; conserva las nueve del Reto 12.
+Se requiere un JDK 17 o superior y Maven. La compilación usa Java 17 y admite records. Los packages corresponden a las carpetas relativas a `src/main/java`: `model`, `reto1`, `reto3`, `reto4`, `reto12` y `monferno`, con sus subpackages. Esta rama ejecuta 104 pruebas: 34 Chimchar y 70 Monferno; conserva las nueve del Reto 12 Chimchar y las 90 pruebas previas al bloque Monferno 3/4.
 
 ```bash
 mvn clean test
@@ -175,3 +175,21 @@ Monferno extiende el proyecto con packages propios, 20 drones, tres tipos, peso,
 ## Monferno Reto 8 - Identidad y UX
 
 [Componentes v2 y leyes UX](docs/monferno/reto8-ux/README.md) · [Flujo de tres pantallas](docs/monferno/reto8-ux/flujo-asignacion.svg).
+
+## Monferno Reto 9 - Agilismo y Jira
+
+[Planificación real, diez criterios Gherkin y DoD](docs/monferno/reto9-jira/README.md). SCRUM-13 y SCRUM-14–18 fueron consultados en Jira: Sprint 1, ID 3, 19/20 points. Captura visual real pendiente de incorporación manual.
+
+## Monferno Reto 10 - Casos de Uso
+
+[Actores, herencia e interpretación UML](docs/monferno/reto10-casos-uso/README.md) · [Diagrama SVG](docs/monferno/reto10-casos-uso/casos-uso-monferno.svg).
+
+## Monferno Reto 11 - Mocks con IA
+
+[Flujo y tres errores](docs/monferno/reto11-mocks/README.md): [Panel](docs/monferno/reto11-mocks/01-panel-flota.svg), [Formulario](docs/monferno/reto11-mocks/02-formulario-mision.svg) y [Confirmación](docs/monferno/reto11-mocks/03-confirmacion.svg).
+
+[Prompt utilizado](docs/monferno/reto11-mocks/prompt-utilizado.md) · [Nueve heurísticas de Nielsen](docs/monferno/reto11-mocks/heuristicas-nielsen.md).
+
+## Monferno Reto 12 - TDD y Mockito
+
+[Red → Green → Refactor y commits reales](docs/monferno/reto12-tdd.md). Cinco escenarios iniciales con JUnit 5, AAA y Mockito; nueve pruebas adicionales de límites e intercambiabilidad. ApiMeteorologica es una abstracción local simulada: no realiza llamadas de red. NORMAL/BAJO usan mayor batería; URGENTE prefiere EXPRESS compatible.
