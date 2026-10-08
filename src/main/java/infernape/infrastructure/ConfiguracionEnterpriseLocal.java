@@ -18,14 +18,16 @@ public class ConfiguracionEnterpriseLocal {
     @Bean public EstrategiaAsignacionEnterprise estrategia() { return new PoliticaPrioridadEnterprise(); }
     @Bean public RepositorioMisionesEnterprise misiones(MisionesJpaRepository tabla) { return new RepositorioMisionesJpa(tabla); }
     @Bean public AsignadorMisionEnterprise asignador(RepositorioFlota flota, ServicioClima clima,
-        EstrategiaAsignacionEnterprise estrategia, ObservadorAsignacion observador) {
-        return new AsignadorMisionEnterprise(flota, clima, estrategia, observador);
+        EstrategiaAsignacionEnterprise estrategia) {
+        // El flujo REST emite el evento desde IniciadorMision, después de guardar.
+        return new AsignadorMisionEnterprise(flota, clima, estrategia, (solicitud, drone) -> { });
     }
     @Bean public AutorizadorRutaInterSede autorizador(ServicioAerocivil aerocivil) { return new AutorizadorRutaInterSede(aerocivil); }
     @Bean public IniciadorMision iniciador(AsignadorMisionEnterprise asignador, AutorizadorRutaInterSede autorizador,
-        ServicioClima clima, RepositorioEstadoSede sedes, RepositorioMisionesEnterprise misiones) {
+        ServicioClima clima, RepositorioEstadoSede sedes, RepositorioMisionesEnterprise misiones,
+        ObservadorAsignacion observador) {
         var configs = Arrays.stream(Sede.values()).collect(Collectors.toMap(sede -> sede,
             sede -> new ConfiguracionOperacionSede(sede, 10, new LimitesOperacionRegulada(10, 120))));
-        return new IniciadorMision(asignador, autorizador, clima, sedes, misiones, configs);
+        return new IniciadorMision(asignador, autorizador, clima, sedes, misiones, configs, observador);
     }
 }

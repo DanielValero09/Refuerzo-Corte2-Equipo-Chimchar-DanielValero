@@ -11,16 +11,24 @@ public final class IniciadorMision {
     private final RepositorioEstadoSede sedes;
     private final RepositorioMisionesEnterprise misiones;
     private final Map<Sede, ConfiguracionOperacionSede> configuraciones;
+    private final ObservadorAsignacion observadorPersistencia;
 
     public IniciadorMision(AsignadorMisionEnterprise asignador, AutorizadorRutaInterSede autorizador,
                           ServicioClima clima, RepositorioEstadoSede sedes,
                           RepositorioMisionesEnterprise misiones, Map<Sede, ConfiguracionOperacionSede> configuraciones) {
+        this(asignador, autorizador, clima, sedes, misiones, configuraciones, (solicitud, drone) -> { });
+    }
+    public IniciadorMision(AsignadorMisionEnterprise asignador, AutorizadorRutaInterSede autorizador,
+                          ServicioClima clima, RepositorioEstadoSede sedes,
+                          RepositorioMisionesEnterprise misiones, Map<Sede, ConfiguracionOperacionSede> configuraciones,
+                          ObservadorAsignacion observadorPersistencia) {
         this.asignador = Objects.requireNonNull(asignador);
         this.autorizador = Objects.requireNonNull(autorizador);
         this.clima = Objects.requireNonNull(clima);
         this.sedes = Objects.requireNonNull(sedes);
         this.misiones = Objects.requireNonNull(misiones);
         this.configuraciones = Map.copyOf(configuraciones);
+        this.observadorPersistencia = Objects.requireNonNull(observadorPersistencia);
     }
     public MisionRegistrada iniciar(SolicitudInicioMision inicio) {
         var solicitud = inicio.asignacion();
@@ -46,6 +54,7 @@ public final class IniciadorMision {
     private MisionRegistrada registrar(SolicitudAsignacion solicitud, DroneEnterprise drone) {
         var resultado = new MisionRegistrada(solicitud.id(), solicitud.origen(), solicitud.destino(), solicitud.pesoPaqueteGramos(), solicitud.prioridad(), drone, EstadoMision.EN_VUELO);
         misiones.guardar(resultado);
+        observadorPersistencia.onAsignada(solicitud, drone);
         return resultado;
     }
 }
