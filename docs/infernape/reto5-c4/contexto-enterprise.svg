@@ -1,0 +1,206 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2400 1500" width="2400" height="1500" role="img" aria-labelledby="title desc">
+  <title id="title">C4 Nivel 1 · Contexto Enterprise</title>
+  <desc id="desc">6 actores · 6 sistemas externos · relaciones dirigidas y etiquetadas</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="9" markerHeight="9" orient="auto-start-reverse">
+      <path d="M 0 0 L 12 6 L 0 12 z" fill="#526576" />
+    </marker>
+  </defs>
+  <style>text{font-family:Arial,Helvetica,sans-serif} .edge-label{paint-order:stroke;stroke:#F4F7FA;stroke-width:9px;stroke-linejoin:round}</style>
+  <rect x="0" y="0" width="2400" height="1500" fill="#F4F7FA" />
+  <text x="55" y="60" font-size="35" fill="#142D3A" font-weight="bold" text-anchor="start">
+    <tspan x="55" dy="0">C4 Nivel 1 · Contexto Enterprise</tspan>
+  </text>
+  <text x="55" y="104" font-size="21" fill="#526576" font-weight="normal" text-anchor="start">
+    <tspan x="55" dy="0">6 actores · 6 sistemas externos · relaciones dirigidas y etiquetadas</tspan>
+  </text>
+  <path d="M 310 230 L 950 230" fill="none" stroke="#526576" stroke-width="3" marker-end="url(#arrow)" />
+  <path d="M 950 282 L 310 282" fill="none" stroke="#526576" stroke-width="3" marker-end="url(#arrow)" />
+  <path d="M 310 425 L 950 425" fill="none" stroke="#526576" stroke-width="3" marker-end="url(#arrow)" />
+  <path d="M 950 477 L 310 477" fill="none" stroke="#526576" stroke-width="3" marker-end="url(#arrow)" />
+  <path d="M 310 620 L 950 620" fill="none" stroke="#526576" stroke-width="3" marker-end="url(#arrow)" />
+  <path d="M 950 672 L 310 672" fill="none" stroke="#526576" stroke-width="3" marker-end="url(#arrow)" />
+  <path d="M 310 815 L 950 815" fill="none" stroke="#526576" stroke-width="3" marker-end="url(#arrow)" />
+  <path d="M 950 867 L 310 867" fill="none" stroke="#526576" stroke-width="3" marker-end="url(#arrow)" />
+  <path d="M 310 1010 L 950 1010" fill="none" stroke="#526576" stroke-width="3" marker-end="url(#arrow)" />
+  <path d="M 950 1062 L 310 1062" fill="none" stroke="#526576" stroke-width="3" marker-end="url(#arrow)" />
+  <path d="M 310 1205 L 950 1205" fill="none" stroke="#526576" stroke-width="3" marker-end="url(#arrow)" />
+  <path d="M 950 1257 L 310 1257" fill="none" stroke="#526576" stroke-width="3" marker-end="url(#arrow)" />
+  <path d="M 1370 230 L 2080 230" fill="none" stroke="#526576" stroke-width="3" marker-end="url(#arrow)" />
+  <path d="M 2080 282 L 1370 282" fill="none" stroke="#526576" stroke-width="3" marker-end="url(#arrow)" />
+  <path d="M 1370 425 L 2080 425" fill="none" stroke="#526576" stroke-width="3" marker-end="url(#arrow)" />
+  <path d="M 2080 477 L 1370 477" fill="none" stroke="#526576" stroke-width="3" marker-end="url(#arrow)" />
+  <path d="M 1370 620 L 2080 620" fill="none" stroke="#526576" stroke-width="3" marker-end="url(#arrow)" />
+  <path d="M 1370 815 L 2080 815" fill="none" stroke="#526576" stroke-width="3" marker-end="url(#arrow)" />
+  <path d="M 2080 867 L 1370 867" fill="none" stroke="#526576" stroke-width="3" marker-end="url(#arrow)" />
+  <path d="M 1370 1010 L 2080 1010" fill="none" stroke="#526576" stroke-width="3" marker-end="url(#arrow)" />
+  <path d="M 2080 1062 L 1370 1062" fill="none" stroke="#526576" stroke-width="3" marker-end="url(#arrow)" />
+  <path d="M 1370 1205 L 2080 1205" fill="none" stroke="#526576" stroke-width="3" marker-end="url(#arrow)" />
+  <rect x="950" y="190" width="420" height="1180" rx="14" fill="#0B4F6C" stroke="#526576" stroke-width="2" />
+  <text x="1160.0" y="731.45" font-size="27" fill="#FFFFFF" font-weight="bold" text-anchor="middle">
+    <tspan x="1160.0" dy="0">SkyCampus Enterprise</tspan>
+  </text>
+  <text x="1160.0" y="774.5500000000001" font-size="20" fill="#FFFFFF" font-weight="normal" text-anchor="middle">
+    <tspan x="1160.0" dy="0">[Sistema · caja negra]</tspan>
+    <tspan x="1160.0" dy="26.0">Red compartida de reparto</tspan>
+    <tspan x="1160.0" dy="26.0">entre cuatro universidades</tspan>
+    <tspan x="1160.0" dy="26.0">ECI · UNAL · UNIANDES · EAFIT</tspan>
+  </text>
+  <rect x="40" y="190" width="270" height="125" rx="14" fill="#253E50" stroke="#526576" stroke-width="2" />
+  <text x="175.0" y="242.25" font-size="25" fill="#FFFFFF" font-weight="bold" text-anchor="middle">
+    <tspan x="175.0" dy="0">Operador</tspan>
+  </text>
+  <text x="175.0" y="282.75" font-size="20" fill="#FFFFFF" font-weight="normal" text-anchor="middle">
+    <tspan x="175.0" dy="0">[Persona]</tspan>
+  </text>
+  <rect x="40" y="385" width="270" height="125" rx="14" fill="#253E50" stroke="#526576" stroke-width="2" />
+  <text x="175.0" y="437.25" font-size="25" fill="#FFFFFF" font-weight="bold" text-anchor="middle">
+    <tspan x="175.0" dy="0">Solicitante</tspan>
+  </text>
+  <text x="175.0" y="477.75" font-size="20" fill="#FFFFFF" font-weight="normal" text-anchor="middle">
+    <tspan x="175.0" dy="0">[Persona]</tspan>
+  </text>
+  <rect x="40" y="580" width="270" height="125" rx="14" fill="#253E50" stroke="#526576" stroke-width="2" />
+  <text x="175.0" y="632.25" font-size="25" fill="#FFFFFF" font-weight="bold" text-anchor="middle">
+    <tspan x="175.0" dy="0">Admin</tspan>
+  </text>
+  <text x="175.0" y="672.75" font-size="20" fill="#FFFFFF" font-weight="normal" text-anchor="middle">
+    <tspan x="175.0" dy="0">[Persona]</tspan>
+  </text>
+  <rect x="40" y="775" width="270" height="125" rx="14" fill="#253E50" stroke="#526576" stroke-width="2" />
+  <text x="175.0" y="811.0" font-size="25" fill="#FFFFFF" font-weight="bold" text-anchor="middle">
+    <tspan x="175.0" dy="0">Técnico de</tspan>
+    <tspan x="175.0" dy="32.5">mantenimiento</tspan>
+  </text>
+  <text x="175.0" y="884.0" font-size="20" fill="#FFFFFF" font-weight="normal" text-anchor="middle">
+    <tspan x="175.0" dy="0">[Persona]</tspan>
+  </text>
+  <rect x="40" y="970" width="270" height="125" rx="14" fill="#253E50" stroke="#526576" stroke-width="2" />
+  <text x="175.0" y="1006.0" font-size="25" fill="#FFFFFF" font-weight="bold" text-anchor="middle">
+    <tspan x="175.0" dy="0">Coordinador de</tspan>
+    <tspan x="175.0" dy="32.5">sede</tspan>
+  </text>
+  <text x="175.0" y="1079.0" font-size="20" fill="#FFFFFF" font-weight="normal" text-anchor="middle">
+    <tspan x="175.0" dy="0">[Persona]</tspan>
+  </text>
+  <rect x="40" y="1165" width="270" height="125" rx="14" fill="#253E50" stroke="#526576" stroke-width="2" />
+  <text x="175.0" y="1201.0" font-size="25" fill="#FFFFFF" font-weight="bold" text-anchor="middle">
+    <tspan x="175.0" dy="0">Superadministrador</tspan>
+    <tspan x="175.0" dy="32.5">de red</tspan>
+  </text>
+  <text x="175.0" y="1274.0" font-size="20" fill="#FFFFFF" font-weight="normal" text-anchor="middle">
+    <tspan x="175.0" dy="0">[Persona]</tspan>
+  </text>
+  <rect x="2080" y="190" width="280" height="125" rx="14" fill="#E3EAF0" stroke="#526576" stroke-width="2" />
+  <text x="2220.0" y="242.95" font-size="27" fill="#142D3A" font-weight="bold" text-anchor="middle">
+    <tspan x="2220.0" dy="0">API Meteorológica</tspan>
+  </text>
+  <text x="2220.0" y="286.05" font-size="20" fill="#142D3A" font-weight="normal" text-anchor="middle">
+    <tspan x="2220.0" dy="0">[Sistema externo]</tspan>
+  </text>
+  <rect x="2080" y="385" width="280" height="125" rx="14" fill="#E3EAF0" stroke="#526576" stroke-width="2" />
+  <text x="2220.0" y="437.95" font-size="27" fill="#142D3A" font-weight="bold" text-anchor="middle">
+    <tspan x="2220.0" dy="0">Control Aéreo ECI</tspan>
+  </text>
+  <text x="2220.0" y="481.05" font-size="20" fill="#142D3A" font-weight="normal" text-anchor="middle">
+    <tspan x="2220.0" dy="0">[Sistema externo]</tspan>
+  </text>
+  <rect x="2080" y="580" width="280" height="125" rx="14" fill="#E3EAF0" stroke="#526576" stroke-width="2" />
+  <text x="2220.0" y="632.95" font-size="27" fill="#142D3A" font-weight="bold" text-anchor="middle">
+    <tspan x="2220.0" dy="0">Sistema de Alertas</tspan>
+  </text>
+  <text x="2220.0" y="676.0500000000001" font-size="20" fill="#142D3A" font-weight="normal" text-anchor="middle">
+    <tspan x="2220.0" dy="0">[Sistema externo]</tspan>
+  </text>
+  <rect x="2080" y="775" width="280" height="125" rx="14" fill="#E3EAF0" stroke="#526576" stroke-width="2" />
+  <text x="2220.0" y="827.95" font-size="27" fill="#142D3A" font-weight="bold" text-anchor="middle">
+    <tspan x="2220.0" dy="0">Aerocivil</tspan>
+  </text>
+  <text x="2220.0" y="871.0500000000001" font-size="20" fill="#142D3A" font-weight="normal" text-anchor="middle">
+    <tspan x="2220.0" dy="0">[Sistema externo]</tspan>
+  </text>
+  <rect x="2080" y="970" width="280" height="125" rx="14" fill="#E3EAF0" stroke="#526576" stroke-width="2" />
+  <text x="2220.0" y="1022.95" font-size="27" fill="#142D3A" font-weight="bold" text-anchor="middle">
+    <tspan x="2220.0" dy="0">ERP universitario</tspan>
+  </text>
+  <text x="2220.0" y="1066.05" font-size="20" fill="#142D3A" font-weight="normal" text-anchor="middle">
+    <tspan x="2220.0" dy="0">[Sistema externo]</tspan>
+  </text>
+  <rect x="2080" y="1165" width="280" height="125" rx="14" fill="#E3EAF0" stroke="#526576" stroke-width="2" />
+  <text x="2220.0" y="1217.95" font-size="27" fill="#142D3A" font-weight="bold" text-anchor="middle">
+    <tspan x="2220.0" dy="0">Plataforma Analytics</tspan>
+  </text>
+  <text x="2220.0" y="1261.05" font-size="20" fill="#142D3A" font-weight="normal" text-anchor="middle">
+    <tspan x="2220.0" dy="0">[Sistema externo]</tspan>
+  </text>
+  <text x="630" y="217" font-size="20" fill="#142D3A" font-weight="normal" text-anchor="middle" class="edge-label">
+    <tspan x="630" dy="0">Gestiona misiones y supervisa flota de su sede</tspan>
+  </text>
+  <text x="630" y="270" font-size="20" fill="#142D3A" font-weight="normal" text-anchor="middle" class="edge-label">
+    <tspan x="630" dy="0">Estado de misiones y flota</tspan>
+  </text>
+  <text x="630" y="412" font-size="20" fill="#142D3A" font-weight="normal" text-anchor="middle" class="edge-label">
+    <tspan x="630" dy="0">Registra y consulta solicitudes</tspan>
+  </text>
+  <text x="630" y="465" font-size="20" fill="#142D3A" font-weight="normal" text-anchor="middle" class="edge-label">
+    <tspan x="630" dy="0">Código y estado de solicitud</tspan>
+  </text>
+  <text x="630" y="607" font-size="20" fill="#142D3A" font-weight="normal" text-anchor="middle" class="edge-label">
+    <tspan x="630" dy="0">Administra usuarios, destinos y configuración</tspan>
+  </text>
+  <text x="630" y="660" font-size="20" fill="#142D3A" font-weight="normal" text-anchor="middle" class="edge-label">
+    <tspan x="630" dy="0">Confirma configuración</tspan>
+  </text>
+  <text x="630" y="802" font-size="20" fill="#142D3A" font-weight="normal" text-anchor="middle" class="edge-label">
+    <tspan x="630" dy="0">Gestiona mantenimiento y retorno al servicio</tspan>
+  </text>
+  <text x="630" y="855" font-size="20" fill="#142D3A" font-weight="normal" text-anchor="middle" class="edge-label">
+    <tspan x="630" dy="0">Fallos y datos de mantenimiento</tspan>
+  </text>
+  <text x="630" y="997" font-size="20" fill="#142D3A" font-weight="normal" text-anchor="middle" class="edge-label">
+    <tspan x="630" dy="0">Configura operación y flota de la sede</tspan>
+  </text>
+  <text x="630" y="1050" font-size="20" fill="#142D3A" font-weight="normal" text-anchor="middle" class="edge-label">
+    <tspan x="630" dy="0">Estado operativo y configuración de sede</tspan>
+  </text>
+  <text x="630" y="1192" font-size="20" fill="#142D3A" font-weight="normal" text-anchor="middle" class="edge-label">
+    <tspan x="630" dy="0">Supervisa red completa y analytics</tspan>
+  </text>
+  <text x="630" y="1245" font-size="20" fill="#142D3A" font-weight="normal" text-anchor="middle" class="edge-label">
+    <tspan x="630" dy="0">Resumen de red y analytics</tspan>
+  </text>
+  <text x="1725" y="217" font-size="20" fill="#142D3A" font-weight="normal" text-anchor="middle" class="edge-label">
+    <tspan x="1725" dy="0">Solicita condiciones meteorológicas</tspan>
+  </text>
+  <text x="1725" y="270" font-size="20" fill="#142D3A" font-weight="normal" text-anchor="middle" class="edge-label">
+    <tspan x="1725" dy="0">Devuelve condiciones meteorológicas</tspan>
+  </text>
+  <text x="1725" y="412" font-size="20" fill="#142D3A" font-weight="normal" text-anchor="middle" class="edge-label">
+    <tspan x="1725" dy="0">Registra vuelo y solicita autorización de ruta</tspan>
+  </text>
+  <text x="1725" y="465" font-size="20" fill="#142D3A" font-weight="normal" text-anchor="middle" class="edge-label">
+    <tspan x="1725" dy="0">Devuelve autorización o rechazo</tspan>
+  </text>
+  <text x="1725" y="607" font-size="20" fill="#142D3A" font-weight="normal" text-anchor="middle" class="edge-label">
+    <tspan x="1725" dy="0">Envía alertas operativas</tspan>
+  </text>
+  <text x="1725" y="802" font-size="20" fill="#142D3A" font-weight="normal" text-anchor="middle" class="edge-label">
+    <tspan x="1725" dy="0">Solicita autorización; consulta restricciones</tspan>
+  </text>
+  <text x="1725" y="855" font-size="20" fill="#142D3A" font-weight="normal" text-anchor="middle" class="edge-label">
+    <tspan x="1725" dy="0">Devuelve autorización y restricciones inter-sede</tspan>
+  </text>
+  <text x="1725" y="997" font-size="20" fill="#142D3A" font-weight="normal" text-anchor="middle" class="edge-label">
+    <tspan x="1725" dy="0">Solicita datos institucionales para operación</tspan>
+  </text>
+  <text x="1725" y="1050" font-size="20" fill="#142D3A" font-weight="normal" text-anchor="middle" class="edge-label">
+    <tspan x="1725" dy="0">Devuelve datos institucionales necesarios</tspan>
+  </text>
+  <text x="1725" y="1192" font-size="20" fill="#142D3A" font-weight="normal" text-anchor="middle" class="edge-label">
+    <tspan x="1725" dy="0">Envía métricas agregadas de operación</tspan>
+  </text>
+  <text x="55" y="1462" font-size="21" fill="#526576" font-weight="normal" text-anchor="start">
+    <tspan x="55" dy="0">Arquitectura objetivo académica · no acredita servicios desplegados, JDBC ni conexiones HTTP reales</tspan>
+  </text>
+</svg>

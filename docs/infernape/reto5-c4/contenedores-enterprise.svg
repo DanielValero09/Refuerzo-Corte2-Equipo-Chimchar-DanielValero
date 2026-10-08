@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2660 1700" width="2660" height="1700" role="img" aria-labelledby="title desc">
+  <title id="title">C4 Nivel 2 · Contenedores Enterprise</title>
+  <desc id="desc">9 contenedores objetivo · protocolos del material · dependencias internas propuestas</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="9" markerHeight="9" orient="auto-start-reverse">
+      <path d="M 0 0 L 12 6 L 0 12 z" fill="#526576" />
+    </marker>
+  </defs>
+  <style>text{font-family:Arial,Helvetica,sans-serif} .edge-label{paint-order:stroke;stroke:#F4F7FA;stroke-width:9px;stroke-linejoin:round}</style>
+  <rect x="0" y="0" width="2660" height="1700" fill="#F4F7FA" />
+  <text x="55" y="60" font-size="35" fill="#142D3A" font-weight="bold" text-anchor="start">
+    <tspan x="55" dy="0">C4 Nivel 2 · Contenedores Enterprise</tspan>
+  </text>
+  <text x="55" y="104" font-size="21" fill="#526576" font-weight="normal" text-anchor="start">
+    <tspan x="55" dy="0">9 contenedores objetivo · protocolos del material · dependencias internas propuestas</tspan>
+  </text>
+  <rect x="40" y="130" width="2000" height="1450" rx="18" fill="#FFFFFF" stroke="#0B4F6C" stroke-width="3" stroke-dasharray="14 9" />
+  <text x="65" y="170" font-size="25" fill="#0B4F6C" font-weight="bold" text-anchor="start">
+    <tspan x="65" dy="0">SkyCampus Enterprise · límite del sistema</tspan>
+  </text>
+  <path d="M 430 310 L 500 310 L 500 470 L 560 470" fill="none" stroke="#526576" stroke-width="3" marker-end="url(#arrow)" />
+  <path d="M 430 700 L 500 700 L 500 550 L 560 550" fill="none" stroke="#526576" stroke-width="3" marker-end="url(#arrow)" />
+  <path d="M 860 450 L 950 450 L 950 255 L 1100 255" fill="none" stroke="#526576" stroke-width="3" marker-end="url(#arrow)" />
+  <path d="M 860 488 L 973 488 L 973 605 L 1100 605" fill="none" stroke="#526576" stroke-width="3" marker-end="url(#arrow)" />
+  <path d="M 860 526 L 996 526 L 996 955 L 1100 955" fill="none" stroke="#526576" stroke-width="3" marker-end="url(#arrow)" />
+  <path d="M 860 564 L 1019 564 L 1019 1305 L 1100 1305" fill="none" stroke="#526576" stroke-width="3" marker-end="url(#arrow)" />
+  <path d="M 1460 255 L 1660 255" fill="none" stroke="#526576" stroke-width="3" marker-end="url(#arrow)" />
+  <path d="M 1460 605 L 1660 605" fill="none" stroke="#526576" stroke-width="3" marker-end="url(#arrow)" />
+  <path d="M 1280 340 L 1280 520" fill="none" stroke="#526576" stroke-width="3" marker-end="url(#arrow)" />
+  <path d="M 1460 300 L 1530 300 L 1530 955 L 1460 955" fill="none" stroke="#526576" stroke-width="3" marker-end="url(#arrow)" />
+  <path d="M 1460 325 L 1590 325 L 1590 1305 L 1460 1305" fill="none" stroke="#526576" stroke-width="3" marker-end="url(#arrow)" />
+  <path d="M 1460 910 L 2210 910" fill="none" stroke="#526576" stroke-width="3" marker-end="url(#arrow)" />
+  <path d="M 1460 1000 L 2110 1000 L 2110 1165 L 2210 1165" fill="none" stroke="#526576" stroke-width="3" marker-end="url(#arrow)" />
+  <path d="M 1460 1360 L 2070 1360 L 2070 1385 L 2210 1385" fill="none" stroke="#526576" stroke-width="3" marker-end="url(#arrow)" />
+  <rect x="100" y="230" width="330" height="160" rx="14" fill="#EAF2F8" stroke="#526576" stroke-width="2" />
+  <text x="265.0" y="300.45" font-size="27" fill="#142D3A" font-weight="bold" text-anchor="middle">
+    <tspan x="265.0" dy="0">App Web Operadores</tspan>
+  </text>
+  <text x="265.0" y="343.55" font-size="20" fill="#142D3A" font-weight="normal" text-anchor="middle">
+    <tspan x="265.0" dy="0">[Aplicación Web · por sede]</tspan>
+  </text>
+  <rect x="100" y="620" width="330" height="160" rx="14" fill="#EAF2F8" stroke="#526576" stroke-width="2" />
+  <text x="265.0" y="690.45" font-size="27" fill="#142D3A" font-weight="bold" text-anchor="middle">
+    <tspan x="265.0" dy="0">Panel Superadmin</tspan>
+  </text>
+  <text x="265.0" y="733.5500000000001" font-size="20" fill="#142D3A" font-weight="normal" text-anchor="middle">
+    <tspan x="265.0" dy="0">[Aplicación Web · red]</tspan>
+  </text>
+  <rect x="560" y="430" width="300" height="160" rx="14" fill="#EAF2F8" stroke="#526576" stroke-width="2" />
+  <text x="710.0" y="487.45" font-size="27" fill="#142D3A" font-weight="bold" text-anchor="middle">
+    <tspan x="710.0" dy="0">API Gateway</tspan>
+  </text>
+  <text x="710.0" y="530.55" font-size="20" fill="#142D3A" font-weight="normal" text-anchor="middle">
+    <tspan x="710.0" dy="0">[Contenedor]</tspan>
+    <tspan x="710.0" dy="26.0">Entrada común de clientes</tspan>
+  </text>
+  <rect x="1100" y="170" width="360" height="170" rx="14" fill="#EAF2F8" stroke="#526576" stroke-width="2" />
+  <text x="1280.0" y="232.45" font-size="27" fill="#142D3A" font-weight="bold" text-anchor="middle">
+    <tspan x="1280.0" dy="0">Servicio de Misiones</tspan>
+  </text>
+  <text x="1280.0" y="275.55" font-size="20" fill="#142D3A" font-weight="normal" text-anchor="middle">
+    <tspan x="1280.0" dy="0">[Servicio objetivo]</tspan>
+    <tspan x="1280.0" dy="26.0">Ciclo de vida de misiones</tspan>
+  </text>
+  <rect x="1100" y="520" width="360" height="170" rx="14" fill="#EAF2F8" stroke="#526576" stroke-width="2" />
+  <text x="1280.0" y="582.45" font-size="27" fill="#142D3A" font-weight="bold" text-anchor="middle">
+    <tspan x="1280.0" dy="0">Servicio de Flota</tspan>
+  </text>
+  <text x="1280.0" y="625.5500000000001" font-size="20" fill="#142D3A" font-weight="normal" text-anchor="middle">
+    <tspan x="1280.0" dy="0">[Servicio objetivo]</tspan>
+    <tspan x="1280.0" dy="26.0">Disponibilidad y adscripción</tspan>
+  </text>
+  <rect x="1100" y="870" width="360" height="170" rx="14" fill="#EAF2F8" stroke="#526576" stroke-width="2" />
+  <text x="1280.0" y="932.45" font-size="27" fill="#142D3A" font-weight="bold" text-anchor="middle">
+    <tspan x="1280.0" dy="0">Servicio de Rutas</tspan>
+  </text>
+  <text x="1280.0" y="975.5500000000001" font-size="20" fill="#142D3A" font-weight="normal" text-anchor="middle">
+    <tspan x="1280.0" dy="0">[Servicio objetivo]</tspan>
+    <tspan x="1280.0" dy="26.0">Planificación y regulación</tspan>
+  </text>
+  <rect x="1100" y="1220" width="360" height="170" rx="14" fill="#EAF2F8" stroke="#526576" stroke-width="2" />
+  <text x="1280.0" y="1282.45" font-size="27" fill="#142D3A" font-weight="bold" text-anchor="middle">
+    <tspan x="1280.0" dy="0">Servicio de Analytics</tspan>
+  </text>
+  <text x="1280.0" y="1325.55" font-size="20" fill="#142D3A" font-weight="normal" text-anchor="middle">
+    <tspan x="1280.0" dy="0">[Servicio objetivo]</tspan>
+    <tspan x="1280.0" dy="26.0">Agregación por sede</tspan>
+  </text>
+  <rect x="1660" y="170" width="350" height="170" rx="14" fill="#E6F2EF" stroke="#526576" stroke-width="2" />
+  <ellipse cx="1835.0" cy="188" rx="175.0" ry="18" fill="#E6F2EF" stroke="#526576" stroke-width="2" />
+  <text x="1835.0" y="245.45" font-size="27" fill="#142D3A" font-weight="bold" text-anchor="middle">
+    <tspan x="1835.0" dy="0">BD Misiones</tspan>
+  </text>
+  <text x="1835.0" y="288.55" font-size="20" fill="#142D3A" font-weight="normal" text-anchor="middle">
+    <tspan x="1835.0" dy="0">[Almacenamiento objetivo]</tspan>
+  </text>
+  <rect x="1660" y="520" width="350" height="170" rx="14" fill="#E6F2EF" stroke="#526576" stroke-width="2" />
+  <ellipse cx="1835.0" cy="538" rx="175.0" ry="18" fill="#E6F2EF" stroke="#526576" stroke-width="2" />
+  <text x="1835.0" y="595.45" font-size="27" fill="#142D3A" font-weight="bold" text-anchor="middle">
+    <tspan x="1835.0" dy="0">BD Flota</tspan>
+  </text>
+  <text x="1835.0" y="638.5500000000001" font-size="20" fill="#142D3A" font-weight="normal" text-anchor="middle">
+    <tspan x="1835.0" dy="0">[Almacenamiento objetivo]</tspan>
+  </text>
+  <rect x="2210" y="870" width="340" height="150" rx="14" fill="#E3EAF0" stroke="#526576" stroke-width="2" />
+  <text x="2380.0" y="935.45" font-size="27" fill="#142D3A" font-weight="bold" text-anchor="middle">
+    <tspan x="2380.0" dy="0">API Meteorológica</tspan>
+  </text>
+  <text x="2380.0" y="978.5500000000001" font-size="20" fill="#142D3A" font-weight="normal" text-anchor="middle">
+    <tspan x="2380.0" dy="0">[Sistema externo]</tspan>
+  </text>
+  <rect x="2210" y="1090" width="340" height="150" rx="14" fill="#E3EAF0" stroke="#526576" stroke-width="2" />
+  <text x="2380.0" y="1155.45" font-size="27" fill="#142D3A" font-weight="bold" text-anchor="middle">
+    <tspan x="2380.0" dy="0">Aerocivil</tspan>
+  </text>
+  <text x="2380.0" y="1198.55" font-size="20" fill="#142D3A" font-weight="normal" text-anchor="middle">
+    <tspan x="2380.0" dy="0">[Sistema externo]</tspan>
+  </text>
+  <rect x="2210" y="1310" width="340" height="150" rx="14" fill="#E3EAF0" stroke="#526576" stroke-width="2" />
+  <text x="2380.0" y="1375.45" font-size="27" fill="#142D3A" font-weight="bold" text-anchor="middle">
+    <tspan x="2380.0" dy="0">Plataforma Analytics</tspan>
+  </text>
+  <text x="2380.0" y="1418.55" font-size="20" fill="#142D3A" font-weight="normal" text-anchor="middle">
+    <tspan x="2380.0" dy="0">[Sistema externo]</tspan>
+  </text>
+  <text x="475" y="293" font-size="20" fill="#142D3A" font-weight="normal" text-anchor="middle" class="edge-label">
+    <tspan x="475" dy="0">HTTPS</tspan>
+  </text>
+  <text x="475" y="725" font-size="20" fill="#142D3A" font-weight="normal" text-anchor="middle" class="edge-label">
+    <tspan x="475" dy="0">HTTPS</tspan>
+  </text>
+  <text x="1048" y="241" font-size="20" fill="#142D3A" font-weight="normal" text-anchor="middle" class="edge-label">
+    <tspan x="1048" dy="0">interno</tspan>
+  </text>
+  <text x="1048" y="591" font-size="20" fill="#142D3A" font-weight="normal" text-anchor="middle" class="edge-label">
+    <tspan x="1048" dy="0">interno</tspan>
+  </text>
+  <text x="1048" y="941" font-size="20" fill="#142D3A" font-weight="normal" text-anchor="middle" class="edge-label">
+    <tspan x="1048" dy="0">interno</tspan>
+  </text>
+  <text x="1048" y="1291" font-size="20" fill="#142D3A" font-weight="normal" text-anchor="middle" class="edge-label">
+    <tspan x="1048" dy="0">interno</tspan>
+  </text>
+  <text x="1560" y="239" font-size="20" fill="#142D3A" font-weight="normal" text-anchor="middle" class="edge-label">
+    <tspan x="1560" dy="0">JDBC</tspan>
+  </text>
+  <text x="1560" y="589" font-size="20" fill="#142D3A" font-weight="normal" text-anchor="middle" class="edge-label">
+    <tspan x="1560" dy="0">JDBC</tspan>
+  </text>
+  <text x="1430" y="425" font-size="20" fill="#142D3A" font-weight="normal" text-anchor="middle" class="edge-label">
+    <tspan x="1430" dy="0">interno · consulta</tspan>
+    <tspan x="1430" dy="26.0">candidatos</tspan>
+  </text>
+  <text x="1710" y="782" font-size="20" fill="#142D3A" font-weight="normal" text-anchor="middle" class="edge-label">
+    <tspan x="1710" dy="0">interno · planifica etapas</tspan>
+  </text>
+  <text x="1800" y="1180" font-size="20" fill="#142D3A" font-weight="normal" text-anchor="middle" class="edge-label">
+    <tspan x="1800" dy="0">interno · publica resultados</tspan>
+  </text>
+  <text x="1835" y="893" font-size="20" fill="#142D3A" font-weight="normal" text-anchor="middle" class="edge-label">
+    <tspan x="1835" dy="0">HTTP · condiciones meteorológicas</tspan>
+  </text>
+  <text x="1820" y="1060" font-size="20" fill="#142D3A" font-weight="normal" text-anchor="middle" class="edge-label">
+    <tspan x="1820" dy="0">HTTP · autorización y restricciones</tspan>
+  </text>
+  <text x="1790" y="1340" font-size="20" fill="#142D3A" font-weight="normal" text-anchor="middle" class="edge-label">
+    <tspan x="1790" dy="0">REST · métricas agregadas</tspan>
+  </text>
+  <text x="55" y="1662" font-size="21" fill="#526576" font-weight="normal" text-anchor="start">
+    <tspan x="55" dy="0">Arquitectura objetivo académica · no acredita servicios desplegados, JDBC ni conexiones HTTP reales</tspan>
+  </text>
+</svg>
