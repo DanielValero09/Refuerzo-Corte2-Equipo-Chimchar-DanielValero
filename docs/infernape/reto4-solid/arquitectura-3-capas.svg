@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1040" width="1400" height="1040">
+  <defs>
+    <marker id="arrow" viewBox="0 0 12 12" refX="10" refY="5" markerWidth="12" markerHeight="12" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <polyline points="0,0 10,5 0,10" fill="none" stroke="#0B4F6C" stroke-width="1.8" />
+    </marker>
+    <marker id="triangle" viewBox="0 0 12 12" refX="12" refY="6" markerWidth="12" markerHeight="12" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <polyline points="0,0 12,6 0,12 0,0" fill="#FFFFFF" stroke="#0B4F6C" stroke-width="1.8" />
+    </marker>
+    <marker id="diamond" viewBox="0 0 12 12" refX="0" refY="5" markerWidth="12" markerHeight="12" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <polyline points="0,5 5,0 10,5 5,10 0,5" fill="#0B4F6C" stroke="#0B4F6C" stroke-width="1.8" />
+    </marker>
+  </defs>
+  <rect width="1400" height="1040" fill="#F4F7FA" />
+  <text x="40" y="55" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#0B4F6C" text-anchor="start" font-weight="700">Arquitectura Enterprise — Tres capas</text>
+  <text x="40" y="95" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#526576" text-anchor="start" font-weight="400">La aplicación y los adaptadores apuntan a puertos del dominio; no hay HTTP ni BD reales.</text>
+  <text x="40" y="1010" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#526576" text-anchor="start" font-weight="400">SkyCampus Enterprise · UML simplificado · Fuente: DOSW_Equipo_Chimchar_fixed.html, Retos 3–4</text>
+  <rect x="220" y="140" width="960" height="142" rx="8" fill="#FFFFFF" stroke="#0B4F6C" stroke-width="2" />
+  <text x="700.0" y="165" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#0F766E" text-anchor="middle" font-weight="400">Caso de uso</text>
+  <text x="700.0" y="192" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#0B4F6C" text-anchor="middle" font-weight="700">APLICACIÓN — AsignadorMisionEnterprise</text>
+  <line x1="220" y1="207" x2="1180" y2="207" stroke="#CBD5E1" />
+  <text x="238" y="236" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#142D3A" text-anchor="start" font-weight="400">Constructor: RepositorioFlota + ServicioClima + EstrategiaAsignacionEnterprise + ObservadorAsignacion</text>
+  <text x="238" y="264" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#142D3A" text-anchor="start" font-weight="400">Coordina clima, consulta de sede, selección, validación final y aviso; devuelve Optional&lt;DroneEnterprise&gt;</text>
+  <rect x="60" y="430" width="1280" height="170" rx="8" fill="#FFFFFF" stroke="#0B4F6C" stroke-width="2" />
+  <text x="700.0" y="455" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#0F766E" text-anchor="middle" font-weight="400">Centro de dependencias</text>
+  <text x="700.0" y="482" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#0B4F6C" text-anchor="middle" font-weight="700">DOMINIO — Contratos y modelos puros</text>
+  <line x1="60" y1="497" x2="1340" y2="497" stroke="#CBD5E1" />
+  <text x="78" y="526" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#142D3A" text-anchor="start" font-weight="400">Puertos: RepositorioFlota · ServicioClima · EstrategiaAsignacionEnterprise · ObservadorAsignacion</text>
+  <text x="78" y="554" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#142D3A" text-anchor="start" font-weight="400">Modelos: Sede · DroneEnterprise · PerfilDrone · SolicitudAsignacion · MisionEnterprise · EtapaRuta</text>
+  <text x="78" y="582" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#142D3A" text-anchor="start" font-weight="400">Solo JDK y dominio propio. Sin Spring/JPA/HTTP/JDBC/Mockito.</text>
+  <rect x="220" y="790" width="960" height="142" rx="8" fill="#FFFFFF" stroke="#0B4F6C" stroke-width="2" />
+  <text x="700.0" y="815" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#0F766E" text-anchor="middle" font-weight="400">Implementaciones de puertos</text>
+  <text x="700.0" y="842" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#0B4F6C" text-anchor="middle" font-weight="700">INFRAESTRUCTURA — Adaptadores locales</text>
+  <line x1="220" y1="857" x2="1180" y2="857" stroke="#CBD5E1" />
+  <text x="238" y="886" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#142D3A" text-anchor="start" font-weight="400">RepositorioFlotaMemoria: snapshot de flota por sede y disponibilidad</text>
+  <text x="238" y="914" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#142D3A" text-anchor="start" font-weight="400">ServicioClimaConfigurable: condición local inyectada; pruebas sin red</text>
+  <polyline points="700,285 700,430" fill="none" stroke="#0B4F6C" stroke-width="2" marker-end="url(#arrow)" />
+  <rect x="725" y="350" width="199" height="25" fill="#F4F7FA" />
+  <text x="730" y="370" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#0F766E" text-anchor="start" font-weight="400">depende de interfaces</text>
+  <polyline points="700,790 700,600" fill="none" stroke="#0B4F6C" stroke-width="2" marker-end="url(#triangle)" stroke-dasharray="8 5" />
+  <rect x="730" y="690" width="172" height="25" fill="#F4F7FA" />
+  <text x="735" y="710" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#0F766E" text-anchor="start" font-weight="400">implementa puertos</text>
+</svg>

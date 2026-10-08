@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 900" width="1400" height="900">
+  <defs>
+    <marker id="arrow" viewBox="0 0 12 12" refX="10" refY="5" markerWidth="12" markerHeight="12" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <polyline points="0,0 10,5 0,10" fill="none" stroke="#0B4F6C" stroke-width="1.8" />
+    </marker>
+    <marker id="triangle" viewBox="0 0 12 12" refX="12" refY="6" markerWidth="12" markerHeight="12" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <polyline points="0,0 12,6 0,12 0,0" fill="#FFFFFF" stroke="#0B4F6C" stroke-width="1.8" />
+    </marker>
+    <marker id="diamond" viewBox="0 0 12 12" refX="0" refY="5" markerWidth="12" markerHeight="12" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <polyline points="0,5 5,0 10,5 5,10 0,5" fill="#0B4F6C" stroke="#0B4F6C" stroke-width="1.8" />
+    </marker>
+  </defs>
+  <rect width="1400" height="900" fill="#F4F7FA" />
+  <text x="40" y="55" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#0B4F6C" text-anchor="start" font-weight="700">Strategy — Optimización de rutas</text>
+  <text x="40" y="95" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#526576" text-anchor="start" font-weight="400">El planificador recibe un contrato; cada política decide con su propio comparador.</text>
+  <text x="40" y="870" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#526576" text-anchor="start" font-weight="400">SkyCampus Enterprise · UML simplificado · Fuente: DOSW_Equipo_Chimchar_fixed.html, Retos 3–4</text>
+  <rect x="60" y="190" width="550" height="142" rx="8" fill="#FFFFFF" stroke="#0B4F6C" stroke-width="2" />
+  <text x="335.0" y="215" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#0F766E" text-anchor="middle" font-weight="400">Context</text>
+  <text x="335.0" y="242" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#0B4F6C" text-anchor="middle" font-weight="700">PlanificadorRuta</text>
+  <line x1="60" y1="257" x2="610" y2="257" stroke="#CBD5E1" />
+  <text x="78" y="286" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#142D3A" text-anchor="start" font-weight="400">estrategia: EstrategiaOptimizacionRuta</text>
+  <text x="78" y="314" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#142D3A" text-anchor="start" font-weight="400">planificar(candidatas): Optional&lt;Ruta&gt;</text>
+  <rect x="780" y="190" width="560" height="114" rx="8" fill="#FFFFFF" stroke="#0B4F6C" stroke-width="2" />
+  <text x="1060.0" y="215" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#0F766E" text-anchor="middle" font-weight="400">«interface» Strategy</text>
+  <text x="1060.0" y="242" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#0B4F6C" text-anchor="middle" font-weight="700">EstrategiaOptimizacionRuta</text>
+  <line x1="780" y1="257" x2="1340" y2="257" stroke="#CBD5E1" />
+  <text x="798" y="286" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#142D3A" text-anchor="start" font-weight="400">elegir(candidatas): Optional&lt;Ruta&gt;</text>
+  <polyline points="610,265 780,265" fill="none" stroke="#0B4F6C" stroke-width="2" marker-end="url(#arrow)" />
+  <rect x="650" y="225" width="73" height="25" fill="#F4F7FA" />
+  <text x="655" y="245" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#0F766E" text-anchor="start" font-weight="400">inyecta</text>
+  <rect x="60" y="530" width="550" height="142" rx="8" fill="#FFFFFF" stroke="#0B4F6C" stroke-width="2" />
+  <text x="335.0" y="555" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#0F766E" text-anchor="middle" font-weight="400">Concrete Strategy</text>
+  <text x="335.0" y="582" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#0B4F6C" text-anchor="middle" font-weight="700">MenorDistanciaStrategy</text>
+  <line x1="60" y1="597" x2="610" y2="597" stroke="#CBD5E1" />
+  <text x="78" y="626" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#142D3A" text-anchor="start" font-weight="400">Orden: distancia, recargas, clave</text>
+  <text x="78" y="654" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#142D3A" text-anchor="start" font-weight="400">Selecciona el mínimo compatible</text>
+  <rect x="780" y="530" width="560" height="142" rx="8" fill="#FFFFFF" stroke="#0B4F6C" stroke-width="2" />
+  <text x="1060.0" y="555" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#0F766E" text-anchor="middle" font-weight="400">Concrete Strategy</text>
+  <text x="1060.0" y="582" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#0B4F6C" text-anchor="middle" font-weight="700">MenorNumeroRecargasStrategy</text>
+  <line x1="780" y1="597" x2="1340" y2="597" stroke="#CBD5E1" />
+  <text x="798" y="626" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#142D3A" text-anchor="start" font-weight="400">Orden: recargas, distancia, clave</text>
+  <text x="798" y="654" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#142D3A" text-anchor="start" font-weight="400">Selecciona el mínimo compatible</text>
+  <polyline points="335,530 335,420 970,420 970,304" fill="none" stroke="#0B4F6C" stroke-width="2" marker-end="url(#triangle)" stroke-dasharray="8 5" />
+  <polyline points="1060,530 1060,304" fill="none" stroke="#0B4F6C" stroke-width="2" marker-end="url(#triangle)" stroke-dasharray="8 5" />
+  <text x="60" y="805" font-family="Arial, Helvetica, sans-serif" font-size="21" fill="#142D3A" text-anchor="start" font-weight="400">Desempate por clave de recorrido; sin rutas: Optional.empty().</text>
+</svg>

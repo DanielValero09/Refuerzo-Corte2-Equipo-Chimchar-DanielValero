@@ -121,7 +121,7 @@ Análisis SonarQube pendiente por limitación del entorno. El contenedor existen
 
 ## Compilación y ejecución
 
-Se requiere un JDK 17 o superior y Maven. La compilación usa Java 17 y admite records. Los packages corresponden a las carpetas relativas a `src/main/java`: `model`, `reto1`, `reto3`, `reto4`, `reto12` y `monferno`, con sus subpackages. Esta rama ejecuta 104 pruebas: 34 Chimchar y 70 Monferno; conserva las nueve del Reto 12 Chimchar y las 90 pruebas previas al bloque Monferno 3/4.
+Se requiere un JDK 17 o superior y Maven. La compilación usa Java 17 y admite records. Los packages corresponden a las carpetas relativas a `src/main/java`: `model`, `reto1`, `reto3`, `reto4`, `reto12`, `monferno` e `infernape`, con sus subpackages. Se conservan las 104 pruebas de las evoluciones previas: 34 Chimchar y 70 Monferno; Enterprise agrega sus pruebas en packages propios. El conteo actual y la validación se registran en el índice Infernape.
 
 ```bash
 mvn clean test
@@ -207,3 +207,23 @@ Estado: **PENDIENTE TÉCNICO — SONARQUBE**. [Objetivos oficiales y evidencia p
 ## Estado de entrega Monferno
 
 [Auditoría de los Retos 1–14](docs/monferno/entrega-final.md). Retos 1–12 completados, con captura Jira pendiente; Reto 13 parcial y Reto 14 pendiente. No se declara cierre 14/14 ni se crea tag v2.0.0.
+
+# Evolución Infernape — SkyCampus Enterprise
+
+[Contexto, tipos y alcance Enterprise](docs/infernape/README.md). La implementación parte del estado final actual de Monferno; los pendientes Sonar/Jira anteriores se conservan. El enunciado declara cinco tipos, pero no nombra los dos adicionales; el diseño utiliza perfiles extensibles.
+
+## Infernape Reto 1 - Analytics con Streams
+
+[Cuatro métricas por sede con una sola pasada de misiones](docs/infernape/reto1-analytics.md).
+
+## Infernape Reto 2 - Release, Hotfix y Tags
+
+La simulación usa ramas aisladas para representar main/develop; sus tags académicos no liberan main real. La evidencia se incorpora al terminar la ejecución.
+
+## Infernape Reto 3 - Patrones Enterprise
+
+[Composite, Strategy, Observer y Factory Method: código, diagramas y justificación](docs/infernape/reto3-patrones/README.md).
+
+## Infernape Reto 4 - SOLID y Arquitectura por Capas
+
+[Dominio, aplicación, infraestructura y pruebas Mockito](docs/infernape/reto4-solid/README.md) · [Diagrama](docs/infernape/reto4-solid/arquitectura-3-capas.svg).

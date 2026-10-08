@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 900" width="1400" height="900">
+  <defs>
+    <marker id="arrow" viewBox="0 0 12 12" refX="10" refY="5" markerWidth="12" markerHeight="12" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <polyline points="0,0 10,5 0,10" fill="none" stroke="#0B4F6C" stroke-width="1.8" />
+    </marker>
+    <marker id="triangle" viewBox="0 0 12 12" refX="12" refY="6" markerWidth="12" markerHeight="12" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <polyline points="0,0 12,6 0,12 0,0" fill="#FFFFFF" stroke="#0B4F6C" stroke-width="1.8" />
+    </marker>
+    <marker id="diamond" viewBox="0 0 12 12" refX="0" refY="5" markerWidth="12" markerHeight="12" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <polyline points="0,5 5,0 10,5 5,10 0,5" fill="#0B4F6C" stroke="#0B4F6C" stroke-width="1.8" />
+    </marker>
+  </defs>
+  <rect width="1400" height="900" fill="#F4F7FA" />
+  <text x="40" y="55" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#0B4F6C" text-anchor="start" font-weight="700">Observer — Eventos de etapa</text>
+  <text x="40" y="95" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#526576" text-anchor="start" font-weight="400">El publicador conoce ObservadorEtapa; los receptores conservan sus propias vistas.</text>
+  <text x="40" y="870" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#526576" text-anchor="start" font-weight="400">SkyCampus Enterprise · UML simplificado · Fuente: DOSW_Equipo_Chimchar_fixed.html, Retos 3–4</text>
+  <rect x="60" y="190" width="570" height="170" rx="8" fill="#FFFFFF" stroke="#0B4F6C" stroke-width="2" />
+  <text x="345.0" y="215" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#0F766E" text-anchor="middle" font-weight="400">Publisher</text>
+  <text x="345.0" y="242" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#0B4F6C" text-anchor="middle" font-weight="700">GestorEjecucionRuta</text>
+  <line x1="60" y1="257" x2="630" y2="257" stroke="#CBD5E1" />
+  <text x="78" y="286" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#142D3A" text-anchor="start" font-weight="400">suscribir / desuscribir</text>
+  <text x="78" y="314" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#142D3A" text-anchor="start" font-weight="400">publicar(etapa, drone, estado)</text>
+  <text x="78" y="342" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#142D3A" text-anchor="start" font-weight="400">Lista de ObservadorEtapa</text>
+  <rect x="850" y="190" width="490" height="114" rx="8" fill="#FFFFFF" stroke="#0B4F6C" stroke-width="2" />
+  <text x="1095.0" y="215" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#0F766E" text-anchor="middle" font-weight="400">«interface» Observer</text>
+  <text x="1095.0" y="242" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#0B4F6C" text-anchor="middle" font-weight="700">ObservadorEtapa</text>
+  <line x1="850" y1="257" x2="1340" y2="257" stroke="#CBD5E1" />
+  <text x="868" y="286" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#142D3A" text-anchor="start" font-weight="400">onEtapa(EventoEtapa)</text>
+  <polyline points="630,280 850,280" fill="none" stroke="#0B4F6C" stroke-width="2" marker-end="url(#arrow)" />
+  <rect x="650" y="235" width="163" height="25" fill="#F4F7FA" />
+  <text x="655" y="255" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#0F766E" text-anchor="start" font-weight="400">notifica snapshot</text>
+  <rect x="60" y="550" width="430" height="114" rx="8" fill="#FFFFFF" stroke="#0B4F6C" stroke-width="2" />
+  <text x="275.0" y="575" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#0F766E" text-anchor="middle" font-weight="400">Concrete Observer</text>
+  <text x="275.0" y="602" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#0B4F6C" text-anchor="middle" font-weight="700">MonitorRed</text>
+  <line x1="60" y1="617" x2="490" y2="617" stroke="#CBD5E1" />
+  <text x="78" y="646" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#142D3A" text-anchor="start" font-weight="400">Último evento por drone</text>
+  <rect x="550" y="550" width="410" height="114" rx="8" fill="#FFFFFF" stroke="#0B4F6C" stroke-width="2" />
+  <text x="755.0" y="575" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#0F766E" text-anchor="middle" font-weight="400">Concrete Observer</text>
+  <text x="755.0" y="602" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#0B4F6C" text-anchor="middle" font-weight="700">RegistroEventos</text>
+  <line x1="550" y1="617" x2="960" y2="617" stroke="#CBD5E1" />
+  <text x="568" y="646" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#142D3A" text-anchor="start" font-weight="400">Historial ordenado e inmutable</text>
+  <rect x="1030" y="550" width="310" height="142" rx="8" fill="#FFFFFF" stroke="#0B4F6C" stroke-width="2" />
+  <text x="1185.0" y="575" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#0F766E" text-anchor="middle" font-weight="400">Extensión en test</text>
+  <text x="1185.0" y="602" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#0B4F6C" text-anchor="middle" font-weight="700">Lambda de prueba</text>
+  <line x1="1030" y1="617" x2="1340" y2="617" stroke="#CBD5E1" />
+  <text x="1048" y="646" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#142D3A" text-anchor="start" font-weight="400">Tercer receptor sin editar</text>
+  <text x="1048" y="674" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#142D3A" text-anchor="start" font-weight="400">el publicador</text>
+  <polyline points="275,550 275,450 1020,450 1020,304" fill="none" stroke="#0B4F6C" stroke-width="2" marker-end="url(#triangle)" stroke-dasharray="8 5" />
+  <polyline points="755,550 755,480 1120,480 1120,304" fill="none" stroke="#0B4F6C" stroke-width="2" marker-end="url(#triangle)" stroke-dasharray="8 5" />
+  <polyline points="1185,550 1185,304" fill="none" stroke="#0B4F6C" stroke-width="2" marker-end="url(#triangle)" stroke-dasharray="8 5" />
+  <text x="60" y="815" font-family="Arial, Helvetica, sans-serif" font-size="21" fill="#142D3A" text-anchor="start" font-weight="400">Estados: INICIADA · EN_CARGA · COMPLETADA · FALLIDA.</text>
+</svg>
