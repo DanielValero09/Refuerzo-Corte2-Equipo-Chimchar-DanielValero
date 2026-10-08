@@ -159,4 +159,15 @@ class MisionesEndpointTest {
         respuesta.andExpect(status().isUnprocessableEntity()).andExpect(jsonPath("$.codigo").value("AEROCIVIL_RECHAZA"));
         assertEquals(0, tabla.count());
     }
+    @Test void dependenciaSimuladaIndisponibleEs503SinFiltrarDetalles() throws Exception {
+        // Arrange
+        when(aerocivil.verificar(any(), any(), any())).thenThrow(new IllegalStateException("detalle interno simulado"));
+        // Act
+        var respuesta = mvc.perform(post("/api/v3/misiones").contentType(MediaType.APPLICATION_JSON).content(json(300, "NORMAL")));
+        // Assert
+        respuesta.andExpect(status().isServiceUnavailable()).andExpect(jsonPath("$.codigo").value("DEPENDENCIA_NO_DISPONIBLE"))
+            .andExpect(content().string(org.hamcrest.Matchers.not(org.hamcrest.Matchers.containsString("detalle interno"))));
+        assertEquals(0, tabla.count());
+        verify(observador, never()).onAsignada(any(), any());
+    }
 }
