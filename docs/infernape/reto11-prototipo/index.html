@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>SkyCampus Enterprise — Prototipo</title>
+  <link rel="stylesheet" href="../reto8-ux/tokens.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body data-theme="eci">
+<a class="saltar" href="#contenido">Saltar al contenido</a>
+<header class="shell">
+  <div><p class="marca">SKYCAMPUS / ENTERPRISE</p><h1>Una red, cuatro sedes</h1><p>Datos simulados — Prototipo académico</p></div>
+  <label>Identidad visual <select id="tema"><option value="eci">ECI</option><option value="unal">UNAL</option></select></label>
+</header>
+<main id="contenido" class="shell">
+  <details class="demostracion"><summary>Controles de demostración y ayuda</summary>
+    <p>Estos escenarios modifican exclusivamente datos locales. No hay drones físicos ni consultas externas.</p>
+    <label>Escenario <select id="escenario">
+      <option value="normal">Operación apta</option><option value="clima">Clima adverso</option>
+      <option value="drones">Sin drones aptos</option><option value="peso">Paquete demasiado pesado</option>
+      <option value="aerocivil">Aerocivil rechaza</option><option value="sede">Sede destino inactiva</option>
+      <option value="estacion">Estación de carga no disponible</option>
+    </select></label>
+    <p>Inicia una misión, elige dos sedes distintas, ingresa peso y prioridad, y revisa la planificación antes de confirmar. Puedes volver para corregir los datos.</p>
+  </details>
+  <ol class="pasos" aria-label="Etapas del flujo"><li>Red</li><li>Solicitud</li><li>Ruta</li><li>Confirmación</li></ol>
+  <div id="aviso" role="status" aria-live="polite"></div>
+  <section id="dashboard" aria-labelledby="titulo-dashboard">
+    <div class="encabezado"><div><h2 id="titulo-dashboard" tabindex="-1">Estado de la red</h2><p>100 drones representados en un conjunto de datos sintético.</p></div><button id="nueva" class="primario">+ Nueva misión</button></div>
+    <div id="sedes" class="grid-sedes"></div>
+    <div class="panel"><h3>Actividad local</h3><ul id="eventos"><li>Simulación preparada. Ningún vuelo real.</li></ul></div>
+  </section>
+  <section id="solicitud" hidden aria-labelledby="titulo-solicitud">
+    <h2 id="titulo-solicitud" tabindex="-1">Nueva misión inter-sede</h2>
+    <form id="formulario" class="panel">
+      <div class="campos">
+        <label>Sede de origen <select id="origen" required><option>ECI</option><option>UNAL</option><option>UNIANDES</option><option>EAFIT</option></select></label>
+        <label>Sede de destino <select id="destino" required><option>UNAL</option><option>ECI</option><option>UNIANDES</option><option>EAFIT</option></select></label>
+        <label>Peso del paquete (g) <input id="peso" type="number" min="1" step="1" value="300" required aria-describedby="peso-ayuda"></label>
+        <label>Prioridad <select id="prioridad"><option>NORMAL</option><option>URGENTE</option><option>BAJO</option></select></label>
+      </div>
+      <p id="peso-ayuda">Máximo 2000 g. MINI: 500 g; EXPRESS: 800 g; CARGO: 100–2000 g. Batería mínima: 30%.</p>
+      <p id="condiciones">Condiciones locales aptas · autorización simulada disponible.</p>
+      <div class="acciones"><button type="button" data-volver="dashboard">Volver a la red</button><button id="planificar" class="primario" type="submit">Planificar ruta</button></div>
+    </form>
+  </section>
+  <section id="ruta" hidden aria-labelledby="titulo-ruta">
+    <h2 id="titulo-ruta" tabindex="-1">Revisar etapas y estación</h2>
+    <div id="detalle-ruta" class="panel"></div>
+    <div class="acciones"><button data-volver="solicitud">Corregir solicitud</button><button id="continuar" class="primario">Revisar confirmación</button></div>
+  </section>
+  <section id="confirmacion" hidden aria-labelledby="titulo-confirmacion">
+    <h2 id="titulo-confirmacion" tabindex="-1">Confirmar misión</h2>
+    <div id="resumen" class="panel"></div>
+    <div class="acciones"><button data-volver="ruta">Volver a etapas</button><button id="cancelar">Cancelar planificación</button><button id="confirmar" class="primario">Confirmar misión simulada</button></div>
+  </section>
+  <section id="completada" hidden aria-labelledby="titulo-completada">
+    <h2 id="titulo-completada" tabindex="-1">Misión simulada confirmada</h2><div id="resultado" class="panel"></div>
+    <button data-volver="dashboard" class="primario">Ver estado de la red</button>
+  </section>
+</main>
+<footer class="shell">Prototipo generado con asistencia de Codex. No está conectado al endpoint REST ni a servicios externos.</footer>
+</body>
+</html>
