@@ -1,0 +1,17 @@
+Comando: mvn clean verify
+[INFO] Running infernape.enterprise.AutorizacionAerocivilTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.220 s -- in infernape.enterprise.AutorizacionAerocivilTest
+[INFO] Running infernape.enterprise.ConfiguracionOperacionSedeTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.051 s -- in infernape.enterprise.ConfiguracionOperacionSedeTest
+[INFO] Running infernape.enterprise.GestorTransferenciaFlotaTest
+[INFO] Running infernape.enterprise.ResumenRedTest
+[INFO] Tests run: 186, Failures: 0, Errors: 0, Skipped: 0
+[INFO] --- jacoco:0.8.11:check (check) @ chimchar ---
+[INFO] All coverage checks have been met.
+[INFO] BUILD SUCCESS
+[INFO] Total time:  15.992 s
+[INFO] Finished at: 2026-10-08T15:54:27-05:00
+MAVEN EXIT CODE: 0
+
+Pruebas nuevas: AutorizacionAerocivilTest=10; ConfiguracionOperacionSedeTest=11; GestorTransferenciaFlotaTest=4; ResumenRedTest=4.
+Pruebas previas=157; nuevas=29; total=186.
