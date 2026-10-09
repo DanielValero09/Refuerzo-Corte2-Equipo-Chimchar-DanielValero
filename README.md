@@ -259,4 +259,18 @@ Estado: **PENDIENTE TÉCNICO — SONARQUBE**. [Objetivos oficiales y evidencia p
 
 ## Infernape Reto 12 - TDD e Integración REST
 
-[Red → Green → Refactor y tres capas de pruebas](docs/infernape/reto12-tdd/README.md). POST /api/v3/misiones, MockMvc y H2 real en memoria. 226 pruebas aprobadas; cobertura global LINE 98.42% / BRANCH 92.03%. Check heredado 80/70 conservado. Retos 13 y 14 de Infernape no iniciados; Sonar anterior permanece pendiente.
+[Red → Green → Refactor y tres capas de pruebas](docs/infernape/reto12-tdd/README.md). POST /api/v3/misiones, MockMvc y H2 real en memoria. 226 pruebas aprobadas; cobertura global LINE 98.42% / BRANCH 92.03%. Estas cifras corresponden al cierre del bloque 3; el bloque 4 eleva el check a 85/75 y documenta métricas actualizadas abajo. Sonar permanece pendiente.
+
+## Infernape Reto 13 — JaCoCo Enterprise
+
+[Métricas, snapshots y captura auténtica](docs/infernape/reto13-jacoco/README.md). Global: LINE **98.4273%**, BRANCH **92.0290%**; Infernape: LINE **97.9487%**, BRANCH **91.1765%**. `mvn -B -ntp clean verify`: 228 pruebas aprobadas y Quality Gate LOCAL Maven LINE ≥85% / BRANCH ≥75%, sin exclusiones.
+
+Estado: **PARCIAL — JACOCO COMPLETO / SONAR PENDIENTE**. El check local no demuestra Quality Gate Sonar.
+
+## Infernape Reto 14 — SonarQube
+
+**PENDIENTE TÉCNICO — SONARQUBE** por decisión del usuario. [Objetivos oficiales aún no demostrados](docs/infernape/reto14-sonarqube/README.md). No se ejecuta Sonar, no se fabrican métricas ni capturas.
+
+## Estado final de Infernape
+
+[Auditoría de los 14 retos y límites REST](docs/infernape/entrega-final.md). Reto 11 parcial por prueba con compañero, Reto 13 parcial por Sonar y Reto 14 pendiente; captura Jira auténtica pendiente. No se declara 14/14.

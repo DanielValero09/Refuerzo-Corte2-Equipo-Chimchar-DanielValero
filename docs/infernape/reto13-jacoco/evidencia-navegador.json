@@ -1,0 +1,112 @@
+{
+  "engine": "Chrome headless real / CDP",
+  "date": "2026-10-08T23:25:54.835Z",
+  "checks": [
+    {
+      "name": "Cuatro sedes visibles",
+      "passed": true
+    },
+    {
+      "name": "Identidad ECI real",
+      "passed": true
+    },
+    {
+      "name": "Cambio a UNAL por tokens sin duplicar DOM",
+      "passed": true
+    },
+    {
+      "name": "Ruta calculada y estaciÃ³n visible",
+      "passed": true
+    },
+    {
+      "name": "ConfirmaciÃ³n habilitada y prioridad conservada",
+      "passed": true
+    },
+    {
+      "name": "Volver conserva peso y prioridad",
+      "passed": true
+    },
+    {
+      "name": "Confirmar genera misiÃ³n y evento local",
+      "passed": true
+    },
+    {
+      "name": "Disponibilidad se actualiza por evento propio",
+      "passed": true
+    },
+    {
+      "name": "Bloqueo visible: clima",
+      "passed": true
+    },
+    {
+      "name": "RecuperaciÃ³n: clima",
+      "passed": true
+    },
+    {
+      "name": "Bloqueo visible: drones",
+      "passed": true
+    },
+    {
+      "name": "RecuperaciÃ³n: drones",
+      "passed": true
+    },
+    {
+      "name": "Bloqueo visible: peso",
+      "passed": true
+    },
+    {
+      "name": "RecuperaciÃ³n: peso",
+      "passed": true
+    },
+    {
+      "name": "Bloqueo visible: aerocivil",
+      "passed": true
+    },
+    {
+      "name": "RecuperaciÃ³n: aerocivil",
+      "passed": true
+    },
+    {
+      "name": "Bloqueo visible: sede",
+      "passed": true
+    },
+    {
+      "name": "RecuperaciÃ³n: sede",
+      "passed": true
+    },
+    {
+      "name": "Bloqueo visible: estacion",
+      "passed": true
+    },
+    {
+      "name": "RecuperaciÃ³n: estacion",
+      "passed": true
+    },
+    {
+      "name": "Origen igual a destino bloquea",
+      "passed": true
+    },
+    {
+      "name": "Cancelar funciona y conserva datos",
+      "passed": true
+    },
+    {
+      "name": "Sin recorte horizontal",
+      "passed": true
+    },
+    {
+      "name": "AcciÃ³n primaria accesible por teclado",
+      "passed": true
+    },
+    {
+      "name": "Ayuda de demostraciÃ³n accesible",
+      "passed": true
+    },
+    {
+      "name": "DiseÃ±o mÃ³vil sin desbordamiento",
+      "passed": true
+    }
+  ],
+  "passed": 26,
+  "failed": 0
+}

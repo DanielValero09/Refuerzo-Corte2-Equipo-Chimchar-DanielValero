@@ -1,0 +1,1310 @@
+{
+  "measured_at": "2026-10-08T18:30:33.237603-05:00",
+  "source": "target/site/jacoco/jacoco.xml",
+  "command": "mvn -B -ntp clean verify",
+  "HEAD": "daf051e9244f2c0aa1399a7955e0c2bc6343634e",
+  "tests": {
+    "total": 228,
+    "Chimchar": 34,
+    "Monferno": 70,
+    "Infernape": 124,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "GLOBAL": {
+    "LINE": {
+      "covered": 751,
+      "missed": 12,
+      "percentage": 98.42726081258192
+    },
+    "BRANCH": {
+      "covered": 254,
+      "missed": 22,
+      "percentage": 92.02898550724638
+    }
+  },
+  "INFERNAPE": {
+    "LINE": {
+      "covered": 382,
+      "missed": 8,
+      "percentage": 97.94871794871794
+    },
+    "BRANCH": {
+      "covered": 155,
+      "missed": 15,
+      "percentage": 91.17647058823529
+    }
+  },
+  "packages": {
+    "monferno.model": {
+      "LINE": {
+        "covered": 55,
+        "missed": 0,
+        "percentage": 100.0
+      },
+      "BRANCH": {
+        "covered": 21,
+        "missed": 5,
+        "percentage": 80.76923076923077
+      }
+    },
+    "reto12": {
+      "LINE": {
+        "covered": 9,
+        "missed": 0,
+        "percentage": 100.0
+      },
+      "BRANCH": {
+        "covered": 5,
+        "missed": 1,
+        "percentage": 83.33333333333334
+      }
+    },
+    "monferno.reto12": {
+      "LINE": {
+        "covered": 25,
+        "missed": 0,
+        "percentage": 100.0
+      },
+      "BRANCH": {
+        "covered": 12,
+        "missed": 0,
+        "percentage": 100.0
+      }
+    },
+    "infernape.infrastructure": {
+      "LINE": {
+        "covered": 28,
+        "missed": 5,
+        "percentage": 84.84848484848484
+      },
+      "BRANCH": {
+        "covered": 11,
+        "missed": 3,
+        "percentage": 78.57142857142857
+      }
+    },
+    "monferno.reto3.strategy": {
+      "LINE": {
+        "covered": 21,
+        "missed": 0,
+        "percentage": 100.0
+      },
+      "BRANCH": {
+        "covered": 0,
+        "missed": 0,
+        "percentage": null
+      }
+    },
+    "infernape.reto1": {
+      "LINE": {
+        "covered": 28,
+        "missed": 0,
+        "percentage": 100.0
+      },
+      "BRANCH": {
+        "covered": 6,
+        "missed": 0,
+        "percentage": 100.0
+      }
+    },
+    "reto4.report": {
+      "LINE": {
+        "covered": 5,
+        "missed": 0,
+        "percentage": 100.0
+      },
+      "BRANCH": {
+        "covered": 0,
+        "missed": 0,
+        "percentage": null
+      }
+    },
+    "infernape.reto3.factory": {
+      "LINE": {
+        "covered": 10,
+        "missed": 0,
+        "percentage": 100.0
+      },
+      "BRANCH": {
+        "covered": 2,
+        "missed": 0,
+        "percentage": 100.0
+      }
+    },
+    "infernape.infrastructure.persistence": {
+      "LINE": {
+        "covered": 15,
+        "missed": 0,
+        "percentage": 100.0
+      },
+      "BRANCH": {
+        "covered": 0,
+        "missed": 0,
+        "percentage": null
+      }
+    },
+    "monferno.reto1": {
+      "LINE": {
+        "covered": 24,
+        "missed": 0,
+        "percentage": 100.0
+      },
+      "BRANCH": {
+        "covered": 15,
+        "missed": 1,
+        "percentage": 93.75
+      }
+    },
+    "monferno.reto2": {
+      "LINE": {
+        "covered": 7,
+        "missed": 0,
+        "percentage": 100.0
+      },
+      "BRANCH": {
+        "covered": 0,
+        "missed": 0,
+        "percentage": null
+      }
+    },
+    "model": {
+      "LINE": {
+        "covered": 13,
+        "missed": 0,
+        "percentage": 100.0
+      },
+      "BRANCH": {
+        "covered": 0,
+        "missed": 0,
+        "percentage": null
+      }
+    },
+    "monferno.reto3": {
+      "LINE": {
+        "covered": 28,
+        "missed": 0,
+        "percentage": 100.0
+      },
+      "BRANCH": {
+        "covered": 6,
+        "missed": 0,
+        "percentage": 100.0
+      }
+    },
+    "reto3.chain": {
+      "LINE": {
+        "covered": 23,
+        "missed": 0,
+        "percentage": 100.0
+      },
+      "BRANCH": {
+        "covered": 10,
+        "missed": 0,
+        "percentage": 100.0
+      }
+    },
+    "reto4.repository": {
+      "LINE": {
+        "covered": 8,
+        "missed": 0,
+        "percentage": 100.0
+      },
+      "BRANCH": {
+        "covered": 0,
+        "missed": 0,
+        "percentage": null
+      }
+    },
+    "monferno.reto3.observer": {
+      "LINE": {
+        "covered": 16,
+        "missed": 0,
+        "percentage": 100.0
+      },
+      "BRANCH": {
+        "covered": 2,
+        "missed": 0,
+        "percentage": 100.0
+      }
+    },
+    "infernape.reto3.strategy": {
+      "LINE": {
+        "covered": 14,
+        "missed": 0,
+        "percentage": 100.0
+      },
+      "BRANCH": {
+        "covered": 3,
+        "missed": 1,
+        "percentage": 75.0
+      }
+    },
+    "infernape.application": {
+      "LINE": {
+        "covered": 82,
+        "missed": 0,
+        "percentage": 100.0
+      },
+      "BRANCH": {
+        "covered": 41,
+        "missed": 1,
+        "percentage": 97.61904761904762
+      }
+    },
+    "infernape.domain": {
+      "LINE": {
+        "covered": 143,
+        "missed": 3,
+        "percentage": 97.94520547945206
+      },
+      "BRANCH": {
+        "covered": 84,
+        "missed": 10,
+        "percentage": 89.36170212765957
+      }
+    },
+    "reto3.strategy": {
+      "LINE": {
+        "covered": 11,
+        "missed": 0,
+        "percentage": 100.0
+      },
+      "BRANCH": {
+        "covered": 2,
+        "missed": 0,
+        "percentage": 100.0
+      }
+    },
+    "reto4.alert": {
+      "LINE": {
+        "covered": 3,
+        "missed": 0,
+        "percentage": 100.0
+      },
+      "BRANCH": {
+        "covered": 0,
+        "missed": 0,
+        "percentage": null
+      }
+    },
+    "infernape.api": {
+      "LINE": {
+        "covered": 16,
+        "missed": 0,
+        "percentage": 100.0
+      },
+      "BRANCH": {
+        "covered": 2,
+        "missed": 0,
+        "percentage": 100.0
+      }
+    },
+    "reto4.route": {
+      "LINE": {
+        "covered": 4,
+        "missed": 0,
+        "percentage": 100.0
+      },
+      "BRANCH": {
+        "covered": 0,
+        "missed": 0,
+        "percentage": null
+      }
+    },
+    "monferno.reto3.validation": {
+      "LINE": {
+        "covered": 14,
+        "missed": 0,
+        "percentage": 100.0
+      },
+      "BRANCH": {
+        "covered": 12,
+        "missed": 0,
+        "percentage": 100.0
+      }
+    },
+    "reto4": {
+      "LINE": {
+        "covered": 26,
+        "missed": 1,
+        "percentage": 96.29629629629629
+      },
+      "BRANCH": {
+        "covered": 0,
+        "missed": 0,
+        "percentage": null
+      }
+    },
+    "reto3": {
+      "LINE": {
+        "covered": 32,
+        "missed": 2,
+        "percentage": 94.11764705882352
+      },
+      "BRANCH": {
+        "covered": 0,
+        "missed": 0,
+        "percentage": null
+      }
+    },
+    "reto3.builder": {
+      "LINE": {
+        "covered": 23,
+        "missed": 0,
+        "percentage": 100.0
+      },
+      "BRANCH": {
+        "covered": 6,
+        "missed": 0,
+        "percentage": 100.0
+      }
+    },
+    "reto1": {
+      "LINE": {
+        "covered": 22,
+        "missed": 1,
+        "percentage": 95.65217391304348
+      },
+      "BRANCH": {
+        "covered": 8,
+        "missed": 0,
+        "percentage": 100.0
+      }
+    },
+    "infernape.reto3.observer": {
+      "LINE": {
+        "covered": 26,
+        "missed": 0,
+        "percentage": 100.0
+      },
+      "BRANCH": {
+        "covered": 2,
+        "missed": 0,
+        "percentage": 100.0
+      }
+    },
+    "infernape.reto3.ruta": {
+      "LINE": {
+        "covered": 20,
+        "missed": 0,
+        "percentage": 100.0
+      },
+      "BRANCH": {
+        "covered": 4,
+        "missed": 0,
+        "percentage": 100.0
+      }
+    }
+  },
+  "classes": {
+    "infernape.infrastructure.ConfiguracionEnterpriseLocal": {
+      "LINE": {
+        "covered": 8,
+        "missed": 5,
+        "percentage": 61.53846153846154
+      },
+      "BRANCH": {
+        "covered": 0,
+        "missed": 0,
+        "percentage": null
+      }
+    },
+    "infernape.infrastructure.ServicioClimaConfigurable": {
+      "LINE": {
+        "covered": 4,
+        "missed": 0,
+        "percentage": 100.0
+      },
+      "BRANCH": {
+        "covered": 0,
+        "missed": 0,
+        "percentage": null
+      }
+    },
+    "infernape.infrastructure.RepositorioFlotaMemoria": {
+      "LINE": {
+        "covered": 6,
+        "missed": 0,
+        "percentage": 100.0
+      },
+      "BRANCH": {
+        "covered": 6,
+        "missed": 0,
+        "percentage": 100.0
+      }
+    },
+    "infernape.infrastructure.ServicioAerocivilSimulado": {
+      "LINE": {
+        "covered": 10,
+        "missed": 0,
+        "percentage": 100.0
+      },
+      "BRANCH": {
+        "covered": 5,
+        "missed": 3,
+        "percentage": 62.5
+      }
+    },
+    "infernape.reto1.AnalyticsRed": {
+      "LINE": {
+        "covered": 8,
+        "missed": 0,
+        "percentage": 100.0
+      },
+      "BRANCH": {
+        "covered": 0,
+        "missed": 0,
+        "percentage": null
+      }
+    },
+    "infernape.reto1.AcumuladorSede": {
+      "LINE": {
+        "covered": 20,
+        "missed": 0,
+        "percentage": 100.0
+      },
+      "BRANCH": {
+        "covered": 6,
+        "missed": 0,
+        "percentage": 100.0
+      }
+    },
+    "infernape.reto3.factory.CreadorExpress": {
+      "LINE": {
+        "covered": 2,
+        "missed": 0,
+        "percentage": 100.0
+      },
+      "BRANCH": {
+        "covered": 0,
+        "missed": 0,
+        "percentage": null
+      }
+    },
+    "infernape.reto3.factory.CreadorMini": {
+      "LINE": {
+        "covered": 2,
+        "missed": 0,
+        "percentage": 100.0
+      },
+      "BRANCH": {
+        "covered": 0,
+        "missed": 0,
+        "percentage": null
+      }
+    },
+    "infernape.reto3.factory.CreadorCargo": {
+      "LINE": {
+        "covered": 2,
+        "missed": 0,
+        "percentage": 100.0
+      },
+      "BRANCH": {
+        "covered": 0,
+        "missed": 0,
+        "percentage": null
+      }
+    },
+    "infernape.reto3.factory.CreadorDroneEtapa": {
+      "LINE": {
+        "covered": 4,
+        "missed": 0,
+        "percentage": 100.0
+      },
+      "BRANCH": {
+        "covered": 2,
+        "missed": 0,
+        "percentage": 100.0
+      }
+    },
+    "infernape.infrastructure.persistence.MisionesJpaRepository": {
+      "LINE": {
+        "covered": 0,
+        "missed": 0,
+        "percentage": null
+      },
+      "BRANCH": {
+        "covered": 0,
+        "missed": 0,
+        "percentage": null
+      }
+    },
+    "infernape.infrastructure.persistence.RepositorioMisionesJpa": {
+      "LINE": {
+        "covered": 4,
+        "missed": 0,
+        "percentage": 100.0
+      },
+      "BRANCH": {
+        "covered": 0,
+        "missed": 0,
+        "percentage": null
+      }
+    },
+    "infernape.infrastructure.persistence.MisionJpa": {
+      "LINE": {
+        "covered": 11,
+        "missed": 0,
+        "percentage": 100.0
+      },
+      "BRANCH": {
+        "covered": 0,
+        "missed": 0,
+        "percentage": null
+      }
+    },
+    "infernape.reto3.strategy.EstrategiaOptimizacionRuta": {
+      "LINE": {
+        "covered": 0,
+        "missed": 0,
+        "percentage": null
+      },
+      "BRANCH": {
+        "covered": 0,
+        "missed": 0,
+        "percentage": null
+      }
+    },
+    "infernape.reto3.strategy.MenorNumeroRecargasStrategy": {
+      "LINE": {
+        "covered": 3,
+        "missed": 0,
+        "percentage": 100.0
+      },
+      "BRANCH": {
+        "covered": 0,
+        "missed": 0,
+        "percentage": null
+      }
+    },
+    "infernape.reto3.strategy.MenorDistanciaStrategy": {
+      "LINE": {
+        "covered": 3,
+        "missed": 0,
+        "percentage": 100.0
+      },
+      "BRANCH": {
+        "covered": 0,
+        "missed": 0,
+        "percentage": null
+      }
+    },
+    "infernape.reto3.strategy.PlanificadorRuta": {
+      "LINE": {
+        "covered": 8,
+        "missed": 0,
+        "percentage": 100.0
+      },
+      "BRANCH": {
+        "covered": 3,
+        "missed": 1,
+        "percentage": 75.0
+      }
+    },
+    "infernape.application.GestorTransferenciaFlota": {
+      "LINE": {
+        "covered": 5,
+        "missed": 0,
+        "percentage": 100.0
+      },
+      "BRANCH": {
+        "covered": 4,
+        "missed": 0,
+        "percentage": 100.0
+      }
+    },
+    "infernape.application.AutorizadorRutaInterSede": {
+      "LINE": {
+        "covered": 10,
+        "missed": 0,
+        "percentage": 100.0
+      },
+      "BRANCH": {
+        "covered": 8,
+        "missed": 0,
+        "percentage": 100.0
+      }
+    },
+    "infernape.application.AsignadorMisionEnterprise": {
+      "LINE": {
+        "covered": 15,
+        "missed": 0,
+        "percentage": 100.0
+      },
+      "BRANCH": {
+        "covered": 6,
+        "missed": 0,
+        "percentage": 100.0
+      }
+    },
+    "infernape.application.PoliticaPrioridadEnterprise": {
+      "LINE": {
+        "covered": 7,
+        "missed": 0,
+        "percentage": 100.0
+      },
+      "BRANCH": {
+        "covered": 6,
+        "missed": 0,
+        "percentage": 100.0
+      }
+    },
+    "infernape.application.ServicioResumenRed": {
+      "LINE": {
+        "covered": 10,
+        "missed": 0,
+        "percentage": 100.0
+      },
+      "BRANCH": {
+        "covered": 4,
+        "missed": 0,
+        "percentage": 100.0
+      }
+    },
+    "infernape.application.IniciadorMision": {
+      "LINE": {
+        "covered": 31,
+        "missed": 0,
+        "percentage": 100.0
+      },
+      "BRANCH": {
+        "covered": 12,
+        "missed": 0,
+        "percentage": 100.0
+      }
+    },
+    "infernape.application.AsignacionMayorBateria": {
+      "LINE": {
+        "covered": 4,
+        "missed": 0,
+        "percentage": 100.0
+      },
+      "BRANCH": {
+        "covered": 1,
+        "missed": 1,
+        "percentage": 50.0
+      }
+    },
+    "infernape.domain.RepositorioMisionesEnterprise": {
+      "LINE": {
+        "covered": 0,
+        "missed": 0,
+        "percentage": null
+      },
+      "BRANCH": {
+        "covered": 0,
+        "missed": 0,
+        "percentage": null
+      }
+    },
+    "infernape.domain.EstadoGeneralRed": {
+      "LINE": {
+        "covered": 1,
+        "missed": 0,
+        "percentage": 100.0
+      },
+      "BRANCH": {
+        "covered": 0,
+        "missed": 0,
+        "percentage": null
+      }
+    },
+    "infernape.domain.ServicioClima": {
+      "LINE": {
+        "covered": 0,
+        "missed": 0,
+        "percentage": null
+      },
+      "BRANCH": {
+        "covered": 0,
+        "missed": 0,
+        "percentage": null
+      }
+    },
+    "infernape.domain.ServicioAerocivil": {
+      "LINE": {
+        "covered": 0,
+        "missed": 0,
+        "percentage": null
+      },
+      "BRANCH": {
+        "covered": 0,
+        "missed": 0,
+        "percentage": null
+      }
+    },
+    "infernape.domain.RepositorioEstadoSede": {
+      "LINE": {
+        "covered": 0,
+        "missed": 0,
+        "percentage": null
+      },
+      "BRANCH": {
+        "covered": 0,
+        "missed": 0,
+        "percentage": null
+      }
+    },
+    "infernape.domain.ResumenRed": {
+      "LINE": {
+        "covered": 8,
+        "missed": 1,
+        "percentage": 88.88888888888889
+      },
+      "BRANCH": {
+        "covered": 9,
+        "missed": 1,
+        "percentage": 90.0
+      }
+    },
+    "infernape.domain.MetricasSede": {
+      "LINE": {
+        "covered": 4,
+        "missed": 0,
+        "percentage": 100.0
+      },
+      "BRANCH": {
+        "covered": 0,
+        "missed": 0,
+        "percentage": null
+      }
+    },
+    "infernape.domain.PerfilDrone": {
+      "LINE": {
+        "covered": 9,
+        "missed": 0,
+        "percentage": 100.0
+      },
+      "BRANCH": {
+        "covered": 10,
+        "missed": 0,
+        "percentage": 100.0
+      }
+    },
+    "infernape.domain.ObservadorAsignacion": {
+      "LINE": {
+        "covered": 0,
+        "missed": 0,
+        "percentage": null
+      },
+      "BRANCH": {
+        "covered": 0,
+        "missed": 0,
+        "percentage": null
+      }
+    },
+    "infernape.domain.AlertaOperativa": {
+      "LINE": {
+        "covered": 4,
+        "missed": 0,
+        "percentage": 100.0
+      },
+      "BRANCH": {
+        "covered": 0,
+        "missed": 0,
+        "percentage": null
+      }
+    },
+    "infernape.domain.SolicitudInicioMision": {
+      "LINE": {
+        "covered": 6,
+        "missed": 0,
+        "percentage": 100.0
+      },
+      "BRANCH": {
+        "covered": 4,
+        "missed": 0,
+        "percentage": 100.0
+      }
+    },
+    "infernape.domain.ResumenSede": {
+      "LINE": {
+        "covered": 5,
+        "missed": 1,
+        "percentage": 83.33333333333334
+      },
+      "BRANCH": {
+        "covered": 10,
+        "missed": 6,
+        "percentage": 62.5
+      }
+    },
+    "infernape.domain.PuntoRuta": {
+      "LINE": {
+        "covered": 7,
+        "missed": 0,
+        "percentage": 100.0
+      },
+      "BRANCH": {
+        "covered": 0,
+        "missed": 0,
+        "percentage": null
+      }
+    },
+    "infernape.domain.RepositorioFlota": {
+      "LINE": {
+        "covered": 0,
+        "missed": 0,
+        "percentage": null
+      },
+      "BRANCH": {
+        "covered": 0,
+        "missed": 0,
+        "percentage": null
+      }
+    },
+    "infernape.domain.ConfiguracionOperacionSede": {
+      "LINE": {
+        "covered": 10,
+        "missed": 0,
+        "percentage": 100.0
+      },
+      "BRANCH": {
+        "covered": 12,
+        "missed": 0,
+        "percentage": 100.0
+      }
+    },
+    "infernape.domain.DroneEnterprise": {
+      "LINE": {
+        "covered": 9,
+        "missed": 0,
+        "percentage": 100.0
+      },
+      "BRANCH": {
+        "covered": 10,
+        "missed": 0,
+        "percentage": 100.0
+      }
+    },
+    "infernape.domain.EstadoMision": {
+      "LINE": {
+        "covered": 2,
+        "missed": 0,
+        "percentage": 100.0
+      },
+      "BRANCH": {
+        "covered": 0,
+        "missed": 0,
+        "percentage": null
+      }
+    },
+    "infernape.domain.MisionEnterprise": {
+      "LINE": {
+        "covered": 16,
+        "missed": 0,
+        "percentage": 100.0
+      },
+      "BRANCH": {
+        "covered": 8,
+        "missed": 0,
+        "percentage": 100.0
+      }
+    },
+    "infernape.domain.EstrategiaAsignacionEnterprise": {
+      "LINE": {
+        "covered": 0,
+        "missed": 0,
+        "percentage": null
+      },
+      "BRANCH": {
+        "covered": 0,
+        "missed": 0,
+        "percentage": null
+      }
+    },
+    "infernape.domain.ReglaOperacionException": {
+      "LINE": {
+        "covered": 4,
+        "missed": 0,
+        "percentage": 100.0
+      },
+      "BRANCH": {
+        "covered": 0,
+        "missed": 0,
+        "percentage": null
+      }
+    },
+    "infernape.domain.LimitesOperacionRegulada": {
+      "LINE": {
+        "covered": 5,
+        "missed": 0,
+        "percentage": 100.0
+      },
+      "BRANCH": {
+        "covered": 4,
+        "missed": 0,
+        "percentage": 100.0
+      }
+    },
+    "infernape.domain.Sede": {
+      "LINE": {
+        "covered": 2,
+        "missed": 0,
+        "percentage": 100.0
+      },
+      "BRANCH": {
+        "covered": 0,
+        "missed": 0,
+        "percentage": null
+      }
+    },
+    "infernape.domain.CodigoRechazo": {
+      "LINE": {
+        "covered": 10,
+        "missed": 0,
+        "percentage": 100.0
+      },
+      "BRANCH": {
+        "covered": 0,
+        "missed": 0,
+        "percentage": null
+      }
+    },
+    "infernape.domain.CondicionesEspacioAereo": {
+      "LINE": {
+        "covered": 4,
+        "missed": 1,
+        "percentage": 80.0
+      },
+      "BRANCH": {
+        "covered": 5,
+        "missed": 3,
+        "percentage": 62.5
+      }
+    },
+    "infernape.domain.EtapaRuta": {
+      "LINE": {
+        "covered": 7,
+        "missed": 0,
+        "percentage": 100.0
+      },
+      "BRANCH": {
+        "covered": 2,
+        "missed": 0,
+        "percentage": 100.0
+      }
+    },
+    "infernape.domain.MisionRegistrada": {
+      "LINE": {
+        "covered": 9,
+        "missed": 0,
+        "percentage": 100.0
+      },
+      "BRANCH": {
+        "covered": 2,
+        "missed": 0,
+        "percentage": 100.0
+      }
+    },
+    "infernape.domain.Validaciones": {
+      "LINE": {
+        "covered": 7,
+        "missed": 0,
+        "percentage": 100.0
+      },
+      "BRANCH": {
+        "covered": 6,
+        "missed": 0,
+        "percentage": 100.0
+      }
+    },
+    "infernape.domain.Prioridad": {
+      "LINE": {
+        "covered": 2,
+        "missed": 0,
+        "percentage": 100.0
+      },
+      "BRANCH": {
+        "covered": 0,
+        "missed": 0,
+        "percentage": null
+      }
+    },
+    "infernape.domain.SolicitudAsignacion": {
+      "LINE": {
+        "covered": 8,
+        "missed": 0,
+        "percentage": 100.0
+      },
+      "BRANCH": {
+        "covered": 2,
+        "missed": 0,
+        "percentage": 100.0
+      }
+    },
+    "infernape.domain.EstacionCarga": {
+      "LINE": {
+        "covered": 4,
+        "missed": 0,
+        "percentage": 100.0
+      },
+      "BRANCH": {
+        "covered": 0,
+        "missed": 0,
+        "percentage": null
+      }
+    },
+    "infernape.api.EnterpriseApi": {
+      "LINE": {
+        "covered": 1,
+        "missed": 0,
+        "percentage": 100.0
+      },
+      "BRANCH": {
+        "covered": 0,
+        "missed": 0,
+        "percentage": null
+      }
+    },
+    "infernape.api.MisionesController": {
+      "LINE": {
+        "covered": 2,
+        "missed": 0,
+        "percentage": 100.0
+      },
+      "BRANCH": {
+        "covered": 0,
+        "missed": 0,
+        "percentage": null
+      }
+    },
+    "infernape.api.MisionResponse": {
+      "LINE": {
+        "covered": 3,
+        "missed": 0,
+        "percentage": 100.0
+      },
+      "BRANCH": {
+        "covered": 0,
+        "missed": 0,
+        "percentage": null
+      }
+    },
+    "infernape.api.MisionResponse$DroneAsignado": {
+      "LINE": {
+        "covered": 1,
+        "missed": 0,
+        "percentage": 100.0
+      },
+      "BRANCH": {
+        "covered": 0,
+        "missed": 0,
+        "percentage": null
+      }
+    },
+    "infernape.api.ErroresApi$ErrorRespuesta": {
+      "LINE": {
+        "covered": 1,
+        "missed": 0,
+        "percentage": 100.0
+      },
+      "BRANCH": {
+        "covered": 0,
+        "missed": 0,
+        "percentage": null
+      }
+    },
+    "infernape.api.ErroresApi": {
+      "LINE": {
+        "covered": 6,
+        "missed": 0,
+        "percentage": 100.0
+      },
+      "BRANCH": {
+        "covered": 2,
+        "missed": 0,
+        "percentage": 100.0
+      }
+    },
+    "infernape.api.MisionRequest": {
+      "LINE": {
+        "covered": 2,
+        "missed": 0,
+        "percentage": 100.0
+      },
+      "BRANCH": {
+        "covered": 0,
+        "missed": 0,
+        "percentage": null
+      }
+    },
+    "infernape.reto3.observer.EstadoEtapa": {
+      "LINE": {
+        "covered": 1,
+        "missed": 0,
+        "percentage": 100.0
+      },
+      "BRANCH": {
+        "covered": 0,
+        "missed": 0,
+        "percentage": null
+      }
+    },
+    "infernape.reto3.observer.EventoEtapa": {
+      "LINE": {
+        "covered": 5,
+        "missed": 0,
+        "percentage": 100.0
+      },
+      "BRANCH": {
+        "covered": 0,
+        "missed": 0,
+        "percentage": null
+      }
+    },
+    "infernape.reto3.observer.MonitorRed": {
+      "LINE": {
+        "covered": 4,
+        "missed": 0,
+        "percentage": 100.0
+      },
+      "BRANCH": {
+        "covered": 0,
+        "missed": 0,
+        "percentage": null
+      }
+    },
+    "infernape.reto3.observer.ObservadorEtapa": {
+      "LINE": {
+        "covered": 0,
+        "missed": 0,
+        "percentage": null
+      },
+      "BRANCH": {
+        "covered": 0,
+        "missed": 0,
+        "percentage": null
+      }
+    },
+    "infernape.reto3.observer.RegistroEventos": {
+      "LINE": {
+        "covered": 4,
+        "missed": 0,
+        "percentage": 100.0
+      },
+      "BRANCH": {
+        "covered": 0,
+        "missed": 0,
+        "percentage": null
+      }
+    },
+    "infernape.reto3.observer.GestorEjecucionRuta": {
+      "LINE": {
+        "covered": 12,
+        "missed": 0,
+        "percentage": 100.0
+      },
+      "BRANCH": {
+        "covered": 2,
+        "missed": 0,
+        "percentage": 100.0
+      }
+    },
+    "infernape.reto3.ruta.Ruta": {
+      "LINE": {
+        "covered": 3,
+        "missed": 0,
+        "percentage": 100.0
+      },
+      "BRANCH": {
+        "covered": 0,
+        "missed": 0,
+        "percentage": null
+      }
+    },
+    "infernape.reto3.ruta.RutaSimple": {
+      "LINE": {
+        "covered": 5,
+        "missed": 0,
+        "percentage": 100.0
+      },
+      "BRANCH": {
+        "covered": 0,
+        "missed": 0,
+        "percentage": null
+      }
+    },
+    "infernape.reto3.ruta.RutaCompuesta": {
+      "LINE": {
+        "covered": 12,
+        "missed": 0,
+        "percentage": 100.0
+      },
+      "BRANCH": {
+        "covered": 4,
+        "missed": 0,
+        "percentage": 100.0
+      }
+    }
+  },
+  "lowest_LINE_classes": [
+    {
+      "class": "infernape.infrastructure.ConfiguracionEnterpriseLocal",
+      "LINE": {
+        "covered": 8,
+        "missed": 5,
+        "percentage": 61.53846153846154
+      },
+      "BRANCH": {
+        "covered": 0,
+        "missed": 0,
+        "percentage": null
+      }
+    },
+    {
+      "class": "infernape.domain.CondicionesEspacioAereo",
+      "LINE": {
+        "covered": 4,
+        "missed": 1,
+        "percentage": 80.0
+      },
+      "BRANCH": {
+        "covered": 5,
+        "missed": 3,
+        "percentage": 62.5
+      }
+    },
+    {
+      "class": "infernape.domain.ResumenSede",
+      "LINE": {
+        "covered": 5,
+        "missed": 1,
+        "percentage": 83.33333333333334
+      },
+      "BRANCH": {
+        "covered": 10,
+        "missed": 6,
+        "percentage": 62.5
+      }
+    },
+    {
+      "class": "infernape.domain.ResumenRed",
+      "LINE": {
+        "covered": 8,
+        "missed": 1,
+        "percentage": 88.88888888888889
+      },
+      "BRANCH": {
+        "covered": 9,
+        "missed": 1,
+        "percentage": 90.0
+      }
+    },
+    {
+      "class": "reto3.Reto3",
+      "LINE": {
+        "covered": 32,
+        "missed": 2,
+        "percentage": 94.11764705882352
+      },
+      "BRANCH": {
+        "covered": 0,
+        "missed": 0,
+        "percentage": null
+      }
+    }
+  ]
+}

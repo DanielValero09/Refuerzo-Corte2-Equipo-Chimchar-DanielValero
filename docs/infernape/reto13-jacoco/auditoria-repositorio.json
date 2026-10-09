@@ -1,0 +1,46 @@
+{
+  "branch": "evolution/infernape",
+  "baseline": "428a3c60c2b6cc58e2301f12f9436ad22fe3f638",
+  "protected_refs": {
+    "refs/heads/develop": "bca19dda94a9a5f6a98fe3a5cb46805fcb93226e",
+    "refs/heads/evolution/chimchar": "2c7fe37f06f09d6a0b950c73f44da9a9eb46f337",
+    "refs/heads/evolution/monferno": "0cd28e03049120bd09ffc92cc8246698356e41b6",
+    "refs/heads/feature/Valero-modelo-flota": "f609fd0c8d2403985f7f914eb344d3025d33e59e",
+    "refs/heads/feature/monferno-alertas": "d29010daf610bf6fde03f60a9e1a9479a2c01816",
+    "refs/heads/feature/monferno-asignacion": "5d427ce7884131de1d31bb31adf60e24c10c557b",
+    "refs/heads/feature/reto1-chimchar": "88625fa1b97f237c76360eea5e7cd601cbb58e42",
+    "refs/heads/feature/reto3-patrones": "74efff29b7b4415eca192e405969ed321b5288eb",
+    "refs/heads/hotfix/ruta-inter-sede-unal": "9b3ac24889660327ba09851a942d1ac24ae23658",
+    "refs/heads/integration/monferno-develop": "2f1d6ba841770769b5b1efe1338071739f647acb",
+    "refs/heads/main": "72a554d1aeb4b292137b91235f10aa8cfb554ce6",
+    "refs/heads/release/v3.0.0": "3df72221ee1ad9fa5633a8694c1c5058506ba05e",
+    "refs/heads/simulation/infernape-develop": "bbd849f783ba7746d7f9c59170de793f4acae3e7",
+    "refs/heads/simulation/infernape-main": "6c4b1c3f8662c4a0c257e1a07332dbd4a76c8133",
+    "refs/stash": "179654752431a73972102a12aa4603cf88275358",
+    "refs/tags/v3.0.0": "e175eec98cce0862d37d270e29b21b53d02235b0",
+    "refs/tags/v3.0.1": "d086952790e43534243dc4eb97c340c70d9830d9"
+  },
+  "previous_files_preserved": 270,
+  "previous_test_source_files_preserved": 41,
+  "links_checked": 311,
+  "broken_links": [],
+  "XML": {
+    "svg": 33,
+    "drawio": 7
+  },
+  "referenced_commits_verified": 43,
+  "generated_tracked": [],
+  "secrets_detected": [],
+  "generic_secret_mentions_files": [
+    "docs/chimchar/entrega-final.md",
+    "docs/infernape/README.md",
+    "docs/infernape/entrega-final.md",
+    "docs/infernape/reto13-jacoco/auditoria-repositorio.json",
+    "docs/chimchar/reto14-sonarqube/README.md",
+    "docs/monferno/entrega-final.md"
+  ],
+  "old_packages": 0,
+  "domain_forbidden_imports": 0,
+  "diff_check": "OK",
+  "jacoco_check": "BUNDLE LINE >=85 / BRANCH >=75; no exclusions"
+}

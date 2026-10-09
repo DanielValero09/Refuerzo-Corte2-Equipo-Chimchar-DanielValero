@@ -1,0 +1,111 @@
+Medición inicial — mvn -B -ntp clean verify
+[INFO] --- jacoco:0.8.11:prepare-agent (default) @ chimchar ---
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 19.01 s -- in infernape.api.MisionesEndpointTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.142 s -- in infernape.api.PersistenciaMisionIntegrationTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.129 s -- in infernape.application.AsignadorMisionEnterpriseTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.372 s -- in infernape.application.IniciadorMisionTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s -- in infernape.application.PoliticaPrioridadEnterpriseTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s -- in infernape.architecture.ArquitecturaDominioTest
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.163 s -- in infernape.domain.DominioEnterpriseTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 s -- in infernape.domain.SolicitudInicioMisionTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.206 s -- in infernape.enterprise.AutorizacionAerocivilTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 s -- in infernape.enterprise.ConfiguracionOperacionSedeTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.010 s -- in infernape.enterprise.GestorTransferenciaFlotaTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.030 s -- in infernape.enterprise.ResumenRedTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s -- in infernape.infrastructure.AdaptadoresLocalesTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.046 s -- in infernape.reto1.AnalyticsRedTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.050 s -- in infernape.reto3.FactoryMethodTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.051 s -- in infernape.reto3.ObserverYCombinacionTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s -- in infernape.reto3.PlanificadorRutaHotfixTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s -- in infernape.reto3.RutasYStrategyTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s -- in model.MissionTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.054 s -- in monferno.model.EstadosOperativosTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 s -- in monferno.model.ModeloMonfernoTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 s -- in monferno.reto1.EstadisticasMisionesTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.251 s -- in monferno.reto12.AsignadorMisionLimitesTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s -- in monferno.reto12.AsignadorMisionTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s -- in monferno.reto2.AsignadorMisionTest
+[INFO] Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.048 s -- in monferno.reto3.EstrategiasAsignacionTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.020 s -- in monferno.reto3.GestorFlotaObserverTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in monferno.reto4.GestorMisionesStrategyTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.020 s -- in reto1.Reto1Test
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s -- in reto12.ValidadorMisionTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 s -- in reto3.AsignacionMayorBateriaTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s -- in reto3.MissionBuilderTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.044 s -- in reto3.Reto3Test
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s -- in reto3.ValidadoresTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s -- in reto4.AsignadorMisionTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s -- in reto4.RepositorioMisionMemoriaTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s -- in reto4.Reto4Test
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in reto4.ServiciosReto4Test
+[INFO] Tests run: 226, Failures: 0, Errors: 0, Skipped: 0
+[INFO] --- jacoco:0.8.11:report (report) @ chimchar ---
+[INFO] --- jacoco:0.8.11:check (check) @ chimchar ---
+[INFO] All coverage checks have been met.
+[INFO] BUILD SUCCESS
+[INFO] Finished at: 2026-10-08T18:21:45-05:00
+
+Regresión RED — mvn -B -ntp -Dtest=NotificacionPersistenciaTest test
+[INFO] --- jacoco:0.8.11:prepare-agent (default) @ chimchar ---
+[ERROR] Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 14.35 s <<< FAILURE! -- in infernape.api.NotificacionPersistenciaTest
+org.mockito.exceptions.verification.VerificationInOrderFailure:
+org.mockito.exceptions.verification.NeverWantedButInvoked:
+[ERROR] Tests run: 2, Failures: 2, Errors: 0, Skipped: 0
+[INFO] BUILD FAILURE
+[INFO] Finished at: 2026-10-08T18:24:13-05:00
+
+Regresión GREEN — mismo comando
+[INFO] --- jacoco:0.8.11:prepare-agent (default) @ chimchar ---
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 18.24 s -- in infernape.api.NotificacionPersistenciaTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+[INFO] --- jacoco:0.8.11:report (report) @ chimchar ---
+[INFO] BUILD SUCCESS
+[INFO] Finished at: 2026-10-08T18:25:59-05:00
+
+Validación final — mvn -B -ntp clean verify
+[INFO] --- jacoco:0.8.11:prepare-agent (default) @ chimchar ---
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 15.79 s -- in infernape.api.MisionesEndpointTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.972 s -- in infernape.api.NotificacionPersistenciaTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.702 s -- in infernape.api.PersistenciaMisionIntegrationTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.123 s -- in infernape.application.AsignadorMisionEnterpriseTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.277 s -- in infernape.application.IniciadorMisionTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s -- in infernape.application.PoliticaPrioridadEnterpriseTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 s -- in infernape.architecture.ArquitecturaDominioTest
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.148 s -- in infernape.domain.DominioEnterpriseTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 s -- in infernape.domain.SolicitudInicioMisionTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.165 s -- in infernape.enterprise.AutorizacionAerocivilTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s -- in infernape.enterprise.ConfiguracionOperacionSedeTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in infernape.enterprise.GestorTransferenciaFlotaTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s -- in infernape.enterprise.ResumenRedTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s -- in infernape.infrastructure.AdaptadoresLocalesTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s -- in infernape.reto1.AnalyticsRedTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s -- in infernape.reto3.FactoryMethodTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.042 s -- in infernape.reto3.ObserverYCombinacionTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s -- in infernape.reto3.PlanificadorRutaHotfixTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s -- in infernape.reto3.RutasYStrategyTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s -- in model.MissionTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.065 s -- in monferno.model.EstadosOperativosTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.030 s -- in monferno.model.ModeloMonfernoTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.030 s -- in monferno.reto1.EstadisticasMisionesTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.233 s -- in monferno.reto12.AsignadorMisionLimitesTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s -- in monferno.reto12.AsignadorMisionTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 s -- in monferno.reto2.AsignadorMisionTest
+[INFO] Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.044 s -- in monferno.reto3.EstrategiasAsignacionTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s -- in monferno.reto3.GestorFlotaObserverTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s -- in monferno.reto4.GestorMisionesStrategyTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s -- in reto1.Reto1Test
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s -- in reto12.ValidadorMisionTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s -- in reto3.AsignacionMayorBateriaTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s -- in reto3.MissionBuilderTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s -- in reto3.Reto3Test
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s -- in reto3.ValidadoresTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s -- in reto4.AsignadorMisionTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s -- in reto4.RepositorioMisionMemoriaTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s -- in reto4.Reto4Test
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in reto4.ServiciosReto4Test
+[INFO] Tests run: 228, Failures: 0, Errors: 0, Skipped: 0
+[INFO] --- jacoco:0.8.11:report (report) @ chimchar ---
+[INFO] --- jacoco:0.8.11:check (check) @ chimchar ---
+[INFO] All coverage checks have been met.
+[INFO] BUILD SUCCESS
+[INFO] Finished at: 2026-10-08T18:27:27-05:00

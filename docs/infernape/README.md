@@ -1,6 +1,6 @@
 # Evolución Infernape — SkyCampus Enterprise
 
-Fuente principal: `DOSW_Equipo_Chimchar_fixed.html`, contexto Enterprise y retos 01–12, con la simulación aislada de Git del bloque 1 autorizada por el usuario.
+Fuente principal: `DOSW_Equipo_Chimchar_fixed.html`, contexto Enterprise y retos 01–14, con la simulación aislada de Git del bloque 1 autorizada por el usuario.
 
 ## Contexto y alcance de implementación
 
@@ -21,7 +21,7 @@ El bloque 1/4 implementó analytics, cuatro patrones combinados y asignación po
 
 ## Compatibilidad y validación
 
-Los packages `infernape.*` son propios. No se sustituyen fuentes o pruebas Chimchar/Monferno. Los bloques 1 y 2 conservaron pom.xml; el bloque 3 agrega Spring Boot y H2 para las pruebas REST. Se conservan Java release 17, JUnit 5.11.4, Mockito 5.15.2 y el check JaCoCo 80% LINE / 70% BRANCH; cambiar ese check a 85%/75% se reserva para Reto 13 Enterprise.
+Los packages `infernape.*` son propios. No se sustituyen fuentes o pruebas Chimchar/Monferno. Los bloques 1 y 2 conservaron pom.xml; el bloque 3 agrega Spring Boot y H2 para las pruebas REST. Se conservan Java release 17, JUnit 5.11.4, Mockito 5.15.2 y JaCoCo 0.8.11; el check actual del Reto 13 Enterprise es LINE 85% / BRANCH 75%.
 
 Base remota exacta: `origin/evolution/monferno`, `0cd28e03049120bd09ffc92cc8246698356e41b6`. La rama de trabajo es evolution/infernape; main, develop y las evoluciones previas permanecen protegidas.
 
@@ -67,4 +67,18 @@ Auditoría del bloque 2/4: 224 enlaces relativos válidos; 27 SVG y 6 Draw.io XM
 
 ## Infernape Reto 12 - TDD e Integración REST
 
-[Red → Green → Refactor y tres capas de pruebas](reto12-tdd/README.md). POST /api/v3/misiones, MockMvc y H2 real en memoria. 226 pruebas aprobadas; cobertura global LINE 98.42% / BRANCH 92.03%. Check heredado 80/70 conservado. Retos 13 y 14 de Infernape no iniciados; Sonar anterior permanece pendiente.
+[Red → Green → Refactor y tres capas de pruebas](reto12-tdd/README.md). POST /api/v3/misiones, MockMvc y H2 real en memoria. 226 pruebas aprobadas; cobertura global LINE 98.42% / BRANCH 92.03%. Estas cifras corresponden al cierre del bloque 3; el bloque 4 eleva el check a 85/75 y documenta métricas actualizadas abajo. Sonar permanece pendiente.
+
+## Infernape Reto 13 — JaCoCo Enterprise
+
+[Métricas, snapshots y captura auténtica](reto13-jacoco/README.md). Global: LINE **98.4273%**, BRANCH **92.0290%**; Infernape: LINE **97.9487%**, BRANCH **91.1765%**. `mvn -B -ntp clean verify`: 228 pruebas aprobadas y Quality Gate LOCAL Maven LINE ≥85% / BRANCH ≥75%, sin exclusiones.
+
+Estado: **PARCIAL — JACOCO COMPLETO / SONAR PENDIENTE**. El check local no demuestra Quality Gate Sonar.
+
+## Infernape Reto 14 — SonarQube
+
+**PENDIENTE TÉCNICO — SONARQUBE** por decisión del usuario. [Objetivos oficiales aún no demostrados](reto14-sonarqube/README.md). No se ejecuta Sonar, no se fabrican métricas ni capturas.
+
+## Estado final de Infernape
+
+[Auditoría de los 14 retos y límites REST](entrega-final.md). Reto 11 parcial por prueba con compañero, Reto 13 parcial por Sonar y Reto 14 pendiente; captura Jira auténtica pendiente. No se declara 14/14.
